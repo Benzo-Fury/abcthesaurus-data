@@ -1,0 +1,903 @@
+# A random sample of 900 suggestions for words with 3+ meanings, each judged ok or wrong.
+# Wrong ones are removed through relations.tsv.
+# id	verdict	note
+muddle|2|synonyms|scramble	ok	
+tire|2|near_synonyms|exasperate	ok	
+proud|0|near_synonyms|self-respecting	wrong	self-respecting means dignified, not pleased with an achievement
+thin|5|near_synonyms|lessen	wrong	lessen does not mean make less dense
+violate|0|near_synonyms|resist	wrong	resist is not breaking a law
+stamp|5|synonyms|categorize	ok	
+nurse|2|synonyms|cultivate	ok	
+movement|1|near_synonyms|gyration	ok	
+pick|2|synonyms|settle on	ok	
+theater|3|synonyms|scene	ok	
+ready|2|near_synonyms|near	ok	
+dash|1|synonyms|thwart	ok	
+curse|3|near_synonyms|blast	ok	
+stress|1|near_synonyms|trauma	ok	
+pitch|2|synonyms|hurl	ok	
+outfit|0|synonyms|costume	ok	
+return|4|near_synonyms|comeback	ok	
+reply|2|near_synonyms|retaliate	ok	
+still|1|synonyms|placid	ok	
+cut|5|synonyms|coldshoulder	ok	
+business|1|synonyms|lookout	ok	
+monument|0|near_synonyms|obelisk	ok	
+glory|0|synonyms|fame	ok	
+concentration|2|near_synonyms|heap	ok	
+bump|0|synonyms|jar	ok	
+premier|1|near_synonyms|original	ok	
+strong|5|near_synonyms|unusual	wrong	unusual does not mean excessive
+trouble|0|near_synonyms|pain	ok	
+set|8|near_synonyms|invest	wrong	invest does not mean arrange in advance
+rich|1|near_synonyms|replete	ok	
+bang|2|near_synonyms|fun	wrong	fun does not substitute for a thrill or kick
+reference|1|synonyms|citation	ok	
+long|0|near_synonyms|expanded	wrong	expanded does not mean long
+wreck|0|synonyms|crackup	ok	
+muddy|0|synonyms|marshy	ok	
+round|3|near_synonyms|process	wrong	process is not a round of duties
+smart|1|synonyms|sharp	ok	
+represent|2|synonyms|depict	ok	
+root|1|near_synonyms|principle	ok	
+cosmopolitan|0|near_synonyms|metropolitan	ok	
+rest|1|synonyms|intermission	ok	
+all right|2|near_synonyms|unmarred	wrong	unmarred applies to objects, not unhurt people
+swamp|2|near_synonyms|stuff	wrong	stuff does not mean overwhelm
+popular|0|near_synonyms|conventional	ok	
+bloom|0|synonyms|blossom	ok	
+blanket|0|near_synonyms|universal	ok	
+bad|1|synonyms|offensive	ok	
+dash|2|near_synonyms|flash	ok	
+travail|0|synonyms|anguish	ok	
+ensemble|0|near_synonyms|system	ok	
+registers|1|synonyms|files	ok	
+attend|1|synonyms|show up	ok	
+stain|1|near_synonyms|fault	wrong	fault is not a mark on a reputation
+nothing|1|near_synonyms|nullity	ok	
+guaranty|1|near_synonyms|earnest	ok	
+mobile|0|synonyms|movable	ok	
+recess|1|synonyms|interlude	ok	
+talk|0|near_synonyms|expression	ok	
+deep|0|near_synonyms|esoteric	ok	
+pluck|1|synonyms|pull	ok	
+dry|3|near_synonyms|stuffy	wrong	stuffy means prim, not cool and detached
+ring|0|synonyms|hoop	ok	
+gamble|0|synonyms|stake	wrong	stake is the money risked, not the venture
+peer|0|near_synonyms|colleague	ok	
+acknowledge|0|synonyms|confess	ok	
+run|2|near_synonyms|drift	wrong	drift is not a series of occurrences
+bring|1|synonyms|result in	ok	
+nasty|1|near_synonyms|licentious	ok	
+rout|2|near_synonyms|repel	ok	
+flush|2|near_synonyms|excitement	wrong	excitement is a cause, not a reddening of the face
+lunge|2|near_synonyms|stab	ok	
+program|1|near_synonyms|scenario	ok	
+wander|0|near_synonyms|gallivant	ok	
+tail|1|near_synonyms|back	wrong	back is not the tail or rear
+brief|1|synonyms|terse	ok	
+shed|3|synonyms|molt	ok	
+extreme|0|synonyms|utmost	ok	
+grant|3|synonyms|convey	ok	
+spark|0|near_synonyms|scintilla	wrong	scintilla means a tiny trace, not a flash of light
+drive|5|synonyms|spur	ok	
+plague|0|synonyms|pestilence	ok	
+fund|0|synonyms|nest egg	ok	
+attack|3|near_synonyms|assault	ok	
+bomb|0|near_synonyms|torpedo	ok	
+punch|0|near_synonyms|chop	ok	
+spoil|1|near_synonyms|humor	ok	
+chance|6|synonyms|befall	ok	
+lose|2|synonyms|outpace	ok	
+chance|5|synonyms|risk	ok	
+taste|1|synonyms|sample	ok	
+gag|1|synonyms|suppress	ok	
+life|1|synonyms|spirit	ok	
+blunt|2|near_synonyms|subdue	ok	
+woeful|1|synonyms|woebegone	ok	
+anticipate|0|synonyms|count on	ok	
+tattle|0|near_synonyms|twaddle	wrong	twaddle means nonsense, not gossip
+see through|1|near_synonyms|succor	ok	
+able|1|synonyms|talented	ok	
+dismiss|0|near_synonyms|remove	ok	
+direct|4|synonyms|conduct	ok	
+visionary|0|near_synonyms|dreamed up	ok	
+unreal|0|synonyms|illusory	ok	
+behind|1|near_synonyms|once	wrong	once does not mean gone by
+office|1|synonyms|position	ok	
+lapse|2|near_synonyms|subside	ok	
+shell|1|near_synonyms|shape	wrong	shape is not an empty outer structure
+look|3|near_synonyms|evidence	wrong	evidence (verb) cannot replace look as in seem
+mask|1|synonyms|covering	ok	
+boot|0|near_synonyms|punt	ok	
+pure|1|near_synonyms|sincere	ok	
+return|2|synonyms|compensation	ok	
+demand|0|near_synonyms|call	ok	
+stain|3|near_synonyms|debase	ok	
+scoring|0|synonyms|conversion	wrong	conversion is a specific score type, not scoring in general
+fish|1|synonyms|troll	ok	
+hole|2|synonyms|fix	ok	
+brush|4|synonyms|dust	ok	
+goof|1|near_synonyms|gaffe	ok	
+hear|2|synonyms|preside over	ok	
+along|1|synonyms|accompanying	wrong	accompanying cannot replace the adverb along
+wound|1|synonyms|insult	ok	
+maintain|1|near_synonyms|mend	ok	
+spark|1|near_synonyms|sign	ok	
+view|0|synonyms|observation	ok	
+class|1|near_synonyms|pedigree	ok	
+commitment|2|near_synonyms|espousal	ok	
+even|3|near_synonyms|rectify	ok	
+sharp|5|synonyms|spruce	ok	
+care|2|near_synonyms|ministration	ok	
+age|1|synonyms|time	ok	
+blast|0|synonyms|gust	ok	
+number|0|synonyms|integer	ok	
+stop|1|synonyms|suspend	ok	
+parallel|1|synonyms|counterpart	ok	
+crown|3|synonyms|complete	ok	
+secret|2|synonyms|confidence	ok	
+prostrate|2|near_synonyms|immobilized	ok	
+cutthroat|2|near_synonyms|slaughterer	ok	
+moral|1|synonyms|pure	ok	
+pile|0|near_synonyms|store	ok	
+dead|2|near_synonyms|smothered	wrong	smothered does not mean dull
+slice|2|near_synonyms|sever	wrong	sever means cut off, not slice thin
+spout|2|near_synonyms|harangue	ok	
+come around|1|synonyms|wake up	ok	
+market|0|synonyms|emporium	ok	
+rise|4|near_synonyms|develop	ok	
+level|5|near_synonyms|stratum	wrong	stratum is a layer, not a height
+clap|4|synonyms|toss	ok	
+lock|2|near_synonyms|coil	ok	
+masquerade|2|near_synonyms|simulate	ok	
+discipline|1|synonyms|correction	ok	
+able|0|near_synonyms|grounded	wrong	grounded does not mean competent
+fish|1|synonyms|seine	ok	
+time|1|synonyms|period	ok	
+yoke|2|synonyms|hitch	ok	
+strength|2|near_synonyms|caliber	ok	
+reconciled|0|synonyms|reunited	ok	
+gloss|1|near_synonyms|appearance	ok	
+trend|2|near_synonyms|move	ok	
+approach|1|near_synonyms|verge	ok	
+dirt|0|near_synonyms|stain	ok	
+cut out|1|synonyms|stop	ok	
+lobby|0|synonyms|vestibule	ok	
+test|2|near_synonyms|battle	ok	
+relationship|1|synonyms|association	ok	
+riot|1|synonyms|outburst	ok	
+quizzical|0|near_synonyms|impudent	wrong	impudent means rude, not gently teasing
+capture|0|near_synonyms|possession	wrong	possession is having, not taking by force
+bang|3|near_synonyms|pummel	ok	
+conflict|0|near_synonyms|encounter	ok	
+discipline|4|synonyms|correct	ok	
+mockery|1|near_synonyms|mock	ok	
+fancy|3|synonyms|assume	ok	
+advocate|2|synonyms|support	ok	
+squall|0|synonyms|scream	ok	
+remove|0|synonyms|take off	ok	
+gut|1|near_synonyms|ingrained	ok	
+sustain|0|near_synonyms|persist	wrong	persist is intransitive and cannot replace sustain
+gassy|1|near_synonyms|dyspeptic	ok	
+lie|1|near_synonyms|lean	wrong	lean is not lying flat
+bore|1|synonyms|pain in the neck	ok	
+bosom|2|near_synonyms|pith	ok	
+build|0|synonyms|figure	ok	
+din|1|synonyms|resound	ok	
+rank|4|synonyms|station	ok	
+rig|1|synonyms|furnish	ok	
+entrance|0|synonyms|doorway	ok	
+alternate|2|near_synonyms|reciprocate	ok	
+relapse|1|synonyms|worsen	ok	
+kindred|2|synonyms|lineage	ok	
+knot|0|near_synonyms|rosette	wrong	rosette is a decoration, not a tied fastening
+respectable|1|synonyms|genteel	ok	
+muddy|1|synonyms|fuzzy	ok	
+club|2|near_synonyms|buffet	ok	
+word|2|near_synonyms|gossip	ok	
+ready|1|near_synonyms|keyed up	wrong	keyed up means tense, not willing
+pain|3|near_synonyms|aggravate	ok	
+sway|1|synonyms|wobble	ok	
+queer|0|near_synonyms|grotesque	ok	
+compact|2|synonyms|contract	ok	
+token|2|synonyms|keepsake	ok	
+lie|1|synonyms|recline	ok	
+cunning|4|synonyms|deftness	ok	
+retain|2|near_synonyms|recall	ok	
+coop|2|synonyms|pen	ok	
+goodness|2|synonyms|kindness	ok	
+unfortunate|2|near_synonyms|victim	ok	
+drip|0|synonyms|drop	ok	
+substance|3|synonyms|force	ok	
+remove|1|synonyms|do away with	ok	
+exercise|3|synonyms|train	ok	
+situation|3|synonyms|employment	ok	
+dash|0|near_synonyms|ram	ok	
+count|1|synonyms|sum	ok	
+smart|4|near_synonyms|affront	wrong	affront is an insult, not a stinging pain
+retrograde|0|synonyms|regressive	ok	
+weak|2|synonyms|deficient	ok	
+promise|0|near_synonyms|stipulation	wrong	stipulation is a condition, not a promise
+delay|1|near_synonyms|loiter	wrong	loiter means linger, not postpone
+sense|4|synonyms|drift	ok	
+whole|2|near_synonyms|strong	ok	
+lighten|1|synonyms|lessen	ok	
+treasure|2|synonyms|cherish	ok	
+paddle|2|synonyms|spank	ok	
+release|1|near_synonyms|manumit	ok	
+bread|1|near_synonyms|necessities	wrong	necessities are not a means of earning a living
+master|0|synonyms|principal	ok	
+base|1|synonyms|groveling	ok	
+catch|1|near_synonyms|pickings	ok	
+character|4|synonyms|mark	ok	
+balance|1|synonyms|steadiness	ok	
+place|2|near_synonyms|crescent	wrong	crescent is a curved street, not an open public area
+worry|1|near_synonyms|burden	ok	
+faint|0|synonyms|weak	ok	
+effort|2|near_synonyms|production	ok	
+smash|2|synonyms|splinter	ok	
+shape|1|synonyms|cast	ok	
+litter|0|synonyms|palanquin	ok	
+fall|1|synonyms|plunge	ok	
+mass|0|synonyms|accumulation	ok	
+supple|1|synonyms|lithe	ok	
+uncertain|2|synonyms|dubious	ok	
+reflect|2|near_synonyms|reason	ok	
+pass|2|synonyms|passage	ok	
+gallant|0|synonyms|dauntless	ok	
+plug|4|near_synonyms|toil	ok	
+cross|4|synonyms|ford	ok	
+void|1|near_synonyms|dead	ok	
+sight|2|near_synonyms|stare	wrong	stare is long, not a brief look
+body|3|near_synonyms|crowd	ok	
+cloudy|1|near_synonyms|baffling	wrong	baffling means puzzling, not indistinct
+drip|0|synonyms|dripping	ok	
+overlook|0|synonyms|ignore	ok	
+prostrate|3|synonyms|genuflect	ok	
+round|1|synonyms|pudgy	ok	
+tender|4|near_synonyms|troublesome	ok	
+representation|0|near_synonyms|substitution	wrong	substitution is not portrayal
+report|1|synonyms|scuttlebutt	ok	
+bosom|1|near_synonyms|sympathies	wrong	sympathies is not the seat of feelings
+footing|1|synonyms|ground	ok	
+discharge|5|synonyms|fire	ok	
+vague|1|synonyms|hazy	ok	
+usher|1|synonyms|conduct	ok	
+dictate|1|near_synonyms|compose	ok	
+solid|0|near_synonyms|fixed	ok	
+answer|3|synonyms|serve	ok	
+bold|1|synonyms|shameless	ok	
+first|0|synonyms|earliest	ok	
+make|2|synonyms|build	ok	
+monstrous|0|synonyms|abnormal	ok	
+excuse|2|synonyms|release	ok	
+blast|2|near_synonyms|raze	ok	
+bark|1|near_synonyms|growl	ok	
+crouch|2|near_synonyms|quail	ok	
+form|1|near_synonyms|genus	wrong	genus is a taxonomic term, reads oddly for kind
+kindred|3|synonyms|relatives	ok	
+positive|1|synonyms|definite	ok	
+qualification|2|synonyms|reservation	ok	
+comfortable|0|near_synonyms|agreeable	ok	
+burn|1|synonyms|reduce to ashes	ok	
+just|3|near_synonyms|sound	ok	
+complex|0|near_synonyms|manifold	ok	
+trouble|2|near_synonyms|muddle	ok	
+mouth|2|synonyms|declaim	ok	
+hard|2|near_synonyms|ruthless	ok	
+row|1|near_synonyms|controversy	ok	
+slight|1|near_synonyms|meager	wrong	meager means scanty, not slight of build
+service|2|synonyms|upkeep	ok	
+ply|0|near_synonyms|plate	ok	
+rational|0|synonyms|reasoning	ok	
+wheel|2|near_synonyms|digress	wrong	digress is to stray in speech, not turn
+compound|3|synonyms|intensify	ok	
+rebel|2|near_synonyms|riot	ok	
+backbone|0|synonyms|spine	ok	
+view|4|synonyms|observe	ok	
+appeal|2|near_synonyms|adjure	ok	
+original|3|near_synonyms|pioneer	wrong	pioneer is an innovator, not a model for copies
+unload|2|synonyms|get it off one's chest	ok	
+joke|2|near_synonyms|crack	ok	
+shaft|1|near_synonyms|attack	ok	
+gossip|0|synonyms|hearsay	ok	
+worry|2|synonyms|fret	ok	
+babble|3|near_synonyms|go on about	wrong	go on about means talk at length, not leak secrets
+argument|2|near_synonyms|conflict	ok	
+regenerate|1|near_synonyms|edify	ok	
+rift|1|synonyms|breach	ok	
+bother|2|near_synonyms|flurry	ok	
+paddle|0|synonyms|oar	ok	
+blur|2|near_synonyms|hide	ok	
+slaughter|2|near_synonyms|annihilate	ok	
+goof|0|near_synonyms|screwball	ok	
+grim|1|synonyms|inflexible	ok	
+compass|3|synonyms|go around	ok	
+boost|0|synonyms|shot in the arm	ok	
+bound|2|synonyms|vault	ok	
+muddy|0|near_synonyms|sodden	ok	
+principle|1|near_synonyms|character	ok	
+kindle|1|synonyms|incite	ok	
+slur|2|synonyms|scant	ok	
+bar|7|synonyms|block	ok	
+turn on|2|near_synonyms|attract	ok	
+waste|1|synonyms|debris	ok	
+slur|2|near_synonyms|overlook	ok	
+slur|3|near_synonyms|mutter	ok	
+shame|0|synonyms|shamefacedness	ok	
+collateral|3|near_synonyms|warranty	wrong	warranty is a guarantee, not pledged property
+still|4|synonyms|yet	ok	
+worship|3|synonyms|cherish	ok	
+usher|1|near_synonyms|convoy	ok	
+ideal|2|synonyms|model	ok	
+jam|6|near_synonyms|break	wrong	break is not becoming stuck
+bring|0|near_synonyms|accompany	wrong	accompany means go with someone, not carry
+seed|0|near_synonyms|embryo	ok	
+order|0|synonyms|tidiness	ok	
+tussle|2|synonyms|struggle	ok	
+breach|1|synonyms|split	ok	
+tough|1|near_synonyms|invincible	wrong	invincible means unbeatable, not hardy
+thing|2|near_synonyms|performance	wrong	performance is not a generic happening
+march|3|near_synonyms|promenade	wrong	promenade is a leisurely stroll, not a measured march
+welcome|0|near_synonyms|gratifying	ok	
+stick|1|synonyms|thrust	ok	
+author|0|synonyms|writer	ok	
+tilt|0|near_synonyms|dip	ok	
+peer|1|near_synonyms|blue blood	ok	
+quality|0|synonyms|first rate	ok	
+all in|1|synonyms|in for a penny	wrong	in for a penny is an idiom fragment, not a substitute
+restore|3|synonyms|cure	ok	
+run|2|synonyms|succession	ok	
+length|0|near_synonyms|reach	ok	
+lead|3|synonyms|direct	ok	
+rank|3|near_synonyms|range	ok	
+air|2|synonyms|exhibit	ok	
+remit|1|near_synonyms|restore	wrong	restore does not mean send money owed
+boom|4|near_synonyms|pyramid	wrong	pyramid does not mean prosper
+break|7|near_synonyms|abandon	wrong	abandon does not mean cushion or lessen force
+bump|0|synonyms|bang	ok	
+rightly|0|near_synonyms|faultlessly	ok	
+citation|0|near_synonyms|mention	ok	
+fall|2|synonyms|dwindle	ok	
+travail|1|synonyms|exertion	ok	
+mantle|2|near_synonyms|shield	ok	
+slack|4|near_synonyms|indolence	wrong	indolence is laziness, not a slack period
+hang on|1|synonyms|soldier on	ok	
+lightness|0|near_synonyms|shining	wrong	shining does not substitute for lightness as brightness
+warm|1|near_synonyms|amorous	wrong	amorous means sexually loving, not hearty
+slough|0|synonyms|swamp	ok	
+set up|1|synonyms|install	ok	
+ramble|1|near_synonyms|stray	ok	
+natural|0|synonyms|native	ok	
+nose|0|synonyms|muzzle	ok	
+swipe|2|near_synonyms|rob	ok	
+press|6|near_synonyms|insist	ok	
+bright|1|near_synonyms|alert	ok	
+plot|3|near_synonyms|draw	ok	
+sordid|0|near_synonyms|profligate	ok	
+plane|0|synonyms|flat	ok	
+attack|3|near_synonyms|malign	ok	
+good|3|synonyms|reliable	ok	
+brute|2|synonyms|monster	ok	
+pack|1|near_synonyms|mass	ok	
+arrange|0|synonyms|straighten	ok	
+drone|0|near_synonyms|purr	ok	
+witness|0|synonyms|onlooker	ok	
+shade|0|synonyms|tinge	ok	
+cheer|1|near_synonyms|liveliness	ok	
+paw|2|near_synonyms|rub	wrong	rub does not mean handle roughly
+stalk|3|synonyms|stride	ok	
+report|2|near_synonyms|regard	ok	
+ruin|0|synonyms|destruction	ok	
+vent|0|synonyms|airing	ok	
+parade|2|synonyms|promenade	ok	
+fair|1|synonyms|equitable	ok	
+tune|2|near_synonyms|concert	ok	
+agree|1|synonyms|conform	ok	
+kindle|2|near_synonyms|thrill	ok	
+glad|1|synonyms|pleasant	ok	
+concord|0|synonyms|agreement	ok	
+screen|2|synonyms|shroud	ok	
+renegade|1|synonyms|quisling	ok	
+develop|1|near_synonyms|promote	wrong	promote is transitive; develop here is intransitive
+plot|1|synonyms|intrigue	ok	
+credit|1|near_synonyms|position	ok	
+sort|3|near_synonyms|list	wrong	list does not mean sort into groups
+under|2|synonyms|beneath	ok	
+ill|1|synonyms|unfavorable	ok	
+rugged|2|synonyms|stout	ok	
+voracious|2|near_synonyms|gross	wrong	gross does not mean voracious
+model|2|synonyms|prototype	ok	
+peaceful|0|synonyms|concordant	ok	
+truck|0|near_synonyms|business	ok	
+engrave|2|near_synonyms|stamp	ok	
+guess|0|synonyms|conjecture	ok	
+lower|1|synonyms|take down	ok	
+rush|3|synonyms|charge	ok	
+expect|0|synonyms|await	ok	
+demand|0|near_synonyms|appeal	wrong	appeal is a plea, the opposite of peremptory
+rich|0|synonyms|affluent	ok	
+melt|0|synonyms|liquefy	ok	
+stress|0|near_synonyms|import	ok	
+strike|2|near_synonyms|poke	ok	
+sound|1|near_synonyms|convincing	ok	
+use|2|synonyms|purpose	ok	
+descent|0|near_synonyms|down rush	ok	
+travel|1|near_synonyms|itinerary	wrong	itinerary is a plan of a route, not a journey
+disorder|1|synonyms|commotion	ok	
+liberal|0|near_synonyms|abundant	wrong	abundant means plentiful, not generous
+divinity|1|synonyms|idol	wrong	idol is an image or object of worship, not a god
+rap|0|synonyms|blow	ok	
+vent|1|near_synonyms|slit	ok	
+grave|2|near_synonyms|leaden	ok	
+direct|5|synonyms|point	ok	
+company|1|near_synonyms|house	ok	
+commitment|2|near_synonyms|involvement	ok	
+pattern|0|near_synonyms|paragon	wrong	paragon is a model of excellence, not a template
+jack|2|synonyms|seaman	ok	
+swing|1|synonyms|tour	ok	
+tumble|1|near_synonyms|chaos	ok	
+tax|3|near_synonyms|impose	wrong	impose needs on and does not mean strain
+balmy|2|near_synonyms|bizarre	ok	
+shine|2|synonyms|excel	ok	
+blot|2|synonyms|smear	ok	
+whole|1|near_synonyms|mint	ok	
+flourish|0|near_synonyms|curl	ok	
+sum|2|near_synonyms|capsule	ok	
+crazy|2|near_synonyms|shaky	wrong	shaky does not mean senseless
+cheer|1|synonyms|merriment	ok	
+move|0|near_synonyms|coup	ok	
+old|3|near_synonyms|gray	wrong	gray does not mean worn or decayed
+flavor|2|near_synonyms|color	wrong	color does not mean give a taste
+virgin|2|synonyms|vestal	ok	
+disorder|0|synonyms|disarray	ok	
+swagger|0|synonyms|braggadocio	ok	
+man|1|near_synonyms|menial	wrong	menial is a servant, not an adult man
+length|2|synonyms|portion	ok	
+restraint|2|near_synonyms|blockade	wrong	blockade is not an order forbidding something
+plug|4|synonyms|plod	ok	
+passion|0|near_synonyms|craze	ok	
+scar|2|near_synonyms|brand	ok	
+grasp|0|synonyms|hold	ok	
+shower|0|synonyms|rain	ok	
+tack|0|synonyms|pushpin	ok	
+take down|1|synonyms|demolish	ok	
+restore|1|near_synonyms|remodel	ok	
+muddle|2|synonyms|disarrange	ok	
+gripe|3|synonyms|grouch	ok	
+bother|1|near_synonyms|agitate	ok	
+suspect|0|synonyms|distrusted	ok	
+average|1|synonyms|normal	ok	
+flush|2|near_synonyms|pink	ok	
+toy|3|synonyms|coquet	ok	
+remedy|2|synonyms|set right	ok	
+bang|0|synonyms|thump	ok	
+screen|4|synonyms|sort	ok	
+sheer|3|near_synonyms|slant	wrong	slant is not to swerve
+force|3|near_synonyms|overpower	ok	
+put out|2|near_synonyms|provoke	ok	
+jest|2|near_synonyms|deride	wrong	deride means mock scornfully, not jest
+godfather|1|synonyms|capo	ok	
+roost|0|near_synonyms|cage	wrong	cage is not a roost
+sticky|0|near_synonyms|syrupy	ok	
+puncture|0|near_synonyms|slit	wrong	slit is a long cut, not a pierced hole
+appreciation|0|synonyms|regard	ok	
+ring|4|synonyms|quality	ok	
+compact|2|near_synonyms|arrangement	ok	
+lower|3|synonyms|humble	ok	
+muster|2|synonyms|summon up	ok	
+dash|1|synonyms|frustrate	ok	
+articulate|1|synonyms|understandable	ok	
+spout|1|synonyms|pour	ok	
+suspended|2|synonyms|expelled	wrong	expelled is permanent, not temporary suspension
+finish|0|synonyms|conclusion	ok	
+echo|3|near_synonyms|copy	ok	
+stale|0|near_synonyms|crumbling	wrong	crumbling is not stale
+conceive|0|synonyms|imagine	ok	
+stop|0|synonyms|termination	ok	
+barren|1|near_synonyms|treeless	ok	
+return|0|near_synonyms|replacement	ok	
+circuit|0|near_synonyms|itinerary	ok	
+monument|0|near_synonyms|tablet	ok	
+character|4|synonyms|sign	ok	
+return|5|near_synonyms|retreat	wrong	retreat means withdraw, not come back
+powerful|1|near_synonyms|predominant	ok	
+route|0|near_synonyms|artery	ok	
+rigor|0|near_synonyms|firmness	ok	
+strip|3|synonyms|remove	ok	
+kindred|2|synonyms|consanguinity	ok	
+wonder|1|near_synonyms|curiosity	ok	
+breach|2|near_synonyms|divorce	ok	
+see|3|near_synonyms|greet	ok	
+deluge|0|synonyms|torrent	ok	
+demon|2|near_synonyms|devotee	ok	
+supple|2|synonyms|compliant	ok	
+otiose|0|near_synonyms|languid	ok	
+fair|3|synonyms|bazaar	ok	
+crush|1|synonyms|pulverize	ok	
+shot|1|near_synonyms|vitiated	wrong	vitiated means impaired or invalidated, not worn out
+age|0|synonyms|times	ok	
+sound|4|near_synonyms|effective	wrong	effective does not mean thoroughgoing
+open|6|synonyms|perforate	ok	
+power|1|synonyms|command	ok	
+shot|1|synonyms|washed up	ok	
+bad|3|near_synonyms|debauched	ok	
+crush|3|synonyms|quash	ok	
+dress|3|near_synonyms|enrich	ok	
+flap|1|near_synonyms|ferment	ok	
+stake|0|synonyms|pale	ok	
+inside|0|synonyms|confidential	ok	
+presentation|2|synonyms|exhibition	ok	
+sexy|0|near_synonyms|stimulating	ok	
+wheel|2|near_synonyms|deflect	wrong	deflect is transitive and means turn something aside
+plumb|2|near_synonyms|penetrate	ok	
+peg|0|near_synonyms|protuberance	wrong	protuberance is a bump, not a fastening peg
+report|2|near_synonyms|position	wrong	position is not reputation
+sovereign|3|synonyms|emperor	ok	
+countenance|1|synonyms|expression	ok	
+livid|2|near_synonyms|wroth	ok	
+tax|4|synonyms|charge	ok	
+stiff|0|near_synonyms|tight	ok	
+shadow|2|near_synonyms|desolation	ok	
+understand|2|near_synonyms|feel	ok	
+drag|0|synonyms|impediment	ok	
+brush|4|near_synonyms|cover	ok	
+major|0|synonyms|greater	ok	
+want|1|synonyms|privation	ok	
+true|3|near_synonyms|authorized	ok	
+silly|1|synonyms|nonsensical	ok	
+light|8|near_synonyms|beam	wrong	beam does not mean fill with light
+color|0|near_synonyms|cast	ok	
+move|0|synonyms|tactic	ok	
+mug|0|near_synonyms|goblet	wrong	goblet has no handle, not a mug
+delicate|0|synonyms|elegant	ok	
+restraint|1|synonyms|straitjacket	ok	
+tried|1|synonyms|essayed	ok	
+unload|0|synonyms|empty	ok	
+activity|2|synonyms|endeavor	ok	
+last|3|near_synonyms|stand up	ok	
+produce|1|near_synonyms|shape	ok	
+push|0|near_synonyms|impulsion	ok	
+rough|3|near_synonyms|crass	ok	
+trap|3|synonyms|ensnare	ok	
+perception|1|near_synonyms|knowledge	ok	
+stoop|2|near_synonyms|kowtow	ok	
+subtle|1|synonyms|astute	ok	
+welcome|0|near_synonyms|amiable	wrong	amiable means friendly, not welcome
+image|0|synonyms|picture	ok	
+nothing|0|synonyms|nonbeing	ok	
+guard|0|synonyms|watchman	ok	
+rotund|1|synonyms|fat	ok	
+difference|1|synonyms|deviation	ok	
+cant|3|synonyms|list	ok	
+silence|2|synonyms|stifle	ok	
+token|0|synonyms|nominal	ok	
+substantial|2|synonyms|well fixed	ok	
+storm|0|near_synonyms|eruption	ok	
+riot|0|synonyms|commotion	ok	
+violate|0|near_synonyms|oppose	wrong	oppose is not breaking a law
+shy|1|near_synonyms|watchful	ok	
+close|1|synonyms|tight	ok	
+discipline|4|synonyms|penalize	ok	
+enter|0|near_synonyms|insert	wrong	insert is transitive, cannot replace enter a place
+turn on|1|synonyms|start	ok	
+line|1|near_synonyms|furrow	ok	
+brute|2|near_synonyms|villain	ok	
+good|0|near_synonyms|useful	ok	
+precious|2|near_synonyms|exacting	wrong	exacting means demanding, not affected
+stick|2|near_synonyms|bore	ok	
+wane|2|near_synonyms|age	wrong	age does not mean draw to an end
+grit|0|synonyms|sand	ok	
+fence|1|near_synonyms|separate	wrong	separate does not mean enclose with a fence
+unload|0|synonyms|dump	ok	
+sickly|0|synonyms|ailing	ok	
+thick|1|near_synonyms|gelatinous	ok	
+amateur|1|near_synonyms|fan	wrong	fan is a follower, not one who does it for pleasure
+introduce|2|synonyms|infuse	ok	
+performance|1|synonyms|accomplishment	ok	
+bridge|2|synonyms|join	ok	
+bag|0|synonyms|sack	ok	
+mock|0|synonyms|spurious	ok	
+idle|2|synonyms|useless	ok	
+produce|2|near_synonyms|stir up	ok	
+master|0|synonyms|chief	ok	
+spot|2|synonyms|fault	ok	
+flavor|2|near_synonyms|infuse	ok	
+parody|2|near_synonyms|mock	ok	
+variety|1|synonyms|category	ok	
+attach|1|synonyms|append	ok	
+ditch|0|synonyms|channel	ok	
+strong|1|near_synonyms|self-assertive	ok	
+toot|2|near_synonyms|trumpet	ok	
+blot|1|near_synonyms|reproach	ok	
+medium|0|synonyms|intermediate	ok	
+straight|4|near_synonyms|bourgeois	ok	
+backbone|0|synonyms|spinal column	ok	
+crisp|0|near_synonyms|frangible	ok	
+posture|1|near_synonyms|shape	ok	
+hint|2|near_synonyms|prompt	wrong	prompt means urge, not convey indirectly
+sense|2|synonyms|perception	ok	
+steep|0|synonyms|sheer	ok	
+vacant|1|near_synonyms|rentable	wrong	rentable does not mean unoccupied
+compromise|0|near_synonyms|reconciliation	ok	
+official|2|near_synonyms|apparatchik	ok	
+constitute|2|synonyms|name	ok	
+play|10|near_synonyms|chance	wrong	chance does not mean stake money on
+tussle|0|near_synonyms|melee	ok	
+sin|1|synonyms|immorality	ok	
+plot|0|synonyms|lot	ok	
+tail|0|synonyms|last	ok	
+screen|0|near_synonyms|lattice	ok	
+separate|2|near_synonyms|alienate	wrong	alienate means estrange, not form a boundary
+mob|0|synonyms|masses	ok	
+well|6|near_synonyms|bubble	ok	
+travel|0|synonyms|touring	ok	
+pass|10|near_synonyms|expend	wrong	expend does not fit passing time
+rage|0|synonyms|furor	ok	
+white|2|synonyms|pure	ok	
+separate|1|synonyms|disjoin	ok	
+broken|0|synonyms|shattered	ok	
+spark|0|synonyms|sparkle	ok	
+dope|1|near_synonyms|tip	ok	
+mix|0|synonyms|blend	ok	
+pool|0|near_synonyms|mere	ok	
+prostitute|2|near_synonyms|besmirch	wrong	besmirch means sully, not put to base use
+funk|1|near_synonyms|misery	ok	
+swagger|2|near_synonyms|flaunt	ok	
+slant|2|synonyms|tip	ok	
+puff|4|synonyms|balloon	ok	
+right|10|near_synonyms|adjust	ok	
+crab|1|near_synonyms|criticize	ok	
+point|0|synonyms|nib	ok	
+plan|1|synonyms|devise	ok	
+talk|7|synonyms|snitch	ok	
+uneasy|0|synonyms|upset	ok	
+proud|1|near_synonyms|smug	ok	
+fake|2|synonyms|forge	ok	
+gorge|3|synonyms|sate	ok	
+scale|0|near_synonyms|plate	ok	
+lecture|2|near_synonyms|teach	ok	
+wing|1|synonyms|soar	ok	
+tame|3|near_synonyms|conquer	ok	
+touch|4|synonyms|shade	ok	
+tussle|0|near_synonyms|scrimmage	ok	
+remote|0|near_synonyms|sequestered	ok	
+dim|0|near_synonyms|gray	ok	
+glow|0|synonyms|brightness	ok	
+temper|3|near_synonyms|attenuate	ok	
+conceive|2|near_synonyms|declare	ok	
+wrong|2|synonyms|wicked	ok	
+primary|1|synonyms|chief	ok	
+poise|2|synonyms|hover	ok	
+flare|1|near_synonyms|ignite	ok	
+quality|1|near_synonyms|flavor	ok	
+pay|0|near_synonyms|dividend	wrong	dividend is investment return, not wages
+design|0|synonyms|sketch	ok	
+make|0|synonyms|construction	ok	
+practice|1|near_synonyms|discharge	ok	
+chuck|2|synonyms|throw away	ok	
+perfect|1|near_synonyms|efficient	wrong	efficient does not mean highly skilled
+acknowledge|2|near_synonyms|react to	wrong	react to does not mean confirm receipt
+relish|1|near_synonyms|punch	ok	
+late|0|synonyms|delayed	ok	
+association|1|near_synonyms|company	ok	
+prejudice|2|near_synonyms|sway	ok	
+yak|1|synonyms|horselaugh	ok	
+bar|2|near_synonyms|solicitors	wrong	solicitors are not the bar
+play|6|synonyms|sport	ok	
+vague|1|synonyms|foggy	ok	
+lost|0|synonyms|misplaced	ok	
+prick|6|near_synonyms|tingle	ok	
+strain|9|synonyms|embellish	ok	
+pulse|1|near_synonyms|reaction	ok	
+clip|4|near_synonyms|constrict	wrong	constrict means squeeze, not cut short
+pass|2|synonyms|defile	ok	
+burst|1|synonyms|erupt	ok	
+service|0|synonyms|attention	ok	
+craft|2|synonyms|craftiness	ok	
+bluff|0|near_synonyms|blustering	ok	
+vulgar|2|near_synonyms|popular	ok	
+premier|1|near_synonyms|primal	ok	
+near|1|near_synonyms|connected	ok	
+man|1|synonyms|guy	ok	
+vent|1|near_synonyms|escape hatch	wrong	escape hatch is for people, not an air vent
+wit|0|synonyms|cleverness	ok	
+strain|4|synonyms|tendency	ok	
+view|3|synonyms|impression	ok	
+low|3|near_synonyms|simple	ok	
+first|0|near_synonyms|previous	wrong	previous means earlier, not first of all
+even|3|synonyms|balance	ok	
+opposition|2|near_synonyms|restraint	ok	
+passage|0|synonyms|hallway	ok	
+club|1|near_synonyms|coterie	ok	
+humor|2|near_synonyms|spoil	ok	
+message|1|near_synonyms|letter	ok	
+tussle|2|synonyms|scrap	ok	
+subject|2|near_synonyms|occupant	wrong	occupant is not a subject of a ruler
+warrant|0|near_synonyms|credential	ok	
+tussle|0|near_synonyms|fray	ok	
+various|0|synonyms|differing	ok	
+outline|0|near_synonyms|diagram	wrong	diagram is not an outline edge
+poke|1|synonyms|nose	ok	
+gray|1|near_synonyms|venerable	ok	
+character|0|synonyms|nature	ok	
+deadly|2|synonyms|sure	ok	
+market|2|near_synonyms|audience	ok	
+reprobate|0|near_synonyms|sinful	ok	
+attack|1|near_synonyms|stroke	ok	
+violent|1|near_synonyms|impassioned	ok	
+fault|1|synonyms|blame	ok	
+collateral|3|synonyms|guarantee	ok	
+shake|2|near_synonyms|drain	wrong	drain does not mean shake confidence
+stale|0|near_synonyms|rancid	ok	
+arrest|1|near_synonyms|incarceration	wrong	incarceration is imprisonment, not the seizing
+bad|0|near_synonyms|lacking	ok	
+decent|0|near_synonyms|suitable	ok	
+correct|3|synonyms|reprimand	ok	
+drift|3|synonyms|accumulate	ok	
+aim|1|synonyms|draw a bead	ok	
+sense|4|near_synonyms|content	ok	
+foul|6|synonyms|jam	ok	
+grouch|0|near_synonyms|crank	ok	
+sin|1|near_synonyms|shame	ok	
+jog|0|synonyms|poke	ok	
+error|2|near_synonyms|delinquency	ok	
+resolution|0|near_synonyms|ambition	wrong	ambition is not firmness of purpose
+peak|0|near_synonyms|projection	ok	
+cause|3|synonyms|generate	ok	
+peer|0|synonyms|match	ok	
+slave|3|synonyms|drudge	ok	
+rank|0|near_synonyms|abundant	ok	
+clog|0|near_synonyms|curb	ok	
+tender|1|near_synonyms|sweet	ok	
+pip pitch|2|synonyms|heave	ok	
+rest|3|near_synonyms|surplus	ok	
+expect|0|synonyms|anticipate	ok	
+shy|2|synonyms|short	ok	
+deliver|1|near_synonyms|unbind	ok	
+shaft|3|near_synonyms|conduit	ok	
+position|3|near_synonyms|capacity	ok	
+transport|2|near_synonyms|truck	ok	
+minus|0|near_synonyms|weak	ok	
+arrest|4|near_synonyms|fascinate	ok	
+lash|1|synonyms|stroke	ok	
+review|3|synonyms|reexamine	ok	
+make up|2|near_synonyms|compose	wrong	compose does not mean make up a quarrel
+support|3|synonyms|keep	ok	
+pose|1|synonyms|facade	ok	
+representation|0|near_synonyms|show	ok	
+counter|0|near_synonyms|adverse	ok	
+prejudice|2|synonyms|turn against	ok	
+die|0|synonyms|succumb	ok	
+tilt|3|synonyms|skirmish	ok	
+revel|1|near_synonyms|thrive on	ok	
+pour|2|synonyms|swarm	ok	
+right|8|synonyms|title	ok	
+ditch|0|synonyms|fosse	ok	
+pose|3|synonyms|pretend	ok	
+disposal|2|near_synonyms|power	ok	
+tend|0|synonyms|lean	ok	
+pretense|2|synonyms|pose	ok	
+renegade|1|synonyms|betrayer	ok	
+reach|3|synonyms|hand over	ok	
+thin|5|synonyms|water down	ok	
+compass|1|synonyms|perimeter	ok	
+drunk|0|near_synonyms|under the weather	wrong	under the weather means ill, not drunk
+usher|0|near_synonyms|guard	wrong	guard does not escort people to seats
+smear|3|synonyms|denigrate	ok	
+retire|3|near_synonyms|recede	ok	
+struggle|1|near_synonyms|rivalry	ok	
+intimate|3|near_synonyms|mate	ok	
+twist|6|near_synonyms|screw	ok	
+cultivate|1|synonyms|advance	ok	
+grate|0|synonyms|shred	ok	
+relax|3|synonyms|loll	ok	
+grant|0|synonyms|subvention	ok	
+trouble|1|near_synonyms|burden	ok	
+vessels|2|synonyms|receptacles	ok	
+decline|0|near_synonyms|withering	ok	
+distraction|1|synonyms|amusement	ok	
+stain|2|near_synonyms|splotch	ok	
+decline|0|synonyms|degeneration	ok	
+trim|0|near_synonyms|fit	wrong	fit means healthy, not neat and groomed
+call|2|near_synonyms|request	ok	
+commit|0|synonyms|do	ok	
+trip|4|synonyms|skip	ok	
+empty|1|near_synonyms|silly	ok	
+command|4|near_synonyms|impose	wrong	impose does not mean command attention or respect
+skim|2|synonyms|flip through	ok	
+bubble|1|synonyms|illusion	ok	
+fat|1|synonyms|oleaginous	ok	
+light|7|synonyms|switch on	ok	
+call|4|synonyms|telephone	ok	
+mind|6|near_synonyms|protect	ok	
+sway|0|synonyms|authority	ok	
+weakness|2|near_synonyms|propensity	ok	
+master|1|synonyms|skilled	ok	
+prick|1|near_synonyms|burning	ok	
+sterile|0|near_synonyms|arid	ok	
+shape|2|near_synonyms|health	ok	
+cloudy|0|synonyms|overcast	ok	
+descent|2|near_synonyms|waning	ok	
+love|0|synonyms|attachment	ok	
+retreat|0|synonyms|pullout	ok	
+seed|1|synonyms|beginning	ok	
+stout|0|near_synonyms|heavy	ok	
+appeal|2|synonyms|plead	ok	
+buy|0|near_synonyms|find	ok	
+design|0|synonyms|pattern	ok	
+put on|1|synonyms|make believe	ok	
+secure|0|synonyms|protected	ok	
+jolt|0|near_synonyms|quiver	wrong	quiver is a tremble, not a jolt
+unsound|2|synonyms|fallacious	ok	
+suit|1|synonyms|litigation	ok	
+wrong|1|near_synonyms|inept	ok	
+juncture|1|synonyms|joint	ok	
+circuit|1|near_synonyms|division	ok	
+shape|1|near_synonyms|blueprint	wrong	blueprint is a plan, not a mould
+personality|1|near_synonyms|friendliness	ok	
+riddle|0|synonyms|puzzle	ok	
+spark|1|near_synonyms|relic	wrong	relic is an object from the past, not a trace
+imprint|0|synonyms|stamp	ok	
+perception|2|near_synonyms|sensitivity	ok	
+seize|1|near_synonyms|see	ok	
+swear|2|synonyms|assert	ok	
+dab|0|near_synonyms|swat	wrong	swat is a hard hit, not a light touch
+strength|0|synonyms|muscle	ok	
+bomb|2|near_synonyms|collapse	ok	
+pad|5|synonyms|tiptoe	ok	
+chair|1|synonyms|chairmanship	ok	
+articles|0|synonyms|write-ups	ok	
+bag|1|near_synonyms|talent	wrong	talent is ability, not one's interest
+sphere|1|near_synonyms|region	ok	
+progress|0|near_synonyms|acceleration	wrong	acceleration is speeding up, not progress
+repel|0|near_synonyms|decline	ok	
+plane|2|near_synonyms|stage	ok	
+unconscious|1|synonyms|unsuspecting	ok	
+push|0|near_synonyms|punch	wrong	punch is a fist blow, not a shove
+pack|2|near_synonyms|caboodle	ok	
+conflict|2|synonyms|collide	ok	
+dally|2|near_synonyms|putter	ok	
+curse|3|synonyms|denounce	ok	
+circle|3|synonyms|compass	ok	
+dictate|1|near_synonyms|say	ok	
+crinkle|1|synonyms|wrinkle	ok	
+counsel|3|near_synonyms|urge	ok	
+formal|0|near_synonyms|pro forma	ok	
+vision|3|near_synonyms|foreknowledge	ok	
+scene|1|near_synonyms|ambience	ok	
+butt|0|near_synonyms|propulsion	wrong	propulsion is not a head butt
+raise|3|synonyms|increase	ok	
+blessing|2|synonyms|boon	ok	
+commitment|1|synonyms|pledge	ok	
+wild|0|synonyms|unbroken	ok	
+season|0|near_synonyms|epoch	ok	
+noble|0|synonyms|highborn	ok	
+breach|0|near_synonyms|neglect	ok	
+splash|4|synonyms|display	ok	
+call|1|near_synonyms|notice	ok	
+guard|3|synonyms|safeguard	ok	
+liquid|0|near_synonyms|damp	wrong	damp means slightly wet, not free-flowing
+objective|0|near_synonyms|physical	ok	
+mean|7|near_synonyms|anticipate	wrong	anticipate means expect, not intend
+plant|3|synonyms|implant	ok	
+jet|3|synonyms|spout	ok	
+melancholy|0|synonyms|sad	ok	
+direct|6|synonyms|point	ok	
+reject|2|synonyms|discard	ok	
+knowledge|2|near_synonyms|discernment	ok	
+alarm|0|synonyms|dismay	ok	
+revolution|1|near_synonyms|lap	ok	
+shaft|1|near_synonyms|sting	ok	
+band|1|synonyms|group	ok	
+tally|2|near_synonyms|inscribe	ok	
+descent|0|synonyms|decline	ok	
+cultivate|1|near_synonyms|elevate	ok	
+machine|2|synonyms|organization	ok	
+muscle|0|near_synonyms|vigor	ok	
+judgment|2|synonyms|appraisal	ok	
+smart|4|near_synonyms|insult	wrong	insult is not a stinging pain
+knock|2|near_synonyms|rejection	ok	
+lower|3|near_synonyms|undermine	ok	
+very|1|synonyms|right	ok	

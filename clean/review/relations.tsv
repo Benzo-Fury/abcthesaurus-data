@@ -1,0 +1,3543 @@
+# id	action	note  (id is headword|sense|relation|word; see clean/build.py)
+aberration|0|near_synonyms|freak	keep	
+able|0|near_synonyms|grounded	remove	audit: grounded does not mean competent
+abode|0|near_synonyms|nest	keep	
+abracadabra|0|near_synonyms|voodoo	keep	
+abracadabra|0|synonyms|hocus-pocus	keep	
+absorb|0|synonyms|suck up	keep	
+absurdity|0|near_synonyms|idiocy	keep	
+abuse|3|near_synonyms|smear	keep	
+accelerate|0|near_synonyms|prod	keep	
+accelerating|0|synonyms|snowballing	keep	
+accept|1|near_synonyms|swallow	keep	
+accidental|0|near_synonyms|freak	keep	
+accident|0|near_synonyms|freak	keep	
+accompany|0|synonyms|escort	keep	
+accomplice|0|near_synonyms|tool	keep	
+accost|0|synonyms|buttonhole	keep	
+ace|0|near_synonyms|queen	keep	
+ace|0|near_synonyms|top	keep	
+acid|0|synonyms|tart	keep	
+acknowledge|2|near_synonyms|react to	remove	audit: react to does not mean confirm receipt
+acme|0|synonyms|top	keep	
+actions|0|synonyms|doings	keep	
+activities|0|synonyms|doings	keep	
+acts|0|synonyms|doings	keep	
+adamant|1|near_synonyms|tough	keep	
+addiction|0|synonyms|monkey on one's back	keep	
+addict|0|near_synonyms|freak	remove	'freak' alone is out of context
+addict|0|near_synonyms|head	remove	'head' alone is out of context
+addict|0|near_synonyms|nut	keep	
+addict|0|synonyms|junkie	rude	derogatory term for addicts
+adept|1|synonyms|whiz	keep	
+adroit|0|synonyms|handy	keep	
+adventurer|1|near_synonyms|gold digger	keep	
+adventurer|1|near_synonyms|social climber	keep	
+advertise|0|near_synonyms|puff	keep	
+advice|0|synonyms|tip	keep	
+adviser|0|near_synonyms|guru	keep	
+advisor|0|synonyms|guru	keep	
+affect|2|near_synonyms|ape	keep	
+affordable|0|synonyms|cheap	keep	
+against|0|synonyms|anti	keep	
+agglomeration|1|near_synonyms|heap	keep	
+aggression|0|near_synonyms|rape	remove	rape is not aggression
+aim|1|near_synonyms|slant	keep	
+alcoholic|0|near_synonyms|hard	keep	
+all in tired|0|synonyms|knackered	keep	
+all in|0|synonyms|beat	keep	
+all in|1|synonyms|in for a penny	remove	audit: in for a penny is an idiom fragment, not a substitute
+all right|2|near_synonyms|unmarred	remove	audit: unmarred applies to objects, not unhurt people
+alluring|0|near_synonyms|sexy	keep	
+alms|0|synonyms|handout	keep	
+along|1|synonyms|accompanying	remove	audit: accompanying cannot replace the adverb along
+also-ran|0|synonyms|has-been	keep	
+altruist|0|near_synonyms|do-gooder	keep	
+altruist|0|near_synonyms|lady bountiful	keep	
+amateurish|0|near_synonyms|half-baked	keep	
+amateur|1|near_synonyms|fan	remove	audit: fan is a follower, not one who does it for pleasure
+amateur|1|near_synonyms|freak	remove	wrong meaning
+amatory|0|near_synonyms|sexy	keep	
+amazon|0|synonyms|termagant	rude	sexist term for a woman
+amble|0|near_synonyms|gad	keep	
+amiss|0|synonyms|screwed up	keep	
+amorous|0|near_synonyms|sexy	keep	
+android|0|synonyms|bot	keep	
+angle|0|synonyms|slant	keep	
+anomaly|1|near_synonyms|freak	keep	
+anticipate|2|near_synonyms|nip in the bud	keep	
+antics|0|synonyms|monkey business	keep	
+antic|1|synonyms|monkey business	keep	
+aphrodisiac|0|near_synonyms|sexy	keep	
+apoplectic|0|synonyms|seeing red	keep	
+apparatus|0|near_synonyms|contraption	keep	
+apparition|0|synonyms|spook	keep	
+appendage|0|near_synonyms|knob	remove	knob innuendo, out of context
+appliance|0|near_synonyms|contraption	keep	
+apprentice|0|near_synonyms|greenhorn	keep	
+arduous|0|synonyms|tough	keep	
+arise|1|near_synonyms|up	keep	
+aristocrat|0|near_synonyms|silk-stocking	keep	
+arrest|1|near_synonyms|incarceration	remove	audit: incarceration is imprisonment, not the seizing
+arrest|3|synonyms|bust	keep	
+arsenal|0|near_synonyms|dump	keep	
+arse|0|synonyms|ass	keep	
+arse|0|synonyms|butt	keep	
+arse|0|synonyms|rear	keep	
+arse|0|synonyms|rump	keep	
+arse|1|synonyms|berk	keep	
+arse|1|synonyms|dolt	keep	
+arse|1|synonyms|idiot	keep	
+arse|1|synonyms|jerk	keep	
+arty|0|near_synonyms|bluestocking	remove	wrong meaning; sexist term for learned women
+arty|0|near_synonyms|highbrow	keep	
+ascend|0|near_synonyms|slant up	keep	
+ascend|0|near_synonyms|slope up	keep	
+ashen|0|synonyms|pasty	keep	
+asinine|0|synonyms|dumb	keep	
+aspersion|0|synonyms|smear	keep	
+aspiring|0|synonyms|wannabe	keep	
+assail|0|near_synonyms|score	keep	
+assault|0|near_synonyms|rape	remove	rape is not assault in general
+assistant|0|near_synonyms|flunky	rude	demeaning for a neutral job
+assortment|0|near_synonyms|heap	keep	
+ass|0|near_synonyms|jerk	keep	
+ass|0|synonyms|boob	keep	
+ass|0|synonyms|dolt	keep	
+ass|0|synonyms|fathead	keep	
+ass|0|synonyms|nincompoop	keep	
+ass|0|synonyms|numskull	keep	
+at a loss|1|synonyms|in the red	keep	
+at hand|0|synonyms|handy	keep	
+atheist|0|near_synonyms|infidel	remove	wrong meaning; pejorative religious term
+athlete|0|synonyms|jock	keep	
+atrocious|0|near_synonyms|savage	keep	
+attain|0|near_synonyms|score	keep	
+attempt|0|synonyms|crack	keep	
+automaton|1|near_synonyms|zombie	keep	
+automobile|0|synonyms|ride	keep	
+available|0|synonyms|handy	keep	
+axe|1|synonyms|scrap	keep	
+babble|3|near_synonyms|go on about	remove	audit: go on about means talk at length, not leak secrets
+babble|3|near_synonyms|tattle	keep	
+babble|3|synonyms|blather	keep	
+baby talk|0|synonyms|goo-goo talk	keep	
+babysit|0|synonyms|nanny	keep	
+baby|0|near_synonyms|dwarf	keep	
+baby|0|near_synonyms|pygmy	keep	
+baby|2|near_synonyms|papoose	remove	papoose is offensive
+back and fill|0|synonyms|flip-flop	keep	
+back number|0|synonyms|antique	keep	
+back number|0|synonyms|dinosaur	keep	
+back number|0|synonyms|fossil	keep	
+back number|0|synonyms|has-been	keep	
+backbreaking|0|synonyms|tough	keep	
+backer|0|near_synonyms|lady bountiful	keep	
+backseat driver|0|synonyms|know-it-all	keep	
+backseat driver|0|synonyms|nag	keep	
+backside|0|synonyms|butt	keep	
+backward|1|synonyms|subnormal	remove	offensive term for mental development
+bacterium|0|synonyms|germ	keep	
+bad odor|0|synonyms|pong	keep	
+bad-mouth|0|synonyms|trash	keep	
+bag|1|near_synonyms|talent	remove	audit: talent is ability, not one's interest
+bailiwick|0|synonyms|beat	keep	
+bake|0|synonyms|brown	keep	
+ball of fire|0|synonyms|whiz	keep	
+balmy|2|synonyms|loony	keep	
+balmy|2|synonyms|nutty	keep	
+banal|0|synonyms|old hat	keep	
+banal|0|synonyms|tired	keep	
+bang|2|near_synonyms|fun	remove	audit: fun does not substitute for a thrill or kick
+bankrupt|0|synonyms|in the red	keep	
+bank|1|synonyms|slope	keep	
+bank|3|synonyms|dike	keep	
+bantam|0|near_synonyms|dwarf	keep	
+bantam|0|near_synonyms|pygmy	keep	
+barbarian|1|near_synonyms|tough	keep	
+barbarian|1|synonyms|savage	keep	
+barbarian|1|synonyms|yahoo	keep	
+barbarian|2|near_synonyms|peasant	keep	
+barbarous|0|synonyms|savage	keep	
+barbarous|1|near_synonyms|neanderthal	keep	
+barge in|0|synonyms|butt in	keep	
+barrel|0|synonyms|butt	keep	
+bar|2|near_synonyms|solicitors	remove	audit: solicitors are not the bar
+bash|0|near_synonyms|clambake	keep	
+basics|0|synonyms|abc	keep	
+bathe|1|near_synonyms|douche	remove	douche out of context
+bathe|1|near_synonyms|tub	keep	
+bathos|0|synonyms|schmaltz	keep	
+bathroom|0|near_synonyms|head	keep	
+bathtub|0|synonyms|tub	keep	
+bath|0|near_synonyms|douche	remove	douche out of context
+bath|0|near_synonyms|tub	keep	
+bauble|0|near_synonyms|trash	keep	
+bawd|0|synonyms|madam	keep	
+bawl|1|synonyms|blubber	keep	
+bayonet|0|synonyms|pike	keep	
+be sick|1|synonyms|barf	keep	
+be sick|1|synonyms|puke	keep	
+bead|0|near_synonyms|blob	keep	
+bean|1|synonyms|nut	keep	
+bearer|0|near_synonyms|errand boy	keep	
+beastly|0|synonyms|savage	keep	
+beastly|1|near_synonyms|bum	keep	
+beast|1|near_synonyms|swine	keep	
+beast|1|synonyms|savage	keep	
+beat|2|synonyms|bang	keep	
+beat|2|synonyms|whale	keep	
+beat|4|synonyms|lick	keep	
+beauty queen|0|synonyms|prom queen	keep	
+bedraggled|0|near_synonyms|sloppy	keep	
+bedrock|0|near_synonyms|abc	keep	
+bed|0|synonyms|sack	keep	
+beggar|0|near_synonyms|bum	keep	
+beggar|0|near_synonyms|hobo	keep	
+beggar|0|near_synonyms|moocher	keep	
+beggar|0|near_synonyms|tramp	keep	
+beginner|0|synonyms|greenhorn	keep	
+beg|0|synonyms|bum	keep	
+behind|1|near_synonyms|once	remove	audit: once does not mean gone by
+behind|2|synonyms|ass	rude	vulgar for behind
+belle|0|synonyms|queen	keep	
+belt|1|near_synonyms|bang	keep	
+bench warmer|0|synonyms|scrub	keep	
+benedict arnold|0|synonyms|snake in the grass	keep	
+benefaction|1|near_synonyms|handout	keep	
+benefactor|0|near_synonyms|fairy godmother	keep	
+berry|0|synonyms|fruit	keep	
+berry|0|synonyms|seed fruit	keep	
+besmirch|0|synonyms|smear	keep	
+best part|0|synonyms|cream	keep	
+bestial|0|synonyms|savage	keep	
+best|0|synonyms|lick	keep	
+beverage|0|near_synonyms|nip	keep	
+bi-sexual|0|synonyms|queer	remove	not equivalent, potentially slur
+biased|0|synonyms|colored	keep	
+bias|0|synonyms|slant	keep	
+bias|1|synonyms|slant	keep	
+bicker|0|near_synonyms|scrap	keep	
+bid|1|near_synonyms|crack	keep	
+big brother|0|synonyms|nanny state	keep	
+bill and coo|0|synonyms|smooch	keep	
+billionaire|0|synonyms|fat cat	rude	derogatory
+bite|2|synonyms|nip	keep	
+bite|3|synonyms|prick	keep	
+blabbermouth|0|synonyms|bigmouth	keep	
+blabber|0|synonyms|blabbermouth	keep	
+blabber|1|synonyms|blather	keep	
+blab|0|synonyms|blabbermouth	keep	
+black art magic|0|synonyms|black magic	keep	
+black art|0|synonyms|black magic	keep	
+black magic|0|synonyms|black art	keep	
+blacken|0|synonyms|black	keep	
+blackguard|0|near_synonyms|rat	keep	
+blackguard|0|near_synonyms|sob	rude	crude; son of a bitch
+blackguard|0|near_synonyms|swine	keep	
+black|0|synonyms|pitch black	keep	
+black|1|near_synonyms|swarthy	remove	swarthy does not mean of African descent
+black|1|synonyms|colored	remove	dated racial slur
+blah|1|synonyms|blather	keep	
+blast|1|synonyms|bang	keep	
+blast|3|synonyms|slam	keep	
+blather|0|synonyms|blah	keep	
+bleeding|0|synonyms|bloody	keep	
+bleed|1|synonyms|milk	keep	
+blink|0|near_synonyms|twink	remove	twink sexual slang
+blink|0|synonyms|bat	keep	
+blithe|0|synonyms|gay	remove	old meaning reads as sexuality today
+blockbuster|0|synonyms|smash	keep	
+blockhead|0|near_synonyms|chump	keep	
+blockhead|0|synonyms|numskull	keep	
+bloodthirsty|0|synonyms|bloody	keep	
+bloodthirsty|0|synonyms|savage	keep	
+blooper|0|synonyms|boner	rude	boner sexual double meaning
+blooper|0|synonyms|muff	keep	
+blot out|1|synonyms|black out	keep	
+blow hot and cold|0|synonyms|flip-flop	keep	
+blow it|0|synonyms|muff	keep	
+blow it|0|synonyms|screw up	keep	
+blow one's own horn|0|synonyms|crow	keep	
+blow one's stack|0|synonyms|see red	keep	
+blow out|1|synonyms|pop	keep	
+blow|2|near_synonyms|bang	keep	
+bluestocking|0|near_synonyms|arty	keep	
+bluff|1|near_synonyms|slope	keep	
+blunder|0|synonyms|boner	rude	boner sexual double meaning
+blunder|1|synonyms|muff	keep	
+blurt|0|near_synonyms|tattle	keep	
+bluster|2|near_synonyms|blow	keep	
+bob|0|near_synonyms|jerk	keep	
+bodyguard|0|synonyms|escort	keep	
+bogus|0|near_synonyms|pseudo	keep	
+bohemian|0|synonyms|arty	keep	
+bolt|0|near_synonyms|screw	keep	
+bombshell|0|synonyms|shocker	keep	
+bomb|1|near_synonyms|dog	keep	
+bomb|1|synonyms|bust	keep	
+bomb|1|synonyms|turkey	keep	
+bones|1|synonyms|nub	keep	
+boodle|1|synonyms|booty	keep	
+bookish|0|synonyms|inkhorn	keep	
+boom|1|synonyms|bang	keep	
+boom|3|near_synonyms|bang	keep	
+boom|4|near_synonyms|pyramid	remove	audit: pyramid does not mean prosper
+boondocks|0|synonyms|sticks	keep	
+boor|0|near_synonyms|guttersnipe	keep	
+boor|0|synonyms|churl	keep	
+boor|0|synonyms|clodhopper	keep	
+boor|0|synonyms|hick	keep	
+boor|0|synonyms|yokel	keep	
+boost|4|synonyms|up	keep	
+bootlicker|0|near_synonyms|flunky	keep	
+booty|0|synonyms|swag	keep	
+booze|0|near_synonyms|lush	remove	lush is a drinker, not a drink
+boo|0|synonyms|raspberry	keep	
+bore|1|near_synonyms|wet blanket	keep	
+bore|1|synonyms|drip	keep	
+bosom|0|near_synonyms|dug	rude	dug crude for breast
+bosom|0|synonyms|bust	keep	
+bosom|1|near_synonyms|sympathies	remove	audit: sympathies is not the seat of feelings
+botch|0|synonyms|muff	keep	
+bottle up|0|synonyms|swallow	keep	
+bourgeois|0|synonyms|square	keep	
+bout|0|near_synonyms|scrap	keep	
+bow and scrape|0|synonyms|suck up	keep	
+bow and scrape|0|synonyms|toady	keep	
+bowed|0|synonyms|bent	keep	
+boxer|0|synonyms|pug	keep	
+boxing|0|near_synonyms|ring	keep	
+boyfriend|0|synonyms|fellow	keep	
+boy|0|near_synonyms|cub	keep	
+boy|0|near_synonyms|fellow	keep	
+boy|0|near_synonyms|sonny	keep	
+braggart|0|near_synonyms|windbag	keep	
+braggart|0|synonyms|blowhard	keep	
+brainless|0|synonyms|dumb	keep	
+brains|0|near_synonyms|head	keep	
+brain|0|near_synonyms|highbrow	keep	
+brain|0|synonyms|egghead	keep	
+brash|1|synonyms|flip	keep	
+brass|0|synonyms|cheek	keep	
+brawl|0|synonyms|scrap	keep	
+brawl|1|synonyms|scrap	keep	
+bread|1|near_synonyms|necessities	remove	audit: necessities are not a means of earning a living
+break in on|0|synonyms|butt in on	keep	
+break in|2|synonyms|butt in	keep	
+break off|1|synonyms|pull off	keep	
+break|7|near_synonyms|abandon	remove	audit: abandon does not mean cushion or lessen force
+break|9|synonyms|top	keep	
+breast|0|near_synonyms|bust	keep	
+breast|1|near_synonyms|dug	rude	dug crude for breast
+breast|1|near_synonyms|tit	rude	vulgar for breast
+breast|1|synonyms|bust	keep	
+breathe in|0|synonyms|suck in	keep	
+breathe|0|near_synonyms|suck	keep	
+bright|2|synonyms|gay	remove	old meaning reads as sexuality today
+brim over|0|near_synonyms|slop	keep	
+bring off|0|synonyms|pull off	keep	
+bring|0|near_synonyms|accompany	remove	audit: accompany means go with someone, not carry
+bristle|0|near_synonyms|see red	keep	
+bronx cheer|0|synonyms|raspberry	keep	
+brood|0|near_synonyms|fruit	keep	
+broom|0|synonyms|besom	keep	
+brothel keeper|0|synonyms|madam	keep	
+brother|0|synonyms|bro	keep	
+brownie|1|synonyms|fairy	keep	
+bruise|1|near_synonyms|prick	keep	
+brush|0|synonyms|besom	keep	
+brush|2|near_synonyms|scrap	keep	
+brutality|0|near_synonyms|bestiality	remove	bestiality means sex with animals
+brutal|0|near_synonyms|bloody	keep	
+brutal|0|synonyms|savage	keep	
+brute|2|synonyms|savage	keep	
+buck|0|synonyms|dude	keep	
+buck|0|synonyms|gay blade	keep	
+buck|1|near_synonyms|jerk	keep	
+buffoon|0|near_synonyms|chump	keep	
+buff|0|near_synonyms|freak	keep	
+buff|0|near_synonyms|nut	keep	
+bug off|0|synonyms|beat it	keep	
+buildup|1|synonyms|puff	keep	
+bulge|0|near_synonyms|knob	keep	
+bullet|0|near_synonyms|ball	keep	
+bullheaded|0|synonyms|pigheaded	keep	
+bump into|1|synonyms|bang into	keep	
+bumpkin|0|near_synonyms|yahoo	keep	
+bumpkin|0|synonyms|clodhopper	keep	
+bumpkin|0|synonyms|hick	keep	
+bumpkin|0|synonyms|rube	keep	
+bumpkin|0|synonyms|yokel	keep	
+bump|0|near_synonyms|butt	keep	
+bump|0|synonyms|bang	keep	
+bump|1|near_synonyms|hump	keep	
+bump|1|near_synonyms|knob	keep	
+bump|2|synonyms|bang	keep	
+bump|3|synonyms|bust	keep	
+bum|1|synonyms|hobo	keep	
+bum|1|synonyms|tramp	keep	
+bungle|0|synonyms|muff	keep	
+buoyant|0|synonyms|gay	remove	old meaning reads as sexuality today
+bureaucracy|1|synonyms|red tape	keep	
+burst|1|synonyms|bust	keep	
+burst|2|near_synonyms|pop	keep	
+bush-league|0|synonyms|bush	keep	
+bushed|0|synonyms|beat	keep	
+business|1|near_synonyms|beat	keep	
+bust up|0|synonyms|trash	keep	
+bust|1|near_synonyms|turkey	keep	
+busy oneself|0|synonyms|tinker	keep	
+buttocks|0|synonyms|butt	keep	
+button|1|synonyms|knob	keep	
+butt|0|near_synonyms|propulsion	remove	audit: propulsion is not a head butt
+butt|1|near_synonyms|chump	keep	
+butt|1|near_synonyms|sucker	keep	
+buy off bribe|0|synonyms|square	keep	
+buy off|0|synonyms|square	keep	
+buzz off|0|synonyms|beat it	keep	
+cad|0|near_synonyms|churl	keep	
+call it a day|0|synonyms|knock off	keep	
+call up|0|synonyms|ring	keep	
+callous|0|synonyms|horny	remove	horny sexual reading
+cannibal|0|synonyms|savage	remove	colonial stereotype
+cant|0|synonyms|slant	keep	
+cant|0|synonyms|slope	keep	
+cant|3|synonyms|slant	keep	
+cant|3|synonyms|slope	keep	
+capture|0|near_synonyms|possession	remove	audit: possession is having, not taking by force
+careless|0|synonyms|sloppy	keep	
+caress|0|near_synonyms|buss	keep	
+caress|1|near_synonyms|buss	keep	
+carry off achieve|0|synonyms|pull off	keep	
+carry off|0|synonyms|pull off	keep	
+cashier|0|synonyms|bust	keep	
+cask|0|synonyms|butt	keep	
+cast away|0|synonyms|scrap	keep	
+castaway|0|near_synonyms|hobo	keep	
+caste|0|near_synonyms|estate	keep	
+cat's-paw|0|synonyms|patsy	keep	
+cat's-paw|0|synonyms|sucker	keep	
+catcall|0|synonyms|raspberry	keep	
+catch|1|near_synonyms|booty	keep	
+catch|1|synonyms|bag	keep	
+categorize|0|near_synonyms|tag	keep	
+cat|0|synonyms|moggy	keep	
+cat|0|synonyms|puss	keep	
+caucus|0|near_synonyms|powwow	remove	culturally insensitive
+causeway|0|synonyms|dike	keep	
+censor|0|synonyms|black out	keep	
+cerebral|0|near_synonyms|highbrow	keep	
+cesspool|0|near_synonyms|dump	keep	
+chains|0|synonyms|bondage	keep	
+challenging|0|synonyms|tough	keep	
+chaperon|0|synonyms|escort	keep	
+chaperon|1|synonyms|escort	keep	
+chap|0|near_synonyms|gink	keep	
+characterize|0|near_synonyms|tag	keep	
+charcoal|1|synonyms|black carbon	keep	
+charity|0|synonyms|handout	keep	
+chatter|0|synonyms|blather	keep	
+cheap|3|near_synonyms|scurvy	keep	
+cheap|4|synonyms|tight	keep	
+cheerful|0|synonyms|gay	remove	old meaning reads as sexuality today
+chestnut|0|synonyms|reddish brown	keep	
+chest|0|near_synonyms|bust	keep	
+chicanery|0|near_synonyms|hocus-pocus	keep	
+chicken out|0|synonyms|wimp out	keep	
+chicken|0|synonyms|sissy	keep	
+child|0|near_synonyms|tyke	keep	
+chill|1|near_synonyms|wet blanket	keep	
+chime in|0|near_synonyms|square	keep	
+chime|0|near_synonyms|bong	keep	
+chink|0|synonyms|slit	keep	
+chipper|0|near_synonyms|up	keep	
+chisel|1|near_synonyms|freeload	keep	
+chivy|0|synonyms|rag	keep	
+chop|0|near_synonyms|bust	keep	
+chop|1|near_synonyms|gash	keep	
+chubby|0|synonyms|tubby	rude	body-shaming
+chump|0|near_synonyms|butt	keep	
+chump|0|synonyms|fall guy	keep	
+chump|0|synonyms|sucker	keep	
+circus|1|synonyms|ball	keep	
+citrus|0|synonyms|tart	keep	
+citrus|1|synonyms|citrus fruit	keep	
+civil servant|0|synonyms|mandarin	keep	
+clamorous|0|near_synonyms|loudmouthed	keep	
+clang|0|near_synonyms|bong	keep	
+clap|0|synonyms|bang	keep	
+clap|1|near_synonyms|bang	keep	
+clap|3|near_synonyms|bang	keep	
+clash with|0|synonyms|butt heads with	keep	
+clash|0|near_synonyms|bang	keep	
+clash|2|near_synonyms|bang	keep	
+classify|0|near_synonyms|tag	keep	
+classy|0|synonyms|posh	keep	
+clatter|0|near_synonyms|bang	keep	
+claw|1|near_synonyms|bloody	keep	
+claw|1|near_synonyms|gash	keep	
+clay|0|near_synonyms|sod	keep	
+clean-cut|1|near_synonyms|square	keep	
+cleft|0|synonyms|slit	keep	
+clever|0|near_synonyms|handy	keep	
+click|1|near_synonyms|score	keep	
+clinging|1|synonyms|clingy	keep	
+clink|1|synonyms|tink	keep	
+clip|3|synonyms|nip	keep	
+clip|4|near_synonyms|constrict	remove	audit: constrict means squeeze, not cut short
+clobber|0|near_synonyms|lick	keep	
+clodhopper|0|synonyms|hick	keep	
+clod|1|near_synonyms|fathead	keep	
+clod|1|near_synonyms|moron	keep	
+clod|1|synonyms|dimwit	keep	
+clod|1|synonyms|dolt	keep	
+clod|1|synonyms|oaf	keep	
+clod|1|synonyms|yokel	keep	
+clothes-horse|0|synonyms|fop	keep	
+clothing|0|near_synonyms|rags	keep	
+cloth|0|near_synonyms|stuff	keep	
+cloudy|1|near_synonyms|baffling	remove	audit: baffling means puzzling, not indistinct
+cloud|1|near_synonyms|wet blanket	keep	
+clown around|0|synonyms|monkey around	keep	
+cloy|0|near_synonyms|stuff	keep	
+club|2|near_synonyms|bang	keep	
+clue|0|synonyms|tip	keep	
+clump|1|near_synonyms|bang	keep	
+clump|1|synonyms|tramp	keep	
+clump|2|near_synonyms|bang	keep	
+clump|2|synonyms|tramp	keep	
+clumsy|0|synonyms|klutzy	keep	
+clumsy|2|near_synonyms|sloppy	keep	
+cockeyed|1|near_synonyms|nutty	keep	
+codger|0|synonyms|geezer	keep	
+cog|1|near_synonyms|pencil pusher	keep	
+coincide|0|synonyms|square	keep	
+coitus|0|synonyms|sexual intercourse	keep	
+cold water|0|synonyms|wet blanket	keep	
+coldblooded|0|near_synonyms|savage	keep	
+collar|1|synonyms|buttonhole	keep	
+collateral|3|near_synonyms|warranty	remove	audit: warranty is a guarantee, not pledged property
+collide|0|near_synonyms|bang	keep	
+color|5|synonyms|slant	keep	
+colossus|0|near_synonyms|whale	keep	
+come what may|0|synonyms|come hell or high water	keep	
+comeback|1|near_synonyms|crack	keep	
+comfort|2|near_synonyms|stroke	keep	
+command|4|near_synonyms|impose	remove	audit: impose does not mean command attention or respect
+commerce|1|synonyms|intercourse	keep	
+common|3|near_synonyms|cheap	keep	
+communication|0|near_synonyms|intercourse	keep	
+companion|0|near_synonyms|escort	keep	
+comport|1|synonyms|square	keep	
+con man|0|synonyms|grifter	keep	
+con man|0|synonyms|shark	keep	
+conclusion|2|near_synonyms|fruit	keep	
+concussion|0|near_synonyms|bang	keep	
+condemned|0|synonyms|damned	keep	
+condition|1|synonyms|trim	keep	
+conductor|0|near_synonyms|escort	keep	
+conduct|2|synonyms|escort	keep	
+confederate|0|near_synonyms|tool	keep	
+confidence man|0|synonyms|grifter	keep	
+confine|1|synonyms|shut up	keep	
+conformist|0|near_synonyms|copycat	keep	
+conform|0|synonyms|square	keep	
+conglomerate|1|near_synonyms|snowball	keep	
+congratulate oneself|0|synonyms|crow	keep	
+conjunction|0|near_synonyms|intercourse	remove	intercourse out of context
+conjuration|0|near_synonyms|hocus-pocus	keep	
+conjure|1|near_synonyms|voodoo	keep	
+connive|0|synonyms|cabal	keep	
+conquered|0|synonyms|beat	keep	
+consort|1|synonyms|square	keep	
+consort|2|near_synonyms|companion	keep	
+conspire|0|synonyms|cabal	keep	
+constant|0|near_synonyms|tough	keep	
+consultant|0|synonyms|guru	keep	
+contemptible|0|synonyms|scurvy	keep	
+content|1|synonyms|nub	keep	
+contour|0|near_synonyms|slope	keep	
+contrivance|1|synonyms|contraption	keep	
+contrived|0|near_synonyms|arty	keep	
+conundrum|0|synonyms|poser	keep	
+convenient|0|synonyms|handy	keep	
+convivial|0|synonyms|gay	remove	old meaning reads as sexuality today
+convoy|0|synonyms|escort	keep	
+convoy|1|synonyms|escort	keep	
+cooler|0|synonyms|fridge	keep	
+coop|2|synonyms|shut up	keep	
+copulation|0|synonyms|sexual intercourse	keep	
+copy|2|synonyms|ape	keep	
+coquettish|0|near_synonyms|fast	rude	sexist; implies promiscuity
+core|0|synonyms|meat	keep	
+core|0|synonyms|nub	keep	
+corny|0|near_synonyms|square	keep	
+corn|1|synonyms|schmaltz	keep	
+corollary|0|near_synonyms|fruit	keep	
+corpulence|0|near_synonyms|blubber	rude	body-shaming
+corpulent|0|near_synonyms|fatty	rude	body-shaming insult
+corpulent|0|synonyms|tubby	rude	body-shaming
+correction officer|0|synonyms|screw	keep	
+corrupt|0|synonyms|perverted	keep	
+corrupt|2|synonyms|perverted	keep	
+cortege|0|near_synonyms|escort	keep	
+cotton up to|0|synonyms|suck up to	keep	
+counsel|0|near_synonyms|powwow	remove	culturally insensitive
+counsel|4|near_synonyms|powwow	remove	culturally insensitive
+counterfeit|0|synonyms|pseudo	keep	
+counterfeit|4|near_synonyms|ape	keep	
+country|1|synonyms|sticks	keep	
+courtship|0|synonyms|suit	keep	
+court|3|near_synonyms|toady	keep	
+cover for|1|synonyms|whitewash	keep	
+cowardly|0|near_synonyms|sissy	rude	gendered insult
+cowardly|0|synonyms|yellow	keep	
+coward|0|near_synonyms|milksop	keep	
+coward|0|near_synonyms|milquetoast	keep	
+coward|0|near_synonyms|sissy	rude	gendered insult
+coward|0|near_synonyms|weak sister	keep	
+cowboy|1|synonyms|fly-by-night	keep	
+coxcomb|0|near_synonyms|dude	keep	
+coxcomb|0|near_synonyms|jackanapes	keep	
+coxcomb|0|synonyms|fop	keep	
+cracked|2|synonyms|loony	keep	
+cracked|2|synonyms|nutty	keep	
+crackpot|0|near_synonyms|queer	remove	old meaning reads as sexuality today
+crackpot|0|synonyms|nutty	keep	
+crackpot|1|near_synonyms|freak	keep	
+crackpot|1|synonyms|nut	keep	
+crackpot|1|synonyms|screwball	keep	
+crack|3|near_synonyms|bang	keep	
+crack|7|synonyms|bang	keep	
+crank|0|near_synonyms|freak	keep	
+crank|0|synonyms|nut	keep	
+crank|0|synonyms|weirdo	keep	
+crank|1|near_synonyms|killjoy	keep	
+crank|1|near_synonyms|sorehead	keep	
+crank|1|synonyms|crab	keep	
+crap out|0|synonyms|die	keep	
+crash into|0|synonyms|bang into	keep	
+crash|0|synonyms|bang	keep	
+crash|5|synonyms|bang	keep	
+crass|1|synonyms|dumb	keep	
+craven|0|synonyms|yellow	keep	
+craze|1|near_synonyms|crack	keep	
+crazy|0|synonyms|batty	keep	
+crazy|2|near_synonyms|shaky	remove	audit: shaky does not mean senseless
+cream puff|1|synonyms|milksop	keep	
+cream puff|1|synonyms|sissy	keep	
+cream puff|1|synonyms|wimp	keep	
+creature|1|near_synonyms|homo sapiens	keep	
+creep|1|near_synonyms|toady	keep	
+crevice|0|near_synonyms|slit	keep	
+crimp|1|near_synonyms|wet blanket	keep	
+crimp|5|near_synonyms|bootlick	keep	
+crimp|5|near_synonyms|toady	keep	
+crimson|0|synonyms|red	keep	
+crimson|1|synonyms|blood red	keep	
+cripple|0|synonyms|lame	keep	
+criticism|1|synonyms|slam	keep	
+criticize|1|near_synonyms|score	keep	
+criticize|1|synonyms|slam	keep	
+crooked|0|synonyms|bent	keep	
+crouch|2|near_synonyms|bootlick	keep	
+crouch|2|near_synonyms|toady	keep	
+crowd|1|synonyms|riffraff	rude	classist
+crowd|3|near_synonyms|butt	keep	
+crowned head|0|synonyms|queen	keep	
+crown|0|synonyms|queen	keep	
+crucial|1|near_synonyms|tough	keep	
+cruel|0|synonyms|savage	keep	
+crumb|0|near_synonyms|nip	keep	
+crux|0|synonyms|nub	keep	
+cry up|0|synonyms|puff	keep	
+cry|3|near_synonyms|ejaculation	remove	ejaculation out of context
+cry|5|synonyms|blubber	keep	
+cry|5|synonyms|snivel	keep	
+cub|1|synonyms|whelp	keep	
+cub|2|synonyms|greenhorn	keep	
+cuff|0|synonyms|lick	keep	
+culmination|0|near_synonyms|pink	keep	
+curious|2|synonyms|queer	remove	old meaning reads as sexuality today
+curly|0|synonyms|kinky	remove	kinky sexual or pejorative
+curry favor with|0|synonyms|suck up to	keep	
+curry favor|0|synonyms|suck up	keep	
+curry favor|0|synonyms|toady	keep	
+cursed|0|synonyms|damned	keep	
+curtains|1|synonyms|it	keep	
+curt|1|near_synonyms|tart	keep	
+curved|0|synonyms|bent	keep	
+cushy|0|near_synonyms|posh	keep	
+cut loose|1|synonyms|party	keep	
+cut out|1|synonyms|knock off	keep	
+cut out|2|synonyms|die	keep	
+cutthroat|0|synonyms|savage	keep	
+cutting up|0|synonyms|monkey business	keep	
+cut|0|synonyms|gash	keep	
+cut|0|synonyms|slit	keep	
+cut|4|synonyms|gash	keep	
+cut|4|synonyms|slit	keep	
+dab|0|near_synonyms|swat	remove	audit: swat is a hard hit, not a light touch
+dally|2|near_synonyms|poke	keep	
+dame|0|synonyms|madam	keep	
+damned|1|synonyms|bloody	keep	
+dandy|1|near_synonyms|dude	keep	
+dandy|1|near_synonyms|nob	keep	
+dandy|1|near_synonyms|toff	keep	
+dandy|1|synonyms|clotheshorse	keep	
+dark-skinned|0|synonyms|black	keep	
+dark-skinned|0|synonyms|swarthy	keep	
+dark|0|synonyms|black	keep	
+dart|0|synonyms|zip	keep	
+dash|2|synonyms|zip	keep	
+dastardly|0|synonyms|yellow	keep	
+dawdle|0|near_synonyms|poke	keep	
+de luxe|0|synonyms|posh	keep	
+dead weight|0|synonyms|ball and chain	keep	
+deadly|1|synonyms|savage	keep	
+dead|1|near_synonyms|beat	keep	
+dead|2|near_synonyms|smothered	remove	audit: smothered does not mean dull
+dear one|0|synonyms|precious	keep	
+dear|2|synonyms|honey	keep	
+debauched|0|near_synonyms|perverted	keep	
+debts|0|synonyms|red ink	keep	
+deception|0|near_synonyms|hocus-pocus	keep	
+decline|3|synonyms|slant	keep	
+decline|3|synonyms|slope	keep	
+declivity|0|synonyms|slope	keep	
+decode|0|synonyms|crack	keep	
+decoy|0|synonyms|shill	keep	
+decrepit|0|near_synonyms|invalid	keep	
+deep-six|0|synonyms|ditch	keep	
+deep-six|0|synonyms|dump	keep	
+deep-six|0|synonyms|scrap	keep	
+default|0|synonyms|welsh	remove	ethnic slur
+defeat|1|synonyms|cream	keep	
+defective|0|near_synonyms|subnormal	remove	subnormal out of context, offensive
+deficient|1|synonyms|subnormal	keep	
+deformed|0|near_synonyms|bent	keep	
+deformed|0|near_synonyms|crippled	remove	crippled is offensive
+deft|0|synonyms|handy	keep	
+degenerate|0|synonyms|perverted	keep	
+delay|1|near_synonyms|loiter	remove	audit: loiter means linger, not postpone
+delivery boy|0|synonyms|errand boy	keep	
+deliver|2|near_synonyms|toss off	remove	toss off sexual slang
+delusional|0|synonyms|out of touch	keep	
+demand|0|near_synonyms|appeal	remove	audit: appeal is a plea, the opposite of peremptory
+demolish|1|near_synonyms|trash	keep	
+demon|1|near_synonyms|witch	keep	
+demon|2|near_synonyms|nut	keep	
+demon|2|synonyms|whiz	keep	
+demoralize|0|near_synonyms|cripple	keep	
+demure|0|near_synonyms|prissy	remove	pejorative; demure is positive
+den|1|near_synonyms|nest	keep	
+depose|0|near_synonyms|sack	keep	
+depraved|0|synonyms|perverted	keep	
+depressed area|0|synonyms|ghetto	keep	
+derelict|1|synonyms|bum	keep	
+derelict|1|synonyms|hobo	keep	
+derelict|1|synonyms|tramp	keep	
+deride|0|near_synonyms|rag	keep	
+derivative|0|near_synonyms|old hat	keep	
+descend|0|near_synonyms|slope	keep	
+descent|1|synonyms|slope	keep	
+desirable|1|synonyms|sexy	keep	
+destroy|0|near_synonyms|trash	keep	
+detective|0|synonyms|dick	rude	vulgar slang for detective
+detention|0|near_synonyms|bondage	remove	bondage sexual reading
+detonation|0|synonyms|bang	keep	
+devastating|0|near_synonyms|savage	keep	
+develop|1|near_synonyms|promote	remove	audit: promote is transitive; develop here is intransitive
+deviant|0|synonyms|kinky	rude	kinky sexual slang
+device|0|synonyms|contraption	keep	
+devil|1|near_synonyms|savage	keep	
+devotee|0|near_synonyms|nut	keep	
+devour|0|near_synonyms|stuff	keep	
+diamond|0|synonyms|rock	keep	
+dice|0|synonyms|craps	keep	
+dick|0|synonyms|creep	keep	
+dick|0|synonyms|idiot	keep	
+dick|0|synonyms|jerk	keep	
+dick|0|synonyms|swine	keep	
+dictator|0|near_synonyms|hitler	remove	out of context, trivialises
+diehard|0|near_synonyms|blimp	keep	
+difficult|1|synonyms|tough	keep	
+dig|0|synonyms|crack	keep	
+dillydally|0|near_synonyms|poke	keep	
+din|1|near_synonyms|bang	keep	
+din|2|near_synonyms|nag	keep	
+dip into|1|synonyms|tap	keep	
+dip|1|synonyms|slope	keep	
+direction|2|near_synonyms|bent	keep	
+direct|5|near_synonyms|slant	keep	
+dirty look|0|synonyms|black look	keep	
+dirt|1|near_synonyms|sod	keep	
+dirt|2|synonyms|smut	keep	
+dirt|3|near_synonyms|tattle	keep	
+disabled|0|near_synonyms|invalid	keep	
+disabled|0|synonyms|crippled	remove	crippled is offensive
+disabled|0|synonyms|handicapped	keep	
+disable|0|synonyms|cripple	remove	cripple is offensive for people
+disadvantaged|0|near_synonyms|handicapped	keep	
+disappointment|1|synonyms|bomb	keep	
+discard|0|synonyms|scrap	keep	
+discharge|5|synonyms|sack	keep	
+discharge|6|near_synonyms|square	keep	
+disclosure|0|near_synonyms|leak	keep	
+discouragement|1|near_synonyms|wet blanket	keep	
+discourse|0|near_synonyms|intercourse	keep	
+dismiss|0|synonyms|boot	keep	
+dispose of|1|synonyms|dump	keep	
+dispose of|1|synonyms|scrap	keep	
+disposition|2|near_synonyms|bent	keep	
+distillation|0|near_synonyms|nub	keep	
+distorted|0|synonyms|bent	keep	
+distort|1|synonyms|slant	keep	
+ditch|1|near_synonyms|gash	keep	
+ditch|2|synonyms|dump	keep	
+ditch|2|synonyms|scrap	keep	
+dither|0|synonyms|flap	keep	
+diva|1|synonyms|drama queen	keep	
+diva|1|synonyms|princess	keep	
+dive|0|synonyms|header	keep	
+dive|1|synonyms|dump	keep	
+dive|1|synonyms|hole	keep	
+dive|1|synonyms|joint	keep	
+divinity|1|synonyms|idol	remove	audit: idol is an image or object of worship, not a god
+do in|0|synonyms|knock off	keep	
+do in|1|synonyms|knacker	keep	
+do well|0|synonyms|shine	keep	
+dog tired|0|synonyms|knackered	keep	
+dog-ear|0|synonyms|bent corner	keep	
+dog-eat-dog|0|synonyms|savage	keep	
+dog-tired|0|synonyms|beat	keep	
+dog-tired|0|synonyms|knackered	keep	
+doll|1|synonyms|honey	keep	
+dolt|0|synonyms|dimwit	keep	
+dolt|0|synonyms|numskull	keep	
+don juan|0|synonyms|playboy	keep	
+done in|0|synonyms|beat	keep	
+done in|0|synonyms|knackered	keep	
+done up|1|synonyms|beat	keep	
+donkey|0|synonyms|ass	keep	
+doomed|0|synonyms|damned	keep	
+dope|2|near_synonyms|drip	keep	
+dope|2|near_synonyms|jerk	keep	
+dope|2|synonyms|dimwit	keep	
+dope|2|synonyms|dumbbell	keep	
+douche|0|synonyms|creep	keep	
+douche|0|synonyms|idiot	keep	
+douche|0|synonyms|jerk	keep	
+douche|0|synonyms|swine	keep	
+douche|0|synonyms|tool	keep	
+dough|0|synonyms|jack	keep	
+dove|1|synonyms|peacenik	keep	
+dowdy|0|near_synonyms|sloppy	keep	
+dowdy|1|near_synonyms|slattern	rude	sexist term for a woman
+down-and-outer|0|synonyms|bum	keep	
+down-and-outer|0|synonyms|tramp	keep	
+downer|0|synonyms|bummer	keep	
+downer|0|synonyms|killjoy	keep	
+downgrade|0|synonyms|slope	keep	
+drab|1|near_synonyms|slattern	rude	sexist term for a woman
+draft|1|near_synonyms|nip	keep	
+drag|2|near_synonyms|drip	keep	
+drag|2|synonyms|wet blanket	keep	
+draw in|0|synonyms|suck in	keep	
+draw in|1|synonyms|suck in	keep	
+draw|0|near_synonyms|yank	keep	
+draw|3|synonyms|suck in	keep	
+dregs|0|near_synonyms|trash	keep	
+dregs|0|synonyms|riffraff	remove	refers to people, not leftovers
+dregs|0|synonyms|scum	keep	
+dresser|0|near_synonyms|dude	keep	
+dresser|0|synonyms|clotheshorse	keep	
+dresser|0|synonyms|fop	keep	
+dressing gown|0|synonyms|wrapper	keep	
+drifter|0|near_synonyms|gypsy	remove	ethnic slur
+drifter|0|synonyms|hobo	keep	
+drifter|0|synonyms|tramp	keep	
+drift|1|near_synonyms|bent	keep	
+drift|4|near_synonyms|tramp	keep	
+drinker|0|synonyms|sot	rude	derogatory for a neutral word
+drink|1|near_synonyms|hooker	remove	hooker reads as prostitute
+drink|1|near_synonyms|nip	keep	
+drink|2|near_synonyms|suck	keep	
+drip|1|synonyms|jerk	keep	
+drivel|1|near_synonyms|blah	keep	
+drivel|1|synonyms|blather	keep	
+droll|0|near_synonyms|queer	remove	old meaning reads as sexuality today
+drool|1|synonyms|blather	keep	
+drop|0|near_synonyms|blob	keep	
+drop|1|near_synonyms|lick	keep	
+drop|2|near_synonyms|slope	keep	
+drop|4|near_synonyms|dump	keep	
+drop|7|synonyms|sack	keep	
+drub|1|synonyms|lick	keep	
+drudgery|0|near_synonyms|bondage	keep	
+drudge|0|near_synonyms|flunky	keep	
+drug|1|synonyms|dope	keep	
+drunkard|0|near_synonyms|barfly	keep	
+drunkard|0|synonyms|lush	keep	
+drunkard|0|synonyms|wino	keep	
+drunk|0|near_synonyms|under the weather	remove	audit: under the weather means ill, not drunk
+drunk|0|synonyms|tight	keep	
+drunk|1|synonyms|lush	keep	
+drunk|1|synonyms|wino	keep	
+drunk|2|near_synonyms|bat	keep	
+drunk|2|near_synonyms|bust	keep	
+drunk|2|synonyms|bender	keep	
+dry up|1|synonyms|shut up	keep	
+dry|3|near_synonyms|stuffy	remove	audit: stuffy means prim, not cool and detached
+dub|0|synonyms|tag	keep	
+duck|2|near_synonyms|ditch	keep	
+dude|0|near_synonyms|clotheshorse	keep	
+dude|0|synonyms|fop	keep	
+duffer|0|near_synonyms|oaf	keep	
+dullard|0|near_synonyms|moron	keep	
+dullard|0|synonyms|dimwit	keep	
+dullard|0|synonyms|dolt	keep	
+dullard|0|synonyms|dumbbell	keep	
+dullard|0|synonyms|numskull	keep	
+dummy|1|near_synonyms|jerk	keep	
+dummy|1|synonyms|dimwit	keep	
+dummy|1|synonyms|dolt	keep	
+dummy|1|synonyms|dumbbell	keep	
+dump|1|near_synonyms|joint	keep	
+dump|1|synonyms|hole	keep	
+dunce|0|near_synonyms|idiot	keep	
+dunce|0|near_synonyms|imbecile	keep	
+dunce|0|near_synonyms|moron	keep	
+dunce|0|synonyms|dimwit	keep	
+dunce|0|synonyms|dumbbell	keep	
+dunce|0|synonyms|numskull	keep	
+dupe|0|near_synonyms|greenhorn	keep	
+dupe|0|near_synonyms|softy	keep	
+dupe|0|synonyms|chump	keep	
+dupe|0|synonyms|fall guy	keep	
+dupe|0|synonyms|patsy	keep	
+dupe|0|synonyms|sucker	keep	
+duplicate|1|near_synonyms|fellow	keep	
+dusky|0|near_synonyms|black	keep	
+dusky|0|synonyms|swarthy	keep	
+dust storm|0|synonyms|black blizzard	keep	
+dwarf|0|near_synonyms|shrimp	rude	derogatory about short stature
+dwarf|0|synonyms|pygmy	remove	pygmy offensive for people
+dwarf|1|near_synonyms|top	keep	
+dyed|0|synonyms|colored	keep	
+east|0|synonyms|oriental	keep	
+easy mark|0|synonyms|mug	keep	
+easy mark|0|synonyms|patsy	keep	
+easy mark|0|synonyms|sucker	keep	
+ebony|0|synonyms|black	keep	
+eccentric|0|synonyms|queer	remove	old meaning reads as sexuality today
+eccentric|1|near_synonyms|nut	keep	
+eccentric|1|synonyms|screwball	keep	
+eccentric|1|synonyms|weirdo	keep	
+editorial|1|synonyms|think piece	keep	
+effrontery|0|synonyms|cheek	keep	
+einstein|0|synonyms|brain	keep	
+einstein|0|synonyms|egghead	keep	
+einstein|0|synonyms|whiz	keep	
+elf|0|near_synonyms|dwarf	keep	
+elf|0|synonyms|fairy	keep	
+elitist|0|synonyms|snob	keep	
+embankment|0|synonyms|dike	keep	
+embellished|1|synonyms|colored	keep	
+embroidered|1|synonyms|colored	keep	
+emergency|0|near_synonyms|hole	keep	
+empire builder|0|synonyms|climber	keep	
+employee|0|near_synonyms|hireling	keep	
+empress|0|synonyms|queen	keep	
+enclave|0|synonyms|ghetto	keep	
+end product|0|synonyms|fruit	keep	
+endeavor|0|near_synonyms|crack	keep	
+end|3|near_synonyms|fruit	keep	
+enfeeble|0|synonyms|cripple	keep	
+engaged|1|synonyms|tied up	keep	
+enjoy oneself|0|synonyms|party	keep	
+ensemble|1|near_synonyms|toilet	remove	dated sense, reads as lavatory
+enslaved|0|synonyms|in bondage	keep	
+enter|0|near_synonyms|insert	remove	audit: insert is transitive, cannot replace enter a place
+enthusiastic about|0|synonyms|gung ho about	keep	
+enthusiast|0|near_synonyms|freak	keep	
+enthusiast|0|near_synonyms|nut	keep	
+entitle|1|near_synonyms|tag	keep	
+entourage|0|near_synonyms|escort	keep	
+entrap|0|near_synonyms|bag	keep	
+entrap|0|near_synonyms|nail	keep	
+entreaty|0|near_synonyms|suit	keep	
+epithet|0|near_synonyms|tag	keep	
+erotic|0|synonyms|sexy	keep	
+erotic|1|near_synonyms|horny	rude	crude sexual slang
+errand boy|0|synonyms|flunky	keep	
+erratic|0|near_synonyms|queer	remove	old meaning reads as sexuality today
+erroneous|0|near_synonyms|invalid	keep	
+escalating|0|synonyms|snowballing	keep	
+evade|0|near_synonyms|ditch	keep	
+even|2|synonyms|square	keep	
+even|3|synonyms|square	keep	
+evil|0|synonyms|black hearted	keep	
+exactly|0|synonyms|bang on	keep	
+exaggerate|0|near_synonyms|puff	keep	
+examine|1|near_synonyms|pump	keep	
+excavated|0|synonyms|dug out	keep	
+exceed|0|synonyms|beat	keep	
+exceed|0|synonyms|top	keep	
+excel|0|synonyms|top	keep	
+exception|0|near_synonyms|black sheep	keep	
+exchange|0|near_synonyms|intercourse	keep	
+excitement|0|near_synonyms|flap	keep	
+exclamation|0|synonyms|ejaculation	remove	ejaculation out of context
+exclusive|1|synonyms|posh	keep	
+exhort|0|near_synonyms|prod	keep	
+exigent|0|near_synonyms|tough	keep	
+expedition|0|near_synonyms|tramp	keep	
+expert|0|near_synonyms|handy	keep	
+expired|0|synonyms|invalid	keep	
+explain away|0|synonyms|whitewash	keep	
+exploit|1|near_synonyms|milk	keep	
+explosion|0|near_synonyms|bang	keep	
+exterminate|0|near_synonyms|waste	keep	
+exult|0|near_synonyms|crow	keep	
+fabrication|0|near_synonyms|fib	keep	
+fabric|0|near_synonyms|stuff	keep	
+facet|0|near_synonyms|slant	keep	
+face|0|synonyms|mug	keep	
+face|0|synonyms|puss	keep	
+fag end|0|synonyms|butt	keep	
+fagged|0|synonyms|beat	keep	
+fag|0|synonyms|butt	keep	
+failure|1|synonyms|bomb	keep	
+failure|1|synonyms|loser	keep	
+fail|0|synonyms|bomb	keep	
+faint-hearted|0|synonyms|chicken	keep	
+faint|3|synonyms|black out	keep	
+fair-haired boy|0|synonyms|blue-eyed boy	keep	
+falderal|0|near_synonyms|blather	keep	
+fall flat|0|synonyms|bomb	keep	
+fall for|0|synonyms|swallow	keep	
+fall guy|0|synonyms|patsy	keep	
+fall guy|0|synonyms|sucker	keep	
+falsehood|0|synonyms|fib	keep	
+false|1|synonyms|pseudo	keep	
+fanatic|0|near_synonyms|hothead	keep	
+fanatic|0|near_synonyms|nut	keep	
+fan|0|near_synonyms|freak	keep	
+farm|0|near_synonyms|hoe	keep	
+fashion plate|0|synonyms|clotheshorse	keep	
+fashion plate|0|synonyms|fop	keep	
+fathead|0|synonyms|ass	keep	
+fat|0|synonyms|tubby	rude	body-shaming
+faucet|0|synonyms|cock	keep	
+fawn on|0|synonyms|bootlick	keep	
+fawn on|0|synonyms|suck up to	keep	
+fawn upon|0|synonyms|bootlick	keep	
+fawn upon|0|synonyms|suck up to	keep	
+fawn|0|synonyms|bootlick	keep	
+fawn|0|synonyms|toady	keep	
+fay|0|synonyms|fairy	keep	
+feces|0|near_synonyms|muck	keep	
+feebleminded|0|near_synonyms|handicapped	keep	
+feeble|0|near_synonyms|invalid	keep	
+feeble|1|synonyms|lame	keep	
+feel for|1|synonyms|grope for	keep	
+feel|2|near_synonyms|grope	keep	
+feline|1|synonyms|moggy	keep	
+feline|1|synonyms|puss	keep	
+fellow|0|near_synonyms|jack	keep	
+fence|1|near_synonyms|separate	remove	audit: separate does not mean enclose with a fence
+fend off|0|synonyms|beat off	remove	beat off sexual slang
+ferocious|0|synonyms|savage	keep	
+festive|0|synonyms|gay	remove	old meaning reads as sexuality today
+fetching|0|near_synonyms|smashing	keep	
+fiasco|0|near_synonyms|bummer	keep	
+fiasco|0|synonyms|bomb	keep	
+fiction|0|near_synonyms|fib	keep	
+fiendish|0|near_synonyms|savage	keep	
+fiend|1|near_synonyms|savage	keep	
+fiend|1|near_synonyms|swine	keep	
+fierce|0|synonyms|savage	keep	
+fiery|0|synonyms|red hot	keep	
+fifth columnist|0|synonyms|mole	keep	
+fight off|0|synonyms|beat off	remove	beat off sexual slang
+fighter|0|synonyms|bruiser	keep	
+figment|0|near_synonyms|fib	keep	
+filling|0|synonyms|square	keep	
+filth|0|synonyms|muck	keep	
+filth|1|synonyms|smut	keep	
+finicky|0|near_synonyms|prissy	keep	
+fink out|0|synonyms|welsh	remove	ethnic slur
+fink|0|near_synonyms|dog	keep	
+fink|0|near_synonyms|scab	keep	
+fink|0|near_synonyms|scum	keep	
+fink|0|near_synonyms|toad	keep	
+fink|0|synonyms|lowlife	keep	
+fink|0|synonyms|rat	keep	
+fink|0|synonyms|skunk	keep	
+fire-eater|0|synonyms|hothead	keep	
+firebrand|0|near_synonyms|hothead	keep	
+fire|2|near_synonyms|hell	keep	
+first lady|1|synonyms|queen	keep	
+first rate|0|synonyms|crack	keep	
+first|0|near_synonyms|previous	remove	audit: previous means earlier, not first of all
+fish story|0|synonyms|fib	keep	
+fishy|0|near_synonyms|queer	remove	old meaning reads as sexuality today
+fish|2|synonyms|grope	keep	
+fissure|0|near_synonyms|slit	keep	
+fitness|0|synonyms|trim	keep	
+fit|2|near_synonyms|snit	keep	
+fizzle|0|synonyms|bomb	keep	
+fizzle|0|synonyms|bust	keep	
+fizzle|1|near_synonyms|poop out	keep	
+fizzle|1|synonyms|bomb	keep	
+flashy|0|near_synonyms|cheap	keep	
+flatterer|0|near_synonyms|flunkey	keep	
+flatterer|0|synonyms|bootlicker	keep	
+flattery|0|near_synonyms|honey	keep	
+flattery|0|near_synonyms|taffy	keep	
+flatter|0|near_synonyms|bootlick	keep	
+flatter|0|near_synonyms|puff	keep	
+flavor|2|near_synonyms|color	remove	audit: color does not mean give a taste
+flay|0|near_synonyms|savage	keep	
+fledgling|0|synonyms|greenhorn	keep	
+fling|1|synonyms|crack	keep	
+flip out|0|synonyms|go ape	keep	
+flippant|0|synonyms|flip	keep	
+flip|0|near_synonyms|jerk	keep	
+flip|0|near_synonyms|yank	keep	
+flip|1|near_synonyms|jerk	keep	
+flirt|0|near_synonyms|playboy	keep	
+floater|0|near_synonyms|gypsy	remove	ethnic slur
+floater|0|synonyms|hobo	keep	
+floater|0|synonyms|tramp	keep	
+flop|0|synonyms|bomb	keep	
+flop|0|synonyms|bust	keep	
+flop|0|synonyms|turkey	keep	
+flop|1|synonyms|plonk	keep	
+flop|2|synonyms|bomb	keep	
+flounder|0|near_synonyms|grope	keep	
+flourish|1|near_synonyms|bear fruit	keep	
+flower child|0|synonyms|hippie	keep	
+fluff|0|near_synonyms|shag	keep	
+fluff|1|synonyms|boner	rude	boner sexual double meaning
+flunky|0|near_synonyms|tool	keep	
+flunky|0|synonyms|bootlicker	keep	
+flunky|0|synonyms|toady	keep	
+flushed|0|synonyms|red	keep	
+flush|2|near_synonyms|excitement	remove	audit: excitement is a cause, not a reddening of the face
+flush|2|near_synonyms|red	keep	
+flush|4|near_synonyms|douche	remove	douche out of context
+fodder|1|synonyms|stuff	keep	
+foil|1|near_synonyms|cripple	keep	
+folk tale|0|synonyms|fairy tale	keep	
+fondle|0|near_synonyms|smooch	keep	
+fool around|0|near_synonyms|poke	keep	
+fool with|0|near_synonyms|poke	keep	
+foolishness|0|synonyms|idiocy	keep	
+foolish|0|near_synonyms|empty-headed	keep	
+fool|0|near_synonyms|butt	remove	butt reads as buttocks; wrong sense
+fool|0|near_synonyms|loony	keep	
+fool|0|synonyms|dope	keep	
+fool|0|synonyms|moron	keep	
+fool|0|synonyms|nincompoop	keep	
+fool|0|synonyms|pinhead	keep	
+fop|0|near_synonyms|buck	keep	
+fop|0|near_synonyms|dude	keep	
+fop|0|near_synonyms|toff	keep	
+fop|0|synonyms|clotheshorse	keep	
+formality|0|near_synonyms|red tape	keep	
+formless|0|near_synonyms|sloppy	keep	
+form|1|near_synonyms|genus	remove	audit: genus is a taxonomic term, reads oddly for kind
+fornication|0|synonyms|sexual intercourse	keep	
+forthcoming|0|near_synonyms|handy	keep	
+fortitude|0|near_synonyms|spunk	keep	
+fortune hunter|0|synonyms|gold digger	keep	
+fortune hunter|0|synonyms|social climber	keep	
+fossil|1|synonyms|antique	keep	
+fossil|1|synonyms|dinosaur	keep	
+fossil|1|synonyms|throwback	keep	
+foul up|0|synonyms|muff	keep	
+foul up|0|synonyms|screw up	keep	
+fouled up|0|synonyms|screwed up	keep	
+frame of mind|0|near_synonyms|bent	keep	
+frame of mind|0|near_synonyms|slant	keep	
+fraternize|0|synonyms|hobnob	keep	
+frazzled|0|synonyms|beat	keep	
+freak|0|near_synonyms|queer	remove	queer reads as slur
+freelance|1|synonyms|job	keep	
+freshman|0|synonyms|greenhorn	keep	
+frock|0|near_synonyms|rags	keep	
+frowzy|0|synonyms|sloppy	keep	
+frugal|0|near_synonyms|tight	keep	
+fruition|0|near_synonyms|happy ending	keep	
+fry|0|synonyms|brown	keep	
+fuddy-duddy|0|near_synonyms|fussbudget	keep	
+fuddy-duddy|0|synonyms|fossil	keep	
+fudge|1|synonyms|weasel	keep	
+fumble|0|synonyms|grope	keep	
+fumble|0|synonyms|muff	keep	
+functionary|0|near_synonyms|politico	keep	
+fundamental|1|synonyms|abc	keep	
+funds|0|near_synonyms|wad	keep	
+funky|1|near_synonyms|sexy	keep	
+funny|1|near_synonyms|freak	keep	
+furious|1|synonyms|savage	keep	
+furor|0|synonyms|flap	keep	
+fury|0|near_synonyms|snit	keep	
+fuss|2|near_synonyms|snivel	keep	
+fuzzy-minded|0|synonyms|woolly-headed	keep	
+gabble|0|synonyms|blather	keep	
+gabble|1|synonyms|blather	keep	
+gadabout|0|near_synonyms|gypsy	remove	gypsy is an ethnic slur
+gadget|0|synonyms|contraption	keep	
+gad|0|near_synonyms|tramp	keep	
+gaffe|0|synonyms|boner	rude	boner is sexual slang
+gag|0|synonyms|crack	keep	
+gag|2|synonyms|puke	keep	
+gala|0|near_synonyms|gay	remove	dated gay will be misread
+gale|0|near_synonyms|ejaculation	remove	ejaculation reads as sexual
+gallant|4|near_synonyms|dude	keep	
+gallant|4|synonyms|fop	keep	
+gallivant|0|near_synonyms|tramp	keep	
+gallivant|0|synonyms|gad	keep	
+gallop|1|near_synonyms|scat	keep	
+gall|1|synonyms|cheek	keep	
+gall|2|near_synonyms|gash	keep	
+gal|0|synonyms|dame	keep	
+gamble|0|synonyms|stake	remove	audit: stake is the money risked, not the venture
+gamble|2|synonyms|blow	keep	
+gamin|0|synonyms|guttersnipe	rude	classist insult
+gangster|0|near_synonyms|goon	keep	
+gangster|0|near_synonyms|tough	keep	
+gape|0|synonyms|gawk	keep	
+garden-variety|0|synonyms|vanilla	keep	
+garish|0|near_synonyms|cheap	keep	
+garment|0|near_synonyms|rags	keep	
+garrote|0|near_synonyms|scrag	keep	
+gash|0|synonyms|slit	keep	
+gash|1|synonyms|slit	keep	
+gaucherie|0|near_synonyms|boner	rude	boner is sexual slang
+gawk|0|near_synonyms|boob	keep	
+gawk|0|near_synonyms|idiot	keep	
+gawk|0|near_synonyms|imbecile	keep	
+gawk|0|near_synonyms|moron	keep	
+gems|0|synonyms|rocks	keep	
+gem|0|near_synonyms|rock	keep	
+genius|1|near_synonyms|bent	keep	
+genius|2|synonyms|whiz	keep	
+gentleman friend|0|synonyms|escort	keep	
+germane|0|near_synonyms|pat	keep	
+get lost|1|synonyms|beat it	keep	
+get mad|0|synonyms|see red	keep	
+get rid of|0|synonyms|ditch	keep	
+get rid of|0|synonyms|scrap	keep	
+get-up-and-go|0|synonyms|zip	keep	
+ghetto|0|synonyms|skid row	remove	wrong meaning
+ghost|0|synonyms|spook	keep	
+giant|1|near_synonyms|whale	keep	
+gibe|0|near_synonyms|crack	keep	
+gift|0|near_synonyms|handout	keep	
+gift|1|synonyms|bent	keep	
+gimpy|0|near_synonyms|crippled	keep	
+ginger|1|synonyms|zip	keep	
+give away|1|near_synonyms|tattle	keep	
+give-and-take|0|synonyms|tit for tat	keep	
+gladsome|0|synonyms|gay	remove	dated gay will be misread
+glad|0|synonyms|gay	remove	dated gay will be misread
+gleeful|0|synonyms|gay	remove	dated gay will be misread
+gloat|0|synonyms|crow	keep	
+glorified|0|synonyms|jumped-up	keep	
+glorify|1|near_synonyms|puff	keep	
+gloss over|0|synonyms|whitewash	keep	
+glutton|0|synonyms|hog	keep	
+glutton|0|synonyms|pig	keep	
+gnarl|0|near_synonyms|screw	keep	
+gnome|0|near_synonyms|fairy	keep	
+go along|0|synonyms|escort	keep	
+go back on|0|synonyms|welsh on	remove	welsh on is an ethnic slur
+go berserk|0|synonyms|see red	keep	
+go beyond|0|synonyms|top	keep	
+go on about|0|synonyms|bang on about	keep	
+go on|2|synonyms|blather	keep	
+go with|2|synonyms|escort	keep	
+go-getter|0|synonyms|eager beaver	keep	
+goad|1|near_synonyms|prick	keep	
+gobble|1|near_synonyms|hog	keep	
+gold digger|0|synonyms|parasite	keep	
+goliath|0|synonyms|monster	keep	
+good deal|1|synonyms|heap	keep	
+good samaritan|0|synonyms|do-gooder	keep	
+goods|0|near_synonyms|stuff	keep	
+goody|1|synonyms|do-gooder	keep	
+goof|0|near_synonyms|screwball	keep	
+goof|0|synonyms|dolt	keep	
+goof|0|synonyms|nincompoop	keep	
+goof|0|synonyms|numskull	keep	
+goof|1|synonyms|muff	keep	
+goof|2|synonyms|muff	keep	
+gooky|0|synonyms|gooey	keep	
+goon|0|synonyms|bruiser	keep	
+goon|0|synonyms|tough	keep	
+goon|1|near_synonyms|ass	keep	
+goon|1|near_synonyms|imbecile	keep	
+goon|1|synonyms|dolt	keep	
+goon|1|synonyms|moron	keep	
+goose|0|near_synonyms|idiot	keep	
+goose|0|near_synonyms|silly	keep	
+goose|0|synonyms|dolt	keep	
+goose|0|synonyms|nincompoop	keep	
+goose|0|synonyms|numskull	keep	
+goo|1|synonyms|schmaltz	keep	
+gorge|1|near_synonyms|maw	keep	
+gory|0|synonyms|bloody	keep	
+gossip|2|synonyms|tattle	keep	
+gouge|2|near_synonyms|gash	keep	
+grade|1|synonyms|slant	keep	
+grade|1|synonyms|slope	keep	
+gradient|0|synonyms|slant	keep	
+gradient|0|synonyms|slope	keep	
+graft|1|near_synonyms|booty	keep	
+graft|1|near_synonyms|pork	keep	
+graft|1|near_synonyms|swag	keep	
+grandfather|0|synonyms|gramps	keep	
+grandfather|0|synonyms|grandpa	keep	
+granny|0|synonyms|grandma	keep	
+granny|0|synonyms|nanny	keep	
+grass roots|0|near_synonyms|sticks	remove	wrong meaning
+grass|0|synonyms|sod	keep	
+grass|1|synonyms|dope	keep	
+gratuity|0|near_synonyms|handout	keep	
+gravitation|0|near_synonyms|bent	remove	wrong sense
+grease the hand|0|synonyms|square	keep	
+great|3|near_synonyms|crack	keep	
+greedy|1|near_synonyms|piggy	keep	
+green|1|near_synonyms|half-baked	keep	
+grill|1|near_synonyms|pump	keep	
+grimace|0|near_synonyms|mug	keep	
+grimace|1|near_synonyms|mug	keep	
+grim|0|near_synonyms|savage	keep	
+grit|1|synonyms|spunk	keep	
+grizzly|1|synonyms|brown bear	keep	
+grouch|0|synonyms|crab	keep	
+grouch|2|synonyms|crab	keep	
+group|3|near_synonyms|hobnob	keep	
+grovel|1|synonyms|toady	keep	
+grubby|0|near_synonyms|sloppy	keep	
+grub|1|near_synonyms|hack	keep	
+grub|2|near_synonyms|meat	keep	
+guffaw|0|near_synonyms|boff	rude	boff is sexual slang
+guff|0|near_synonyms|cheek	keep	
+guidance|0|near_synonyms|escort	keep	
+guide|2|synonyms|escort	keep	
+gum up|0|near_synonyms|muff	keep	
+gum up|0|near_synonyms|queer	remove	queer reads as slur
+gummy|0|synonyms|gooey	keep	
+gun|0|synonyms|piece	keep	
+gush|3|near_synonyms|blather	keep	
+gutless|0|synonyms|chicken	keep	
+gutter language|0|synonyms|smut	keep	
+guttersnipe|0|near_synonyms|bum	keep	
+guy|0|near_synonyms|cat	keep	
+guzzle|0|near_synonyms|nip	remove	nip is a small sip, wrong sense
+gypsy|0|near_synonyms|hobo	keep	
+gypsy|0|near_synonyms|tinker	remove	derogatory term for Travellers
+half pint|0|synonyms|shorty	keep	
+half pint|0|synonyms|shrimp	keep	
+half pint|0|synonyms|squirt	keep	
+half-breed|0|synonyms|mongrel	remove	mongrel for a person is a slur
+half-pint|0|synonyms|shorty	keep	
+half-pint|0|synonyms|shrimp	keep	
+half-pint|0|synonyms|squirt	keep	
+halftruth|0|near_synonyms|fib	keep	
+halfwit|0|synonyms|dimwit	keep	
+halfwit|0|synonyms|idiot	keep	
+halfwit|0|synonyms|moron	keep	
+halfwit|0|synonyms|nincompoop	keep	
+halfwit|0|synonyms|numskull	keep	
+hammer away|0|synonyms|beaver away	keep	
+hammer|0|synonyms|bang	keep	
+hampered|0|synonyms|handicapped	keep	
+hamstring|0|synonyms|cripple	keep	
+hamstrung|0|synonyms|crippled	keep	
+handful|1|synonyms|tearaway	keep	
+handgun|0|synonyms|piece	keep	
+handicapped|0|synonyms|crippled	remove	crippled is offensive for disabled people
+hang together|0|synonyms|square	keep	
+hangover|0|synonyms|head	keep	
+hang|0|near_synonyms|lop	keep	
+hard|1|synonyms|tough	keep	
+harlot|0|near_synonyms|jade	rude	sexist
+harlot|0|near_synonyms|tramp	keep	
+harlot|0|synonyms|strumpet	rude	sexist
+harlot|0|synonyms|tart	keep	
+harlot|0|synonyms|trollop	rude	sexist
+harsh|1|synonyms|tough	keep	
+harvest|0|synonyms|fruit	keep	
+hassle|0|synonyms|scrap	keep	
+hayseed|0|synonyms|clodhopper	keep	
+hayseed|0|synonyms|hick	keep	
+hayseed|0|synonyms|rube	keep	
+hayseed|0|synonyms|yokel	keep	
+haze|2|synonyms|rag	keep	
+he-man|0|synonyms|tough guy	keep	
+headstrong|0|synonyms|pigheaded	keep	
+heart of the matter|0|synonyms|nub	keep	
+hearts and flowers|0|synonyms|schmaltz	keep	
+heart|2|synonyms|meat	keep	
+heart|2|synonyms|nub	keep	
+heathen|0|synonyms|infidel	keep	
+heave|2|synonyms|puke	keep	
+heel|0|synonyms|rat	keep	
+heel|0|synonyms|swine	keep	
+helix|0|synonyms|screw	keep	
+hellion|0|near_synonyms|hothead	keep	
+hellion|0|near_synonyms|jackanapes	keep	
+hellish|0|near_synonyms|savage	keep	
+helpless|0|near_synonyms|crippled	keep	
+helpless|0|near_synonyms|high and dry	keep	
+heroin|0|synonyms|dope	keep	
+hex|1|near_synonyms|voodoo	keep	
+hick|0|synonyms|yokel	keep	
+high jinx|0|synonyms|monkey business	keep	
+high old time|0|synonyms|ball	keep	
+high priest|1|synonyms|guru	keep	
+highbrow|1|near_synonyms|brain	keep	
+highbrow|1|synonyms|egghead	keep	
+highlights|0|synonyms|cream	keep	
+hike|1|synonyms|tramp	keep	
+hilarious|0|near_synonyms|gay	remove	dated gay will be misread
+hillside|0|synonyms|slope	keep	
+hill|0|near_synonyms|hump	keep	
+hint|2|near_synonyms|prompt	remove	audit: prompt means urge, not convey indirectly
+hit|2|synonyms|bop	keep	
+ho-hum|0|synonyms|blah	keep	
+hoarder|0|near_synonyms|tightwad	keep	
+hobbled|0|synonyms|crippled	keep	
+hobgoblin|0|near_synonyms|fairy	keep	
+hobo|0|near_synonyms|floater	keep	
+hobo|0|synonyms|bum	keep	
+hobo|0|synonyms|tramp	keep	
+hob|0|near_synonyms|fairy	keep	
+hoe|0|synonyms|grub hoe	keep	
+hogwash|0|near_synonyms|trash	keep	
+hogwash|0|synonyms|tripe	keep	
+hog|0|synonyms|porker	keep	
+hog|1|near_synonyms|gobble	keep	
+hoi polloi|0|near_synonyms|riffraff	keep	
+hokum|0|near_synonyms|blah	keep	
+hokum|0|near_synonyms|blather	keep	
+hold up|3|near_synonyms|mug	keep	
+holiday|1|near_synonyms|knock off	keep	
+homework|0|synonyms|prep	keep	
+hoodlum|0|near_synonyms|bruiser	keep	
+hoodlum|0|near_synonyms|punk	keep	
+hoodlum|0|synonyms|tough	keep	
+hoof it|0|synonyms|tramp	keep	
+hoof|1|synonyms|tramp	keep	
+hooligan|0|near_synonyms|bruiser	keep	
+hooligan|0|synonyms|tough	keep	
+hoot|0|synonyms|raspberry	keep	
+horn in|0|synonyms|butt in	keep	
+horse play|0|synonyms|monkey business	keep	
+horse trade|0|synonyms|wheel and deal	keep	
+horse|0|synonyms|nag	keep	
+hot air|0|synonyms|blather	keep	
+hot shot|0|synonyms|whiz	keep	
+hot|0|synonyms|red hot	keep	
+hound|0|near_synonyms|rag	keep	
+hovel|0|near_synonyms|dump	keep	
+hovel|0|near_synonyms|hole	keep	
+huff|0|synonyms|snit	keep	
+hulk|0|synonyms|oaf	keep	
+human race|0|synonyms|homo sapiens	keep	
+human species|0|synonyms|homo sapiens	keep	
+humanitarian|0|near_synonyms|do-gooder	keep	
+humanity|0|synonyms|homo sapiens	keep	
+humankind|0|synonyms|homo sapiens	keep	
+humbug|0|synonyms|gammon	keep	
+humor|0|near_synonyms|bent	keep	
+hump|0|near_synonyms|knob	keep	
+hunch|1|synonyms|hump	keep	
+hung up|0|near_synonyms|handicapped	remove	out of context
+hunk|0|near_synonyms|wad	keep	
+hun|0|synonyms|savage	keep	
+hurt|2|near_synonyms|cripple	keep	
+hustle|3|synonyms|wheel and deal	keep	
+hut|0|near_synonyms|dump	keep	
+hybrid|0|near_synonyms|mongrel	keep	
+hybrid|0|near_synonyms|mutt	keep	
+idiosyncrasy|0|near_synonyms|bent	keep	
+idiot|0|near_synonyms|boob	keep	
+idiot|0|near_synonyms|cretin	keep	
+idiot|0|synonyms|dimwit	keep	
+idiot|0|synonyms|moron	keep	
+idiot|0|synonyms|nincompoop	keep	
+idle talk|0|synonyms|blather	keep	
+ignoramus|0|near_synonyms|dolt	keep	
+ignoramus|0|near_synonyms|greenhorn	keep	
+ignoramus|0|near_synonyms|numskull	keep	
+ignorance|0|near_synonyms|dumbness	keep	
+ill-conceived|0|synonyms|half-baked	keep	
+ill-defined|0|synonyms|woolly	keep	
+illegitimate|0|synonyms|misbegotten	keep	
+illegitimate|1|synonyms|invalid	keep	
+illogical|0|synonyms|invalid	keep	
+ill|0|near_synonyms|invalid	keep	
+imbecile|0|synonyms|cretin	keep	
+imbecile|0|synonyms|moron	keep	
+imbiber|0|near_synonyms|sot	rude	derogatory for a neutral word
+imbiber|0|near_synonyms|tosspot	rude	derogatory for a neutral word
+imitate|0|synonyms|ape	keep	
+imitation|0|synonyms|pseudo	keep	
+imitative|0|near_synonyms|pseudo	keep	
+immature|0|near_synonyms|half-baked	keep	
+impair|0|near_synonyms|cripple	keep	
+impersonate|0|near_synonyms|ape	keep	
+impose oneself|0|synonyms|butt in	keep	
+impose|1|synonyms|butt in	keep	
+impregnable|0|near_synonyms|fast	keep	
+imprisonment|0|synonyms|bondage	keep	
+improve on|0|synonyms|top	keep	
+imp|0|near_synonyms|brat	keep	
+imp|0|near_synonyms|minx	keep	
+imp|0|near_synonyms|tyke	keep	
+in mourning|0|synonyms|in black	keep	
+inaccurate|0|near_synonyms|sloppy	keep	
+incapable|0|near_synonyms|handicapped	keep	
+incapacitated|0|synonyms|crippled	keep	
+incapacitated|0|synonyms|handicapped	keep	
+incision|0|synonyms|gash	keep	
+incision|0|synonyms|slit	keep	
+incite|0|synonyms|prod	keep	
+inclination|0|synonyms|bent	keep	
+incline|0|synonyms|slant	keep	
+incline|0|synonyms|slope	keep	
+increasing|0|synonyms|snowballing	keep	
+indestructible|0|synonyms|tough	keep	
+indigenous|0|near_synonyms|homegrown	keep	
+indisposed|0|near_synonyms|invalid	keep	
+inferior|0|near_synonyms|subnormal	keep	
+infernal|0|near_synonyms|damned	keep	
+infidel|0|synonyms|pagan	keep	
+inflamed|0|synonyms|red	keep	
+inflexible|0|synonyms|pigheaded	keep	
+influenced|0|synonyms|colored	keep	
+inform|1|synonyms|tattle	keep	
+info|0|synonyms|dope	keep	
+ingenious|0|near_synonyms|handy	keep	
+inhabitant|1|near_synonyms|aborigine	remove	aborigine wrongly generic
+inhumanity|0|near_synonyms|bestiality	remove	bestiality reads as zoophilia
+inhuman|0|synonyms|savage	keep	
+injury|0|near_synonyms|gash	keep	
+inky|0|synonyms|black	keep	
+inner city|0|synonyms|ghetto	keep	
+insane|0|near_synonyms|queer	remove	queer reads as slur
+insolence|0|synonyms|cheek	keep	
+insouciant|0|near_synonyms|gay	remove	dated gay will be misread
+instinct|0|synonyms|bent	keep	
+instrument|1|near_synonyms|flunkey	keep	
+intellectual|1|near_synonyms|bluestocking	rude	sexist term for learned women
+intellectual|1|synonyms|egghead	keep	
+intellectual|1|synonyms|highbrow	keep	
+intellect|0|near_synonyms|brain	keep	
+interaction|0|synonyms|intercourse	keep	
+interfere with|1|synonyms|butt into	keep	
+interfere|0|synonyms|butt in	keep	
+interior|1|near_synonyms|bush	keep	
+interpreter|0|near_synonyms|mouthpiece	keep	
+intimate|0|near_synonyms|fast	keep	
+intrude|0|synonyms|butt in	keep	
+invention|2|synonyms|fib	keep	
+invent|1|synonyms|fib	keep	
+inversion|0|synonyms|flip	keep	
+irritated|1|synonyms|red	keep	
+jabber|0|near_synonyms|yap	keep	
+jabber|0|synonyms|blather	keep	
+jabber|1|synonyms|yap	keep	
+jack up|1|synonyms|up	keep	
+jack-of-all-trades|0|near_synonyms|hack	keep	
+jack-of-all-trades|0|near_synonyms|man friday	keep	
+jackal|0|near_synonyms|hack	keep	
+jackal|0|synonyms|flunky	keep	
+jackanapes|0|near_synonyms|fop	keep	
+jackass|0|synonyms|nincompoop	keep	
+jackass|0|synonyms|numskull	keep	
+jade|0|near_synonyms|hag	remove	wrong meaning; ageist and sexist
+jade|0|synonyms|hussy	rude	sexist
+jade|0|synonyms|trollop	rude	sexist
+jade|0|synonyms|wench	rude	sexist
+jailer|0|synonyms|screw	keep	
+jail|0|synonyms|jug	keep	
+jam|2|synonyms|hole	keep	
+jam|6|near_synonyms|break	remove	audit: break is not becoming stuck
+jaundiced|1|synonyms|yellow	keep	
+jaunt|0|near_synonyms|tramp	keep	
+jellyfish|0|synonyms|milksop	keep	
+jellyfish|0|synonyms|softy	keep	
+jeremiah|0|synonyms|killjoy	keep	
+jerkwater|0|synonyms|hick	keep	
+jerky|1|near_synonyms|square	remove	wrong meaning
+jerk|0|synonyms|yank	keep	
+jerk|1|near_synonyms|goon	keep	
+jerk|1|near_synonyms|square	remove	wrong meaning
+jerk|2|synonyms|yank	keep	
+jester|0|synonyms|fool	keep	
+jest|2|near_synonyms|deride	remove	audit: deride means mock scornfully, not jest
+jettison|0|synonyms|dump	keep	
+jet|0|synonyms|black	keep	
+jet|0|synonyms|coal black	keep	
+jet|0|synonyms|pitch black	keep	
+jet|0|synonyms|raven black	keep	
+jewels|0|synonyms|rocks	keep	
+jewel|0|near_synonyms|rock	keep	
+jezebel|0|near_synonyms|witch	rude	sexist
+jezebel|0|synonyms|hussy	rude	sexist
+jezebel|0|synonyms|jade	rude	sexist
+jibe|0|synonyms|square	keep	
+jiggle|0|near_synonyms|jerk	keep	
+jiggle|1|near_synonyms|jerk	keep	
+jocund|0|synonyms|gay	remove	dated gay will be misread
+joggle|0|near_synonyms|jerk	keep	
+joggle|1|near_synonyms|jerk	keep	
+jog|3|near_synonyms|poke	keep	
+jog|3|near_synonyms|tramp	keep	
+joke|0|synonyms|crack	keep	
+joke|1|synonyms|butt	keep	
+joke|2|near_synonyms|crack	keep	
+jolt|0|near_synonyms|quiver	remove	audit: quiver is a tremble, not a jolt
+jolt|0|synonyms|jerk	keep	
+jolt|2|synonyms|jerk	keep	
+jounce|0|near_synonyms|jerk	keep	
+jounce|1|near_synonyms|jerk	keep	
+jovial|0|synonyms|gay	remove	dated gay will be misread
+joyful|0|synonyms|gay	remove	dated gay will be misread
+joyous|0|synonyms|gay	remove	dated gay will be misread
+jump|2|synonyms|jerk	keep	
+jump|3|near_synonyms|jerk	keep	
+jump|6|near_synonyms|mug	keep	
+junk|1|synonyms|dump	keep	
+junk|1|synonyms|trash	keep	
+juno|0|synonyms|queen of the gods	keep	
+keep quiet|0|synonyms|shut up	keep	
+keg|0|near_synonyms|butt	keep	
+keg|0|near_synonyms|tun	keep	
+kernel|1|synonyms|nub	keep	
+keynote|0|near_synonyms|nub	keep	
+kick around|1|near_synonyms|bum	keep	
+kick|0|near_synonyms|bang	keep	
+kick|0|synonyms|boot	keep	
+kick|2|synonyms|bang	keep	
+kick|2|synonyms|boot	keep	
+kick|3|synonyms|boot	keep	
+killjoy|0|synonyms|wet blanket	keep	
+kinky|1|synonyms|queer	remove	queer reads as slur
+kiss off|0|synonyms|ditch	keep	
+kiss|2|synonyms|buss	keep	
+kiss|2|synonyms|smooch	keep	
+kitty|1|synonyms|puss	keep	
+knack|0|near_synonyms|bent	keep	
+knob|0|near_synonyms|hump	keep	
+knock around|1|near_synonyms|gad	keep	
+knock down|1|synonyms|slash	keep	
+knock oneself out|0|synonyms|bust a gut	keep	
+knocked out|1|synonyms|beat	keep	
+knock|0|synonyms|bang	keep	
+knock|1|synonyms|slam	keep	
+knock|3|synonyms|bang	keep	
+knock|7|synonyms|slam	keep	
+knoll|0|near_synonyms|hump	keep	
+knot|0|near_synonyms|rosette	remove	audit: rosette is a decoration, not a tied fastening
+knot|2|synonyms|knob	keep	
+know-it-all|0|synonyms|blowhard	keep	
+know-it-all|0|synonyms|wise guy	keep	
+know-nothing|0|near_synonyms|moron	keep	
+know-nothing|0|near_synonyms|oaf	keep	
+knowhow|0|near_synonyms|bent	keep	
+kook|0|near_synonyms|freak	keep	
+kook|0|synonyms|weirdo	keep	
+labor at|0|synonyms|beaver away at	keep	
+laceration|0|synonyms|gash	keep	
+lackey|0|synonyms|bootlicker	keep	
+lackey|0|synonyms|flunky	keep	
+lady|0|near_synonyms|dame	keep	
+laggard|0|synonyms|slowpoke	keep	
+lamb|0|near_synonyms|honey	keep	
+lame|0|near_synonyms|handicapped	keep	
+lame|0|synonyms|crippled	remove	crippled is offensive for people
+lap up|1|synonyms|swallow	keep	
+lascivious|0|near_synonyms|horny	rude	horny is crude
+lash|0|near_synonyms|cat	keep	
+lash|1|near_synonyms|prick	keep	
+lawyer|0|near_synonyms|mouthpiece	keep	
+lay about|0|synonyms|bum	keep	
+lay an egg|0|synonyms|bomb	keep	
+lay away|0|synonyms|squirrel	keep	
+lead|3|synonyms|escort	keep	
+leaning|0|synonyms|bent	keep	
+lean|3|synonyms|slant	keep	
+lean|3|synonyms|slope	keep	
+leave off cease|0|synonyms|knock off	keep	
+lecherous|0|synonyms|horny	rude	horny is crude
+leech|0|near_synonyms|deadbeat	keep	
+leech|0|near_synonyms|toady	keep	
+leech|0|synonyms|bloodsucker	keep	
+left-winger|0|synonyms|red	keep	
+left-wing|0|synonyms|red	keep	
+leftwing|0|near_synonyms|pink	rude	political pejorative
+leftwing|0|near_synonyms|red	keep	
+leg man|0|synonyms|errand boy	keep	
+lemon|0|synonyms|bomb	keep	
+lemon|0|synonyms|bust	keep	
+lemon|0|synonyms|loser	keep	
+leprechaun|0|near_synonyms|fairy	keep	
+let go|1|synonyms|sack	keep	
+levee|0|synonyms|dike	keep	
+level|5|near_synonyms|stratum	remove	audit: stratum is a layer, not a height
+lever|0|synonyms|crow	keep	
+liar|0|synonyms|fibber	keep	
+libel|0|synonyms|smear	keep	
+libel|1|synonyms|smear	keep	
+liberal|0|near_synonyms|abundant	remove	audit: abundant means plentiful, not generous
+lie around|0|synonyms|bum around	keep	
+lieutenant|0|near_synonyms|man friday	keep	
+lie|0|synonyms|fib	keep	
+lie|1|near_synonyms|lean	remove	audit: lean is not lying flat
+lie|2|synonyms|fib	keep	
+light minded|0|synonyms|empty-headed	keep	
+lighthearted|0|synonyms|gay	remove	dated gay will be misread
+lightness|0|near_synonyms|shining	remove	audit: shining does not substitute for lightness as brightness
+light|4|synonyms|gay	remove	dated gay will be misread
+light|8|near_synonyms|beam	remove	audit: beam does not mean fill with light
+liking|0|near_synonyms|bent	keep	
+limp|1|near_synonyms|jerk	remove	wrong sense
+line|1|near_synonyms|slit	keep	
+lip|1|synonyms|cheek	keep	
+liquid|0|near_synonyms|damp	remove	audit: damp means slightly wet, not free-flowing
+list|2|near_synonyms|slope	keep	
+list|2|synonyms|slant	keep	
+little|2|near_synonyms|cheap	keep	
+lively|1|synonyms|gay	remove	dated gay will be misread
+load down|0|synonyms|lumber	keep	
+load up|0|synonyms|stuff	keep	
+loafer|0|near_synonyms|deadbeat	keep	
+loafer|0|synonyms|bum	keep	
+loaf|1|synonyms|bum around	keep	
+loan shark|0|synonyms|shark	keep	
+lobe|0|near_synonyms|knob	keep	
+loiterer|0|near_synonyms|bum	keep	
+long|0|near_synonyms|expanded	remove	audit: expanded does not mean long
+loo john|0|synonyms|bog	keep	
+look|3|near_synonyms|evidence	remove	audit: evidence (verb) cannot replace look as in seem
+loony|0|synonyms|nutty	keep	
+loot|0|synonyms|booty	keep	
+loot|1|near_synonyms|rape	remove	rape out of context
+loo|0|synonyms|bog	keep	
+lorry|0|synonyms|juggernaut	keep	
+losses|0|synonyms|red ink	keep	
+loud|0|near_synonyms|loudmouthed	keep	
+loud|1|near_synonyms|cheap	keep	
+louse up|0|synonyms|muff	keep	
+louse up|0|synonyms|screw up	keep	
+louse|0|near_synonyms|dog	keep	
+louse|0|synonyms|rat	keep	
+louse|0|synonyms|skunk	keep	
+louse|0|synonyms|swine	keep	
+lout|0|near_synonyms|ape	keep	
+lout|0|near_synonyms|boob	keep	
+lout|0|synonyms|churl	keep	
+lout|0|synonyms|clodhopper	keep	
+lout|0|synonyms|yokel	keep	
+lowering|0|near_synonyms|black	keep	
+lubber|0|near_synonyms|hick	keep	
+lubber|0|near_synonyms|rustic	keep	
+lubber|0|near_synonyms|slob	keep	
+lubber|0|near_synonyms|yokel	keep	
+lubber|0|synonyms|churl	keep	
+lubber|0|synonyms|clodhopper	keep	
+lucrative|0|near_synonyms|fat	keep	
+lucre|0|synonyms|pelf	keep	
+luggage|0|synonyms|bags	keep	
+lug|0|near_synonyms|ape	keep	
+lug|0|near_synonyms|ass	keep	
+lug|0|near_synonyms|gawk	keep	
+lug|0|near_synonyms|klutz	keep	
+lug|0|synonyms|fathead	keep	
+lug|0|synonyms|numskull	keep	
+lulu|0|near_synonyms|whiz	keep	
+lulu|0|synonyms|honey	keep	
+lummox|0|near_synonyms|ape	keep	
+lummox|0|near_synonyms|gawk	keep	
+lummox|0|near_synonyms|yokel	keep	
+lummox|0|synonyms|klutz	keep	
+lunatic|1|synonyms|batty	keep	
+lunatic|1|synonyms|nutty	keep	
+lunatic|2|synonyms|nut	keep	
+lunatic|2|synonyms|psycho	keep	
+lunch|0|near_synonyms|bite	keep	
+lurch|0|near_synonyms|swag	keep	
+lush|2|synonyms|posh	keep	
+lustful|0|near_synonyms|sexy	keep	
+lustful|0|synonyms|horny	rude	horny is crude
+luxurious|1|synonyms|posh	keep	
+machine|0|synonyms|contraption	keep	
+macho|0|synonyms|tough	keep	
+madman|0|synonyms|nut	keep	
+madness|1|synonyms|idiocy	keep	
+mad|0|synonyms|loony	keep	
+mad|0|synonyms|nutty	keep	
+magic|0|synonyms|black art	keep	
+magic|0|synonyms|black magic	keep	
+maim|0|synonyms|cripple	keep	
+maim|0|synonyms|lame	keep	
+make a go of|0|synonyms|pull off	keep	
+make a mess of|0|synonyms|muff	keep	
+make a mess of|0|synonyms|screw up	keep	
+make a touch|0|synonyms|bum	keep	
+make an impression|0|synonyms|wow	keep	
+make faces|0|synonyms|mug	keep	
+make faces|0|synonyms|screw up one's face	keep	
+make merry|0|synonyms|party	keep	
+make public|0|synonyms|leak	keep	
+make tracks|0|synonyms|beat it	keep	
+make up|2|near_synonyms|compose	remove	audit: compose does not mean make up a quarrel
+maladjusted|0|near_synonyms|hung up	keep	
+malarkey|0|near_synonyms|stuff	keep	
+malarkey|0|synonyms|tripe	keep	
+male|1|synonyms|fellow	keep	
+malign|1|synonyms|smear	keep	
+mama|0|synonyms|mommy	keep	
+man of letters|0|synonyms|highbrow	keep	
+manageable|0|near_synonyms|handy	keep	
+mandarin|0|near_synonyms|egghead	keep	
+mandarin|0|synonyms|highbrow	keep	
+maneuver|2|near_synonyms|shift	keep	
+mangy|0|near_synonyms|cheap	keep	
+maniac|0|near_synonyms|nut	keep	
+maniac|0|near_synonyms|screwball	keep	
+manic|0|near_synonyms|up	keep	
+mankind|0|synonyms|homo sapiens	keep	
+man|0|near_synonyms|homo sapiens	keep	
+man|1|near_synonyms|menial	remove	audit: menial is a servant, not an adult man
+march|0|synonyms|tramp	keep	
+march|3|near_synonyms|promenade	remove	audit: promenade is a leisurely stroll, not a measured march
+march|3|synonyms|tramp	keep	
+mariner|0|near_synonyms|jack	keep	
+mark down|0|synonyms|slash	keep	
+market|1|near_synonyms|intercourse	remove	intercourse reads as sexual
+marrow|0|synonyms|nub	keep	
+marshy|0|near_synonyms|squishy	keep	
+marvel|0|near_synonyms|whiz	keep	
+masquerade|2|near_synonyms|fool	keep	
+mastermind|0|synonyms|whiz	keep	
+match wits|0|synonyms|cross swords	keep	
+match|1|near_synonyms|combo	keep	
+materialism|0|synonyms|money-grubbing	keep	
+materials|0|synonyms|stuff	keep	
+material|2|synonyms|stuff	keep	
+mater|0|synonyms|mama	keep	
+matron|0|synonyms|dame	rude	slang for a woman, dismissive
+matter|0|synonyms|stuff	keep	
+maverick|0|near_synonyms|mugwump	keep	
+mayhem|0|near_synonyms|bestiality	remove	bestiality reads as zoophilia
+mean|3|near_synonyms|sloppy	keep	
+mean|4|near_synonyms|cheap	keep	
+mean|4|near_synonyms|tight	keep	
+mean|7|near_synonyms|anticipate	remove	audit: anticipate means expect, not intend
+meat|2|near_synonyms|stuff	keep	
+meat|2|synonyms|nub	keep	
+mechanical|2|synonyms|handy	keep	
+mechanic|0|synonyms|grease monkey	keep	
+meddler|0|synonyms|buttinsky	keep	
+meddle|0|synonyms|butt in	keep	
+meeting|1|near_synonyms|powwow	keep	
+melodrama|0|near_synonyms|penny dreadful	keep	
+mental giant|0|synonyms|brain	keep	
+mental giant|0|synonyms|egghead	keep	
+mental giant|0|synonyms|whiz	keep	
+mentor|0|near_synonyms|guru	keep	
+meretricious|0|near_synonyms|plastic	keep	
+merry|0|synonyms|gay	remove	dated gay will be misread
+mess up|1|synonyms|screw up	keep	
+mess with|0|synonyms|monkey with	keep	
+messiah|0|near_synonyms|guru	keep	
+midget|0|near_synonyms|shrimp	rude	body-shaming insult
+midget|0|synonyms|dwarf	keep	
+midget|0|synonyms|pygmy	remove	pygmy for a person is offensive
+midget|1|near_synonyms|pygmy	keep	
+migrant|1|near_synonyms|drifter	keep	
+migrant|1|near_synonyms|gypsy	remove	gypsy is an ethnic slur
+migrant|1|near_synonyms|hobo	remove	hobo is a vagrant, not a migrant; derogatory
+migrant|1|near_synonyms|okie	remove	derogatory term for Dust Bowl migrants
+milksop|0|near_synonyms|pansy	remove	pansy is a homophobic slur
+milksop|0|synonyms|milquetoast	keep	
+milksop|0|synonyms|sissy	keep	
+millionaire|0|synonyms|fat cat	keep	
+million|0|synonyms|heap	keep	
+milquetoast|0|synonyms|milksop	keep	
+mimic|0|near_synonyms|ape	keep	
+mimic|0|synonyms|copycat	keep	
+mimic|1|synonyms|ape	keep	
+mind|0|synonyms|head	keep	
+mine|3|near_synonyms|pump	keep	
+mingle|1|synonyms|hobnob	keep	
+miniature|0|near_synonyms|dwarf	keep	
+minion|0|synonyms|flunky	keep	
+mint|1|synonyms|heap	keep	
+minx|0|near_synonyms|baggage	rude	sexist insult for a woman
+minx|0|near_synonyms|jade	rude	sexist insult for a woman
+minx|0|near_synonyms|wench	rude	sexist slang for a woman
+minx|0|near_synonyms|witch	rude	sexist insult for a woman
+minx|0|synonyms|hussy	rude	sexist slang for a woman
+mire|0|synonyms|muck	keep	
+mirthful|0|synonyms|gay	remove	dated gay will be misread
+misanthrope|0|near_synonyms|crab	keep	
+mischief-maker|0|synonyms|scallywag	keep	
+miscue|0|synonyms|muff	keep	
+miserly|0|synonyms|cheap	keep	
+miserly|0|synonyms|tight	keep	
+miser|0|synonyms|tightwad	keep	
+misfit|0|near_synonyms|freak	rude	derogatory about a person
+misfit|0|near_synonyms|sorehead	remove	wrong meaning (a grumpy person)
+misrepresent|0|near_synonyms|slant	keep	
+miss|0|near_synonyms|spinster	remove	wrong meaning (older woman) and derogatory
+miss|1|synonyms|muff	keep	
+mistake|0|near_synonyms|muff	keep	
+mister|0|near_synonyms|jack	keep	
+mister|0|near_synonyms|mac	keep	
+mixed breed|0|synonyms|mongrel	keep	
+mixed breed|0|synonyms|mutt	keep	
+moat|0|near_synonyms|dike	keep	
+mob|0|synonyms|riffraff	rude	contemptuous about common people
+mockery|1|synonyms|butt	keep	
+mock|1|near_synonyms|ape	keep	
+model|3|near_synonyms|clotheshorse	keep	
+mold|1|near_synonyms|bent	keep	
+mollycoddle|0|near_synonyms|crybaby	keep	
+mollycoddle|0|near_synonyms|pansy	remove	pansy is a homophobic slur
+mollycoddle|0|synonyms|milksop	keep	
+mollycoddle|0|synonyms|milquetoast	keep	
+mollycoddle|0|synonyms|sissy	keep	
+molten|0|near_synonyms|red hot	keep	
+moment|1|near_synonyms|nonce	keep	
+mommy|0|synonyms|mama	keep	
+monarch|0|synonyms|queen	keep	
+money's worth|0|synonyms|bang for the buck	keep	
+money|1|near_synonyms|pelf	keep	
+mongrel|1|synonyms|mutt	keep	
+monkey with|0|synonyms|fool	keep	
+monkeyshines|0|synonyms|monkey business	keep	
+monkey|0|synonyms|ape	keep	
+monkey|0|synonyms|chimp	remove	wrong: a chimp is an ape, not a monkey
+monopolize|0|synonyms|hog	keep	
+monotonous|0|near_synonyms|blah	keep	
+monster|1|synonyms|freak	keep	
+monstrous|1|synonyms|monster	keep	
+moral|1|near_synonyms|prissy	remove	pejorative; changes the meaning
+morass|1|near_synonyms|hole	keep	
+morbid|1|near_synonyms|black	keep	
+moron|0|near_synonyms|subnormal	keep	
+moron|0|synonyms|dimwit	keep	
+mortal|2|near_synonyms|savage	keep	
+most|0|synonyms|top	keep	
+moth-eaten|1|near_synonyms|tired	keep	
+mother|1|near_synonyms|maw	keep	
+mother|1|synonyms|mama	keep	
+mother|1|synonyms|mammy	remove	mammy has racist connotations
+mother|1|synonyms|mommy	keep	
+mountebank|0|near_synonyms|grifter	keep	
+mouse|0|near_synonyms|milksop	keep	
+mouse|0|near_synonyms|sissy	keep	
+mouse|0|synonyms|milquetoast	keep	
+mouth|0|synonyms|maw	keep	
+mouth|0|synonyms|trap	rude	crude word for mouth
+mouth|0|synonyms|yap	rude	crude word for mouth
+mow down|0|near_synonyms|waste	keep	
+ms|0|synonyms|madam	keep	
+muddle|5|synonyms|muff	keep	
+mug|0|near_synonyms|goblet	remove	audit: goblet has no handle, not a mug
+mulct|1|near_synonyms|milk	keep	
+mulish|0|synonyms|pigheaded	keep	
+multiplying|0|synonyms|snowballing	keep	
+mummy|1|synonyms|mama	keep	
+mummy|1|synonyms|mommy	keep	
+mum|0|near_synonyms|dumb	remove	dumb for silent is offensive to people who cannot speak
+murderous|1|synonyms|savage	keep	
+muscle in|0|synonyms|butt in	keep	
+muscle|2|near_synonyms|butt	keep	
+mush|0|synonyms|pap	keep	
+mush|1|synonyms|schmaltz	keep	
+mutant|0|synonyms|freak	keep	
+mutant|0|synonyms|monster	keep	
+mute|0|synonyms|dumb	remove	dumb for mute is offensive to people who cannot speak
+mutilate|0|synonyms|cripple	keep	
+mutt|0|synonyms|mongrel	keep	
+mystify|0|near_synonyms|buffalo	keep	
+nag|0|near_synonyms|hag	rude	sexist and ageist insult
+nag|1|near_synonyms|tit	remove	tit reads as breast
+nag|1|synonyms|jade	keep	
+name|0|near_synonyms|tag	keep	
+nap|1|synonyms|shag	keep	
+native|2|synonyms|aborigine	remove	aborigine wrongly generic
+natural|2|synonyms|idiot	keep	
+ne'er-do-well|0|near_synonyms|black sheep	keep	
+ne'er-do-well|0|near_synonyms|bum	keep	
+ne'er-do-well|0|near_synonyms|loser	keep	
+nearby|0|near_synonyms|handy	keep	
+neglectful|0|near_synonyms|sloppy	keep	
+neophyte|0|synonyms|greenhorn	keep	
+nerve|0|synonyms|cheek	keep	
+net|2|synonyms|bag	keep	
+new hand|0|synonyms|greenhorn	keep	
+newborn|0|near_synonyms|whelp	rude	contemptuous word for a child
+newcomer|0|synonyms|greenhorn	keep	
+newspaper|0|synonyms|rag	keep	
+nibble|0|synonyms|nip	keep	
+nib|1|near_synonyms|pecker	rude	pecker is sexual slang
+nick|0|near_synonyms|gash	keep	
+nick|1|near_synonyms|gash	keep	
+niggardly|0|near_synonyms|cheap	keep	
+nightmare|0|near_synonyms|hell	keep	
+nil|0|synonyms|zip	keep	
+nincompoop|0|near_synonyms|idiot	keep	
+nincompoop|0|near_synonyms|jerk	keep	
+nincompoop|0|near_synonyms|moron	keep	
+nincompoop|0|synonyms|boob	keep	
+nincompoop|0|synonyms|fathead	keep	
+nincompoop|0|synonyms|numskull	keep	
+ninny|0|synonyms|nincompoop	keep	
+nipple|0|near_synonyms|dug	keep	
+nipple|0|synonyms|pap	keep	
+nipple|0|synonyms|tit	rude	tit is vulgar
+nitpicker|0|synonyms|fussbudget	keep	
+nitty-gritty|0|near_synonyms|hard core	keep	
+nitwit|0|near_synonyms|idiot	keep	
+nitwit|0|near_synonyms|jerk	keep	
+nitwit|0|near_synonyms|moron	keep	
+nitwit|0|synonyms|nincompoop	keep	
+nitwit|0|synonyms|numskull	keep	
+nobleman|0|synonyms|gentleman	keep	
+nobody|0|near_synonyms|flunky	keep	
+nobody|0|near_synonyms|has-been	keep	
+node|0|synonyms|knob	keep	
+nomad|0|near_synonyms|bum	keep	
+nomad|0|near_synonyms|hobo	remove	hobo is a vagrant, not a nomad; derogatory
+nomad|0|near_synonyms|tramp	keep	
+nomad|0|synonyms|gypsy	remove	gypsy is an ethnic slur
+nondescript|0|near_synonyms|blah	keep	
+nondrinker|0|synonyms|dry	keep	
+nonentity|0|near_synonyms|has-been	keep	
+noodle|0|synonyms|nincompoop	keep	
+notch|0|near_synonyms|gash	keep	
+nothing|2|synonyms|zip	keep	
+notion|1|near_synonyms|bent	keep	
+nourishment|0|near_synonyms|meat	keep	
+nowhere|1|synonyms|the sticks	keep	
+nub|0|synonyms|knob	keep	
+nucleus|0|near_synonyms|nub	keep	
+null and void|0|synonyms|invalid	keep	
+nullify|0|near_synonyms|scrap	keep	
+null|0|synonyms|invalid	keep	
+numskull|0|synonyms|nincompoop	keep	
+nutriment|0|near_synonyms|meat	keep	
+nuts|0|synonyms|batty	keep	
+nuts|0|synonyms|loony	keep	
+nuts|0|synonyms|nutty	keep	
+nut|0|synonyms|screwball	keep	
+nut|1|synonyms|freak	keep	
+oaf|0|near_synonyms|klutz	keep	
+oaf|0|synonyms|boob	keep	
+oaf|0|synonyms|nincompoop	keep	
+object|0|near_synonyms|butt	remove	wrong sense
+obsessed|0|synonyms|hung up	keep	
+obstinate|0|synonyms|pigheaded	keep	
+obtrude|0|synonyms|butt in	keep	
+occupied|0|synonyms|tied up	keep	
+odd duck|0|synonyms|weirdo	keep	
+oddball|0|near_synonyms|freak	keep	
+oddball|0|near_synonyms|specimen	keep	
+oddity|0|near_synonyms|freak	keep	
+offal|0|near_synonyms|slag	keep	
+off|1|near_synonyms|subnormal	keep	
+old bird|0|synonyms|geezer	keep	
+old maid|1|synonyms|fussbudget	keep	
+old-timer|0|synonyms|geezer	rude	ageist slang for an old man
+old|3|near_synonyms|gray	remove	audit: gray does not mean worn or decayed
+olive-skinned|0|synonyms|swarthy	keep	
+on hand|0|synonyms|handy	keep	
+on tap|0|synonyms|handy	keep	
+on the wagon|0|synonyms|dry	keep	
+one liner|0|synonyms|crack	keep	
+one-man show|0|synonyms|one-man band	keep	
+open|6|near_synonyms|prick	keep	
+operator|1|near_synonyms|shark	keep	
+opinionated|0|synonyms|pigheaded	keep	
+opportune|0|near_synonyms|pat	keep	
+oracle|0|synonyms|guru	keep	
+orchard|0|synonyms|fruit garden	keep	
+ordeal|0|near_synonyms|hell	keep	
+order of business|0|synonyms|job	keep	
+orgy|0|near_synonyms|drunk	keep	
+orgy|1|near_synonyms|jag	keep	
+original|3|near_synonyms|pioneer	remove	audit: pioneer is an innovator, not a model for copies
+original|4|near_synonyms|weirdo	keep	
+ouster|0|near_synonyms|boot	keep	
+out of it|0|synonyms|woolly-headed	keep	
+outback|0|synonyms|bush	keep	
+outclass|0|synonyms|top	keep	
+outdistance|1|synonyms|top	keep	
+outdo|0|synonyms|top	keep	
+outgrowth|0|near_synonyms|fruit	keep	
+outlandish|0|near_synonyms|queer	remove	queer reads as slur
+outline|0|near_synonyms|diagram	remove	audit: diagram is not an outline edge
+outlook|2|synonyms|slant	keep	
+outrageous|0|near_synonyms|savage	keep	
+outrage|5|synonyms|rape	remove	rape out of context
+outweigh|0|near_synonyms|dwarf	keep	
+overdo|0|near_synonyms|drudge	keep	
+overpower|0|synonyms|beat	keep	
+overwhelm|1|synonyms|beat	keep	
+pack down|0|synonyms|squash	keep	
+package|1|near_synonyms|combo	keep	
+pack|2|near_synonyms|crew	keep	
+paddle|2|near_synonyms|whale	keep	
+pad|5|near_synonyms|tramp	keep	
+pagan|0|near_synonyms|infidel	rude	pejorative religious term
+painful|1|near_synonyms|tough	keep	
+painted|0|synonyms|colored	keep	
+painter|0|near_synonyms|dauber	rude	derogatory about the painter
+palaver|0|synonyms|powwow	keep	
+pale|0|synonyms|pasty	keep	
+pallid|0|synonyms|pasty	keep	
+pall|1|near_synonyms|wet blanket	keep	
+palmer|0|synonyms|crusader	keep	
+pander|0|near_synonyms|madam	keep	
+pantywaist|0|synonyms|sissy	keep	
+pan|1|synonyms|slam	keep	
+pap|0|synonyms|slop	keep	
+pap|1|synonyms|trash	keep	
+pap|1|synonyms|tripe	keep	
+paralyzed|0|synonyms|crippled	remove	crippled is offensive for people
+paralyze|0|synonyms|cripple	keep	
+parasite|0|near_synonyms|deadbeat	keep	
+parasite|0|synonyms|bloodsucker	keep	
+parasite|0|synonyms|moocher	keep	
+parley|0|near_synonyms|powwow	keep	
+parrot|0|near_synonyms|copycat	keep	
+parrot|0|synonyms|ape	keep	
+parsimonious|0|near_synonyms|cheap	keep	
+parsimonious|0|synonyms|tight	keep	
+pass out|1|synonyms|black out	keep	
+pass|10|near_synonyms|expend	remove	audit: expend does not fit passing time
+pastry|0|synonyms|tart	keep	
+patrician|0|near_synonyms|silk-stocking	keep	
+patsy|0|synonyms|chump	keep	
+patsy|0|synonyms|fall guy	keep	
+patsy|0|synonyms|sucker	keep	
+pattern|0|near_synonyms|paragon	remove	audit: paragon is a model of excellence, not a template
+pattern|2|near_synonyms|ape	keep	
+pauper|0|near_synonyms|hobo	remove	hobo is a vagrant, not a poor person; derogatory
+pause|1|near_synonyms|knock off	keep	
+paw|2|near_synonyms|rub	remove	audit: rub does not mean handle roughly
+pay|0|near_synonyms|dividend	remove	audit: dividend is investment return, not wages
+peasant|0|near_synonyms|clodhopper	rude	derogatory about rural people
+peasant|0|near_synonyms|hick	rude	derogatory about rural people
+peasant|0|near_synonyms|rube	rude	derogatory about rural people
+peasant|0|near_synonyms|yokel	rude	derogatory about rural people
+peck at|1|synonyms|nip at	keep	
+peck|0|near_synonyms|prick	keep	
+peck|1|near_synonyms|prick	keep	
+peculiar|0|near_synonyms|funny	keep	
+peculiar|0|synonyms|queer	remove	queer reads as slur
+pedant|0|near_synonyms|bluestocking	rude	sexist; specific to women intellectuals
+pedant|0|near_synonyms|egghead	keep	
+pedant|0|near_synonyms|highbrow	keep	
+peel off|0|synonyms|pull off	keep	
+peeping tom|0|synonyms|peeper	keep	
+peg away|0|synonyms|beaver away	keep	
+peg|0|near_synonyms|knob	keep	
+peg|0|near_synonyms|protuberance	remove	audit: protuberance is a bump, not a fastening peg
+pellet|0|near_synonyms|blob	keep	
+pelt|2|near_synonyms|whiz	keep	
+pelt|2|near_synonyms|zip	keep	
+penalty|1|near_synonyms|fruit	keep	
+penchant|0|synonyms|bent	keep	
+pendent|0|near_synonyms|hung	keep	
+penetrate|0|near_synonyms|prick	keep	
+penny dreadful|0|synonyms|shocker	keep	
+penurious|0|near_synonyms|cheap	keep	
+pep pill|0|synonyms|benny	keep	
+pep|0|near_synonyms|ginger	keep	
+pep|0|near_synonyms|juice	keep	
+pep|0|synonyms|zip	keep	
+percentage|0|near_synonyms|divvy	keep	
+percussion|0|near_synonyms|butt	remove	wrong sense
+perfectionist|0|near_synonyms|fussbudget	keep	
+perfect|1|near_synonyms|efficient	remove	audit: efficient does not mean highly skilled
+perforate|0|synonyms|prick	keep	
+persistent|0|near_synonyms|pigheaded	keep	
+persnickety|0|near_synonyms|prissy	keep	
+pertinent|0|near_synonyms|pat	keep	
+perverse|1|synonyms|perverted	keep	
+perverse|2|synonyms|pigheaded	keep	
+petition|0|near_synonyms|round robin	keep	
+petty|1|near_synonyms|cheap	keep	
+phantom|3|synonyms|spook	keep	
+philistine|0|near_synonyms|yahoo	keep	
+philosopher|0|near_synonyms|guru	keep	
+pick the brains of|0|synonyms|pump	keep	
+pickings|1|synonyms|booty	keep	
+pierce|0|near_synonyms|pink	keep	
+pierce|0|synonyms|prick	keep	
+pie|0|synonyms|tart	keep	
+pig|0|synonyms|porker	keep	
+pig|1|synonyms|hog	keep	
+pig|1|synonyms|slob	keep	
+pilfer|0|near_synonyms|finger	keep	
+pilfer|0|near_synonyms|sneak	keep	
+pillage|1|near_synonyms|rape	remove	rape out of context
+pill|1|near_synonyms|jerk	keep	
+pill|1|synonyms|drip	keep	
+pinch|1|synonyms|nip	keep	
+pink|0|synonyms|prick	keep	
+pious|1|synonyms|holier-than-thou	keep	
+pip pitch|0|synonyms|slant	keep	
+pip pitch|0|synonyms|slope	keep	
+pip|0|synonyms|honey	keep	
+piquant|0|near_synonyms|tart	keep	
+pique|0|synonyms|snit	keep	
+pitch black|0|synonyms|black as night	keep	
+pitch-black|0|synonyms|black	keep	
+pitfall|0|synonyms|gin	keep	
+pit|1|near_synonyms|nut	keep	
+pixie|0|synonyms|fairy	keep	
+pixy|0|synonyms|fairy	keep	
+place|2|near_synonyms|crescent	remove	audit: crescent is a curved street, not an open public area
+plastered|0|synonyms|drunk	keep	
+platform|0|near_synonyms|soapbox	keep	
+play|10|near_synonyms|chance	remove	audit: chance does not mean stake money on
+pleasantry|0|near_synonyms|funny	keep	
+pleasure-seeker|0|synonyms|playboy	keep	
+pleasure|1|near_synonyms|bent	keep	
+plenty|2|synonyms|load	keep	
+plod|0|synonyms|tramp	keep	
+plot|4|synonyms|cabal	keep	
+plow|0|near_synonyms|hoe	keep	
+pluck|1|synonyms|jerk	keep	
+pluck|1|synonyms|yank	keep	
+pluck|2|synonyms|jerk	keep	
+pluck|2|synonyms|yank	keep	
+plug away|0|synonyms|beaver away	keep	
+plug|1|synonyms|puff	keep	
+plug|3|synonyms|puff	keep	
+plump|1|near_synonyms|dump	keep	
+plum|0|near_synonyms|cream	keep	
+plunder|0|synonyms|booty	keep	
+plunder|0|synonyms|swag	keep	
+plush|0|synonyms|posh	keep	
+plutocrat|0|synonyms|fat cat	keep	
+pocket-sized|0|synonyms|handy	keep	
+pocket|0|synonyms|fob	keep	
+podium|0|near_synonyms|soapbox	keep	
+poke|1|synonyms|butt in	keep	
+poke|1|synonyms|nose	keep	
+polish off|0|synonyms|knock off	keep	
+politician|0|synonyms|politico	keep	
+pony|0|synonyms|nag	remove	wrong: a nag is a worn-out horse, not a pony
+poop|1|synonyms|dope	keep	
+poor fish|0|synonyms|loser	keep	
+poor fish|0|synonyms|sucker	keep	
+popular|2|synonyms|pop	keep	
+pop|1|synonyms|bang	keep	
+pop|2|near_synonyms|bust	keep	
+pop|2|synonyms|bang	keep	
+pornography|0|synonyms|filth	keep	
+pornography|0|synonyms|porn	keep	
+pornography|0|synonyms|smut	keep	
+porn|0|synonyms|filth	keep	
+porn|0|synonyms|smut	keep	
+position|3|synonyms|job	keep	
+posse|0|synonyms|crew	keep	
+posterity|0|near_synonyms|spawn	rude	contemptuous word for descendants
+post|7|near_synonyms|whiz	keep	
+post|7|near_synonyms|zip	keep	
+pouch|0|synonyms|poke	keep	
+powerless|0|near_synonyms|crippled	keep	
+prattle|0|synonyms|blather	keep	
+prattle|1|synonyms|blather	keep	
+prayer|0|near_synonyms|suit	keep	
+preacher|0|near_synonyms|pulpiteer	keep	
+preachy|0|synonyms|holier-than-thou	keep	
+precious stone|0|synonyms|rock	keep	
+precious|2|near_synonyms|exacting	remove	audit: exacting means demanding, not affected
+precisely|0|synonyms|bang on	keep	
+precise|1|near_synonyms|prissy	keep	
+preclude|0|near_synonyms|nip in the bud	keep	
+predator|1|synonyms|shark	keep	
+predicament|0|near_synonyms|hole	keep	
+prejudice|2|synonyms|slant	keep	
+premier|0|synonyms|top	keep	
+press|6|synonyms|prod	keep	
+presumption|0|synonyms|cheek	keep	
+pretext|0|near_synonyms|red herring	keep	
+prevent|0|synonyms|nip in the bud	keep	
+prey|0|near_synonyms|fall guy	remove	wrong meaning (a scapegoat)
+prey|1|synonyms|booty	keep	
+prey|1|synonyms|swag	keep	
+prickle|0|synonyms|prick	keep	
+prick|0|near_synonyms|gash	keep	
+prick|6|near_synonyms|nip	keep	
+prig|0|near_synonyms|old maid	rude	sexist insult for unmarried women
+prig|0|synonyms|bluenose	keep	
+prima donna|0|synonyms|drama queen	keep	
+primer|0|synonyms|abc	keep	
+prime|3|near_synonyms|plum	keep	
+primitive|0|near_synonyms|savage	remove	savage for peoples is offensive
+prim|0|synonyms|prissy	keep	
+principle|2|near_synonyms|abc	keep	
+prison|0|synonyms|jug	keep	
+problem child|0|synonyms|black sheep	keep	
+problem child|0|synonyms|tearaway	keep	
+problem|1|synonyms|poser	keep	
+procedure|1|near_synonyms|red tape	keep	
+proceedings|0|synonyms|doings	keep	
+processor|0|synonyms|chip	keep	
+proclivity|0|synonyms|bent	keep	
+procurer|0|synonyms|madam	keep	
+prod|0|near_synonyms|prick	keep	
+prod|3|near_synonyms|nag	keep	
+progress|0|near_synonyms|acceleration	remove	audit: acceleration is speeding up, not progress
+projection|0|near_synonyms|knob	keep	
+promenade|0|near_synonyms|tramp	keep	
+promise|0|near_synonyms|stipulation	remove	audit: stipulation is a condition, not a promise
+promote|2|near_synonyms|puff	keep	
+prompt|3|synonyms|jog	keep	
+prompt|3|synonyms|prod	keep	
+propel|0|near_synonyms|poke	keep	
+propel|0|near_synonyms|prod	keep	
+proper|2|near_synonyms|prissy	keep	
+prophet of doom|0|synonyms|killjoy	keep	
+prostitute|0|near_synonyms|hussy	rude	sexist slur for a woman
+prostitute|0|near_synonyms|tart	rude	tart is crude slang
+prostitute|0|synonyms|hooker	rude	hooker is crude slang
+prostitute|0|synonyms|strumpet	rude	sexist slur for a woman
+prostitute|0|synonyms|trollop	rude	sexist slur for a woman
+prostitute|2|near_synonyms|besmirch	remove	audit: besmirch means sully, not put to base use
+prostrate|2|near_synonyms|crippled	keep	
+prostrate|4|near_synonyms|cripple	keep	
+protuberance|0|synonyms|knob	keep	
+proud|0|near_synonyms|self-respecting	remove	audit: self-respecting means dignified, not pleased with an achievement
+provinces|0|synonyms|sticks	keep	
+provincial|1|near_synonyms|square	keep	
+provocation|1|near_synonyms|prick	keep	
+provocation|1|near_synonyms|red flag	keep	
+prowl|0|synonyms|sneak	keep	
+prow|0|near_synonyms|nose	keep	
+prude|0|near_synonyms|old maid	rude	sexist insult for unmarried women
+prudish|0|synonyms|prissy	keep	
+pry|1|synonyms|butt in	keep	
+pry|1|synonyms|nose	keep	
+psych out|0|synonyms|spook	keep	
+psychopath|0|synonyms|psycho	rude	derogatory about mental illness
+psycho|0|synonyms|headcase	keep	
+psycho|0|synonyms|loony	keep	
+psycho|0|synonyms|nutcase	keep	
+psych|1|synonyms|spook	keep	
+public house|0|synonyms|local	keep	
+publicize|0|near_synonyms|puff	keep	
+pudgy|0|synonyms|tubby	keep	
+pule|0|near_synonyms|blubber	keep	
+pule|0|synonyms|snivel	keep	
+pull it off|0|synonyms|pull off	keep	
+pull off|1|synonyms|yank off	keep	
+pull|0|synonyms|jerk	keep	
+pull|0|synonyms|yank	keep	
+pull|1|synonyms|knob	keep	
+pull|4|synonyms|jerk	keep	
+pull|4|synonyms|yank	keep	
+pull|5|near_synonyms|yank	keep	
+pulpit|0|near_synonyms|soapbox	keep	
+pulp|0|synonyms|pap	keep	
+pun net|0|synonyms|fruit basket	keep	
+punch|2|synonyms|zip	keep	
+puncture|0|near_synonyms|slit	keep	
+puncture|0|synonyms|prick	keep	
+puncture|1|synonyms|prick	keep	
+pundit|0|synonyms|guru	keep	
+puppy|0|synonyms|whelp	keep	
+pup|0|synonyms|whelp	keep	
+purgatory|0|synonyms|hell	keep	
+puritanical|0|synonyms|holier-than-thou	keep	
+pursuit|1|synonyms|job	keep	
+purulent|0|synonyms|pussy	remove	crude reading; nobody uses it
+purview|1|near_synonyms|slant	remove	wrong meaning
+push button|0|synonyms|knob	keep	
+pushover|1|synonyms|chump	keep	
+pushover|1|synonyms|sucker	keep	
+push|0|near_synonyms|punch	remove	audit: punch is a fist blow, not a shove
+push|2|near_synonyms|butt	keep	
+push|3|synonyms|puff	keep	
+pusillanimous|0|synonyms|yellow	keep	
+put an end to|0|synonyms|scrap	keep	
+put up with|0|near_synonyms|swallow	keep	
+putdown|0|near_synonyms|prick	remove	prick is a person, not a remark
+puzzle out|0|synonyms|crack	keep	
+puzzle|1|near_synonyms|beat	keep	
+pygmy|0|near_synonyms|dwarf	keep	
+pygmy|2|near_synonyms|shrimp	rude	body-shaming insult
+pygmy|2|synonyms|dwarf	keep	
+quaff|0|synonyms|toss off	keep	
+quagmire|1|near_synonyms|hole	keep	
+queen|1|synonyms|diva	keep	
+queer|1|synonyms|funny	keep	
+questionable|1|near_synonyms|queer	remove	reads as a slur
+question|0|near_synonyms|poser	keep	
+question|3|synonyms|pump	keep	
+quid pro quo|0|synonyms|tit for tat	keep	
+quirky|0|near_synonyms|kinky	remove	sexual connotation
+quirky|0|synonyms|queer	remove	reads as a slur
+quitter|0|near_synonyms|loser	keep	
+quizzical|0|near_synonyms|impudent	remove	audit: impudent means rude, not gently teasing
+quizzical|2|near_synonyms|funny	keep	
+quizzical|2|synonyms|queer	remove	reads as a slur
+quiz|2|near_synonyms|pump	keep	
+rabble|0|near_synonyms|scum	keep	
+rabble|0|near_synonyms|trash	keep	
+rabble|0|synonyms|riffraff	keep	
+ragamuffin|0|near_synonyms|scarecrow	keep	
+raise|3|synonyms|up	keep	
+ramble|2|near_synonyms|blather	keep	
+ramp|0|synonyms|slope	keep	
+ram|0|synonyms|butt	keep	
+randy|0|synonyms|horny	rude	crude sexual slang
+rapine|0|near_synonyms|rape	remove	reads as sexual assault
+rascal|0|synonyms|scalawag	keep	
+raspberry|0|synonyms|berry fruit	keep	
+raspberry|0|synonyms|bramble fruit	keep	
+raspberry|0|synonyms|cane fruit	keep	
+raspberry|0|synonyms|fruit	keep	
+raspberry|0|synonyms|soft fruit	keep	
+rather|1|synonyms|pretty	keep	
+rationalize|0|near_synonyms|whitewash	keep	
+rations|0|near_synonyms|meat	keep	
+rattle|1|near_synonyms|bang	keep	
+raven|0|synonyms|black	keep	
+ravish|0|synonyms|rape	keep	
+reach into|0|synonyms|grope in	keep	
+ready|1|near_synonyms|keyed up	remove	audit: keyed up means tense, not willing
+ready|2|synonyms|handy	keep	
+realm|0|near_synonyms|beat	keep	
+rear end|0|synonyms|butt	keep	
+rear end|0|synonyms|rump	keep	
+rear guard|0|synonyms|escort	keep	
+reasonably|0|synonyms|pretty	keep	
+reckoning|0|near_synonyms|tit for tat	keep	
+recluse|1|near_synonyms|troglodyte	keep	
+reconcile oneself|0|synonyms|swallow	keep	
+reconcile|2|synonyms|square	keep	
+recorder|0|synonyms|black box	keep	
+recovering|1|synonyms|dry	keep	
+recruit|0|near_synonyms|greenhorn	keep	
+redneck|0|synonyms|hick	keep	
+redneck|0|synonyms|hillbilly	keep	
+redneck|0|synonyms|rube	keep	
+redneck|0|synonyms|yokel	keep	
+redress|1|near_synonyms|square	keep	
+red|0|synonyms|blood red	keep	
+refined|1|near_synonyms|precious	keep	
+reflection|1|near_synonyms|smear	keep	
+refreshment|1|synonyms|bite	keep	
+refresh|1|synonyms|jog	keep	
+refuge|1|near_synonyms|hole	keep	
+refuge|1|near_synonyms|nest	keep	
+region|1|near_synonyms|beat	keep	
+regular|2|near_synonyms|pat	keep	
+regulations|0|synonyms|red tape	keep	
+regulation|1|near_synonyms|red tape	keep	
+reject|0|near_synonyms|loser	keep	
+reject|2|synonyms|dump	keep	
+reject|2|synonyms|scrap	keep	
+rejoice|0|near_synonyms|crow	keep	
+relic|1|near_synonyms|throwback	keep	
+relish|1|near_synonyms|bite	keep	
+relish|1|near_synonyms|zip	keep	
+reminder|0|synonyms|prod	keep	
+remind|0|near_synonyms|prod	keep	
+remind|0|synonyms|jog	keep	
+remiss|0|near_synonyms|sloppy	keep	
+remit|1|near_synonyms|restore	remove	audit: restore does not mean send money owed
+remorseless|0|near_synonyms|savage	keep	
+remove|2|synonyms|sack	keep	
+remove|3|near_synonyms|yank	keep	
+rendezvous|0|near_synonyms|nest	keep	
+renegade|2|near_synonyms|mugwump	keep	
+renege|0|synonyms|welsh	remove	ethnic slur
+rent|0|synonyms|slit	keep	
+repair|2|near_synonyms|square	keep	
+repast|0|near_synonyms|bite	keep	
+repeat|1|near_synonyms|rat	keep	
+repercussions|0|near_synonyms|fruit	keep	
+reporter|0|synonyms|hack	rude	derogatory about the reporter
+report|2|near_synonyms|position	remove	audit: position is not reputation
+report|3|synonyms|bang	keep	
+representation|0|near_synonyms|substitution	remove	audit: substitution is not portrayal
+repression|0|near_synonyms|bondage	keep	
+repress|0|near_synonyms|swallow	keep	
+reprisal|0|near_synonyms|tit for tat	keep	
+reprobate|0|near_synonyms|damned	keep	
+repulse|0|synonyms|beat off	keep	
+requite|0|near_synonyms|give tit for tat	keep	
+reside|0|near_synonyms|nest	keep	
+resolution|0|near_synonyms|ambition	remove	audit: ambition is not firmness of purpose
+resolve|4|near_synonyms|crack	keep	
+restraint|2|near_synonyms|blockade	remove	audit: blockade is not an order forbidding something
+restricted|0|near_synonyms|handicapped	remove	wrong and offensive
+result|0|near_synonyms|fruit	keep	
+retainer|0|near_synonyms|flunkey	keep	
+retainer|0|near_synonyms|hireling	keep	
+retaliation|0|synonyms|tit for tat	keep	
+retinue|0|near_synonyms|escort	keep	
+return|10|near_synonyms|bear fruit	keep	
+return|5|near_synonyms|retreat	remove	audit: retreat means withdraw, not come back
+reveal|0|near_synonyms|tattle	keep	
+revelation|0|near_synonyms|shocker	keep	
+revel|2|synonyms|party	keep	
+reversion|0|synonyms|throwback	keep	
+revile|0|synonyms|smear	keep	
+rhetoric|1|near_synonyms|jive	keep	
+riches|0|near_synonyms|pelf	keep	
+rich|1|near_synonyms|fat	keep	
+riddle|0|synonyms|poser	keep	
+riddle|2|near_synonyms|prick	keep	
+ridge|0|near_synonyms|hump	keep	
+ridicule|1|near_synonyms|ride	keep	
+right on|0|synonyms|bang on	keep	
+rigmarole|0|synonyms|blather	keep	
+riot|2|synonyms|wow	keep	
+rip|0|synonyms|slit	keep	
+rip|2|synonyms|zip	keep	
+rise|1|near_synonyms|slope	keep	
+rise|3|near_synonyms|slant	remove	wrong meaning
+roam|0|near_synonyms|tramp	keep	
+roar|1|near_synonyms|bang	keep	
+roar|3|near_synonyms|bang	keep	
+roast|0|synonyms|ride	keep	
+roast|0|synonyms|slam	keep	
+robbery|0|near_synonyms|job	keep	
+robot|1|near_synonyms|flunky	keep	
+roil|0|near_synonyms|muck	keep	
+rollicking|0|synonyms|gay	remove	modern meaning differs
+romp|3|near_synonyms|score	keep	
+rooster|0|synonyms|cock	keep	
+roost|0|near_synonyms|cage	remove	audit: cage is not a roost
+rotate|0|near_synonyms|screw	keep	
+rotund|1|synonyms|tubby	rude	body-shaming
+rough|1|near_synonyms|nappy	remove	racial slur
+round|1|synonyms|tubby	rude	body-shaming
+round|3|near_synonyms|process	remove	audit: process is not a round of duties
+rove|0|near_synonyms|tramp	keep	
+rowdy|1|synonyms|tough	keep	
+row|1|synonyms|scrap	keep	
+row|2|synonyms|scrap	keep	
+royalty|0|near_synonyms|queen hood	keep	
+royalty|0|near_synonyms|queen ship	keep	
+royal|0|synonyms|queen like	keep	
+rubbish heap|0|synonyms|tip	keep	
+rubbish|1|near_synonyms|trumpery	keep	
+rub|0|near_synonyms|fingering	remove	sexual meaning
+ruddy|0|synonyms|red	keep	
+rudeness|0|near_synonyms|cheek	keep	
+rude|3|synonyms|savage	keep	
+rudiments|0|synonyms|abc	keep	
+ruffian|0|synonyms|tough	keep	
+rumble|0|near_synonyms|bang	keep	
+rumble|1|near_synonyms|bang	keep	
+rumor|0|near_synonyms|tattle	keep	
+rumor|1|near_synonyms|tattle	keep	
+rump|0|synonyms|butt	keep	
+rump|0|synonyms|rear	keep	
+rum|0|synonyms|queer	remove	reads as a slur
+run in|0|synonyms|bust	keep	
+run out on|0|synonyms|ditch	keep	
+run out on|0|synonyms|dump	keep	
+runner|1|synonyms|errand boy	keep	
+runt|0|near_synonyms|dwarf	keep	
+runt|0|near_synonyms|pygmy	remove	ethnic term as insult
+runt|0|synonyms|shrimp	keep	
+run|2|near_synonyms|drift	remove	audit: drift is not a series of occurrences
+run|4|near_synonyms|zip	keep	
+rupture|1|near_synonyms|scrap	keep	
+rural|0|near_synonyms|hick	rude	derogatory about rural people
+ruse|0|near_synonyms|shift	keep	
+rustic|3|near_synonyms|churl	keep	
+rustic|3|synonyms|clodhopper	keep	
+rustic|3|synonyms|hick	keep	
+rustic|3|synonyms|rube	keep	
+rustic|3|synonyms|yokel	keep	
+ruthless|0|near_synonyms|savage	keep	
+rut|0|near_synonyms|gash	remove	wrong meaning; vulgar reading
+sable|0|synonyms|black	keep	
+sack|0|synonyms|poke	keep	
+sage|1|near_synonyms|egghead	keep	
+sage|1|near_synonyms|guru	keep	
+sage|1|near_synonyms|highbrow	keep	
+sag|0|synonyms|swag	keep	
+sallow|0|near_synonyms|yellow	keep	
+samaritan|0|synonyms|do-gooder	keep	
+sanctimonious|0|synonyms|holier-than-thou	keep	
+sanguinary|0|near_synonyms|savage	keep	
+sanguinary|0|synonyms|bloody	keep	
+sap|1|near_synonyms|cripple	keep	
+sass|0|synonyms|cheek	keep	
+satiate|0|synonyms|stuff	keep	
+satirize|0|near_synonyms|ape	keep	
+saunter|0|near_synonyms|turn	keep	
+savage|3|near_synonyms|aborigine	keep	
+savage|4|near_synonyms|yahoo	keep	
+savage|5|near_synonyms|waste	keep	
+savant|0|near_synonyms|guru	keep	
+scandal|0|near_synonyms|shocker	keep	
+scapegoat|0|synonyms|fall guy	keep	
+scarlet|0|synonyms|red	keep	
+scarp|0|synonyms|slope	keep	
+scathing|0|near_synonyms|savage	keep	
+scat|0|synonyms|beat it	keep	
+schlep|0|near_synonyms|tramp	keep	
+schlep|1|near_synonyms|jerk	keep	
+schlocky|0|synonyms|junky	keep	
+schlock|0|synonyms|junky	keep	
+scorching|1|synonyms|savage	keep	
+scoring|0|synonyms|conversion	remove	audit: conversion is a specific score type, not scoring in general
+scoundrel|0|near_synonyms|dog	keep	
+scourge|2|near_synonyms|whale	keep	
+scram|0|synonyms|beat it	keep	
+scratch|0|near_synonyms|gash	keep	
+scratch|2|near_synonyms|gash	keep	
+scream|1|near_synonyms|boff	remove	sexual slang reading
+scream|1|near_synonyms|wow	keep	
+screws|0|synonyms|screw fasteners	keep	
+screwy|0|synonyms|screwed up	keep	
+scrooge|0|near_synonyms|killjoy	keep	
+scrooge|0|synonyms|tightwad	keep	
+scrounge|0|near_synonyms|sneak	keep	
+scrounge|1|synonyms|freeload	keep	
+scuffle|0|synonyms|scrap	keep	
+scum of the earth|0|synonyms|riffraff	keep	
+scum of the earth|0|synonyms|trash	keep	
+scum|0|near_synonyms|slag	keep	
+scum|1|synonyms|riffraff	keep	
+scum|1|synonyms|trash	keep	
+sea wall|0|synonyms|dike	keep	
+secret agent|0|synonyms|mole	keep	
+secret agent|0|synonyms|spook	keep	
+secretary|0|synonyms|man friday	keep	
+sectarian|0|near_synonyms|cultish	keep	
+section|1|near_synonyms|ghetto	remove	wrong and loaded
+self-righteous|0|synonyms|holier-than-thou	keep	
+self-server|0|synonyms|climber	keep	
+self-willed|0|synonyms|pigheaded	keep	
+selfish|0|near_synonyms|tight	keep	
+sell out|0|near_synonyms|rat	keep	
+semen|0|synonyms|seed	keep	
+semen|0|synonyms|spunk	rude	crude sexual slang
+send packing|0|synonyms|sack	keep	
+senseless|1|near_synonyms|empty-headed	keep	
+sensual|1|near_synonyms|sexy	keep	
+sententious|1|near_synonyms|holier-than-thou	keep	
+sentimentality|0|synonyms|schmaltz	keep	
+sentimental|0|near_synonyms|gooey	keep	
+sentimental|0|near_synonyms|sloppy	keep	
+separate|2|near_synonyms|alienate	remove	audit: alienate means estrange, not form a boundary
+servitude|0|synonyms|bondage	keep	
+set on|0|synonyms|bent	keep	
+set upon|0|near_synonyms|mug	keep	
+set|0|near_synonyms|pat	keep	
+set|8|near_synonyms|invest	remove	audit: invest does not mean arrange in advance
+sex-starved|0|synonyms|horny	rude	crude sexual slang
+sexual intercourse|0|synonyms|intercourse	keep	
+sexual union|0|synonyms|intercourse	keep	
+shabby|1|synonyms|scurvy	keep	
+shack|0|near_synonyms|dump	keep	
+shady character|0|synonyms|lowlife	keep	
+shaft|4|near_synonyms|smear	keep	
+shaggy|0|near_synonyms|nappy	remove	racial slur
+shake down|0|synonyms|milk	keep	
+shake|2|near_synonyms|drain	remove	audit: drain does not mean shake confidence
+shaky|1|near_synonyms|half-baked	keep	
+shallow|0|near_synonyms|empty-headed	keep	
+shallow|0|near_synonyms|silly	keep	
+shame|3|near_synonyms|smear	keep	
+sham|0|synonyms|pseudo	keep	
+sham|2|near_synonyms|trumpery	keep	
+shape|1|near_synonyms|blueprint	remove	audit: blueprint is a plan, not a mould
+share|0|near_synonyms|divvy	keep	
+sharpness|1|synonyms|bite	keep	
+sharp|4|synonyms|tart	keep	
+shed tears|0|synonyms|blubber	keep	
+shed tears|0|synonyms|snivel	keep	
+sheep|0|near_synonyms|milksop	keep	
+sheer|3|near_synonyms|slant	remove	wrong meaning
+shell|1|near_synonyms|shape	remove	audit: shape is not an empty outer structure
+shelter|0|near_synonyms|hole	keep	
+shepherd|0|near_synonyms|escort	keep	
+shifty|0|near_synonyms|fly-by-night	keep	
+shiv|0|synonyms|cutter	keep	
+shock|3|near_synonyms|shag	keep	
+shoddy|0|synonyms|junky	keep	
+shoot|1|near_synonyms|knock off	keep	
+shot|1|near_synonyms|vitiated	remove	audit: vitiated means impaired or invalidated, not worn out
+shot|2|near_synonyms|pop	keep	
+shot|3|synonyms|crack	keep	
+shot|5|synonyms|crack	keep	
+shove off|0|synonyms|beat it	keep	
+shovel|0|synonyms|spade	keep	
+shovel|1|synonyms|spade	keep	
+show bias|0|synonyms|slant	keep	
+show in|0|synonyms|escort in	keep	
+show off|0|near_synonyms|puff	keep	
+showoff|0|near_synonyms|cock of the walk	keep	
+showoff|0|near_synonyms|windbag	keep	
+shred|1|near_synonyms|slit	keep	
+shrew|0|near_synonyms|hag	rude	sexist and ageist insult
+shrew|0|synonyms|fishwife	rude	sexist insult for a woman
+shriek|0|near_synonyms|yap	keep	
+shrimp|0|synonyms|dwarf	keep	
+shrimp|0|synonyms|pygmy	remove	ethnic term as insult
+shudder|0|near_synonyms|jerk	keep	
+shudder|1|near_synonyms|jerk	keep	
+shut up|0|synonyms|muzzle	keep	
+shut-in|0|synonyms|invalid	keep	
+shutout|0|synonyms|whitewash	keep	
+sickly|0|near_synonyms|invalid	keep	
+sickly|2|synonyms|lame	keep	
+side issue|0|synonyms|red herring	keep	
+side|2|near_synonyms|slope	keep	
+side|4|near_synonyms|slant	keep	
+sight|2|near_synonyms|stare	remove	audit: stare is long, not a brief look
+silent|1|near_synonyms|dumb	keep	
+silly|0|synonyms|dumb	keep	
+silly|0|synonyms|empty-headed	keep	
+simpleminded|0|synonyms|dumb	keep	
+simpleminded|0|synonyms|empty-headed	keep	
+simpleton|0|synonyms|nincompoop	keep	
+simpleton|0|synonyms|numskull	keep	
+sink|1|near_synonyms|joint	keep	
+sink|1|near_synonyms|skid row	keep	
+sip|0|near_synonyms|suck	keep	
+sip|0|synonyms|nip	keep	
+sissy|0|near_synonyms|chicken	keep	
+sissy|1|near_synonyms|chicken	keep	
+sissy|1|near_synonyms|pansy	remove	homophobic slur
+sissy|1|synonyms|mama's boy	keep	
+sissy|1|synonyms|milksop	keep	
+sissy|1|synonyms|milquetoast	keep	
+sissy|1|synonyms|pantywaist	keep	
+sissy|1|synonyms|softy	keep	
+situation|2|near_synonyms|hole	keep	
+skedaddle|0|synonyms|scat	keep	
+skeptic|1|near_synonyms|infidel	rude	pejorative religious term
+skew|0|synonyms|slant	keep	
+skinflint|0|synonyms|tightwad	keep	
+skunk|0|synonyms|rat	keep	
+skunk|0|synonyms|swine	keep	
+slack|4|near_synonyms|indolence	remove	audit: indolence is laziness, not a slack period
+slag|1|synonyms|slag off	keep	
+slag|1|synonyms|trash	keep	
+slam|0|synonyms|bang	keep	
+slam|1|near_synonyms|bang	keep	
+slander|0|synonyms|smear	keep	
+slander|1|synonyms|smear	keep	
+slang|0|near_synonyms|jive	remove	jive refers specifically to African American slang
+slant up|0|synonyms|slope up	keep	
+slant|0|synonyms|slope	keep	
+slant|2|synonyms|slope	keep	
+slap-dash|0|synonyms|sloppy	keep	
+slap|1|near_synonyms|crack	keep	
+slash|0|synonyms|gash	keep	
+slash|0|synonyms|slit	keep	
+slash|1|synonyms|gash	keep	
+slash|1|synonyms|slit	keep	
+slatternly|0|synonyms|sloppy	keep	
+slattern|0|near_synonyms|slob	keep	
+slattern|0|near_synonyms|trollop	rude	sexist slur for a woman
+slattern|0|synonyms|frump	rude	sexist insult about a woman's looks
+slaughter|2|near_synonyms|waste	keep	
+slave drive|0|synonyms|flog	keep	
+slave|2|near_synonyms|hack	keep	
+slay|0|synonyms|knock off	keep	
+sleight of hand|0|near_synonyms|hocus-pocus	keep	
+sleuth|0|synonyms|dick	rude	crude slang
+slew|0|synonyms|heap	keep	
+slew|0|synonyms|load	keep	
+slice|1|near_synonyms|divvy	keep	
+slice|2|near_synonyms|sever	remove	audit: sever means cut off, not slice thin
+slight|1|near_synonyms|meager	remove	audit: meager means scanty, not slight of build
+slimy|0|synonyms|gooey	keep	
+slip up|0|synonyms|boob	keep	
+slipshod|0|synonyms|sloppy	keep	
+slit open|0|synonyms|gash	keep	
+slit|0|synonyms|gash	keep	
+slit|1|synonyms|gash	keep	
+slob|0|near_synonyms|slattern	rude	sexist slur for a woman
+slob|0|synonyms|pig	keep	
+slope up|0|synonyms|slant up	keep	
+slope|0|synonyms|slant	keep	
+slope|1|synonyms|slant	keep	
+slot|0|synonyms|slit	keep	
+slovenly|0|synonyms|sloppy	keep	
+sloven|0|near_synonyms|pig	keep	
+sloven|0|near_synonyms|trollop	rude	sexist slur for a woman
+sloven|0|synonyms|slattern	rude	sexist slur for a woman
+sloven|0|synonyms|slob	keep	
+slow|2|synonyms|dumb	keep	
+slump|2|near_synonyms|hump	keep	
+slum|0|synonyms|ghetto	keep	
+slum|0|synonyms|skid row	keep	
+slut|0|near_synonyms|slob	keep	
+slut|0|synonyms|slattern	rude	sexist slur for a woman
+slut|1|synonyms|strumpet	rude	sexist slur for a woman
+slut|1|synonyms|trollop	rude	sexist slur for a woman
+smack-dab|0|synonyms|bang	keep	
+smack|3|near_synonyms|squish	keep	
+smack|3|near_synonyms|suck	remove	wrong meaning
+smart|4|near_synonyms|affront	remove	audit: affront is an insult, not a stinging pain
+smart|4|near_synonyms|insult	remove	audit: insult is not a stinging pain
+smart|4|near_synonyms|prick	keep	
+smart|5|near_synonyms|nip	keep	
+smart|5|near_synonyms|prick	keep	
+smashing|0|synonyms|smash	keep	
+smash|0|synonyms|smashing	keep	
+smash|4|synonyms|bang	keep	
+smell|0|synonyms|nose	keep	
+smog|0|synonyms|pea soup	keep	
+smoke screen|0|synonyms|red herring	keep	
+smother|1|near_synonyms|whitewash	keep	
+smut|0|synonyms|porn	keep	
+snack|0|synonyms|bite	keep	
+snag|0|near_synonyms|knob	keep	
+snake|1|synonyms|snake in the grass	keep	
+snap at|1|synonyms|nip at	keep	
+snappish|0|near_synonyms|tart	keep	
+snap|2|synonyms|ginger	keep	
+snap|2|synonyms|zip	keep	
+snap|5|synonyms|nip	keep	
+snap|6|synonyms|yap	keep	
+sneak|1|synonyms|snake in the grass	keep	
+snip|0|synonyms|nip	keep	
+snitch|1|synonyms|tattle	keep	
+snivel|0|synonyms|blubber	keep	
+snow white|0|synonyms|lily-white	keep	
+snub|1|synonyms|snoot	keep	
+soak through|0|synonyms|sop	keep	
+sob|1|synonyms|blubber	keep	
+sob|1|synonyms|snivel	keep	
+social intercourse|0|synonyms|intercourse	keep	
+socialize|0|synonyms|hobnob	keep	
+society|3|synonyms|social intercourse	keep	
+soft touch|0|synonyms|mug	keep	
+soft touch|0|synonyms|patsy	keep	
+soft touch|0|synonyms|sucker	keep	
+soil|0|near_synonyms|sod	keep	
+sooty|0|near_synonyms|black	keep	
+sorceress|0|near_synonyms|fairy	keep	
+sorceress|0|near_synonyms|fairy godmother	keep	
+sore|0|near_synonyms|red	keep	
+sort|3|near_synonyms|list	remove	audit: list does not mean sort into groups
+sot|0|near_synonyms|barfly	keep	
+sot|0|synonyms|lush	keep	
+sound out|0|synonyms|pump	keep	
+sound|4|near_synonyms|effective	remove	audit: effective does not mean thoroughgoing
+sour|0|synonyms|tart	keep	
+souse|0|synonyms|sot	keep	
+sovereign|3|synonyms|queen	keep	
+spark|0|near_synonyms|scintilla	remove	audit: scintilla means a tiny trace, not a flash of light
+spark|1|near_synonyms|relic	remove	audit: relic is an object from the past, not a trace
+spat|0|synonyms|scrap	keep	
+speaker|0|near_synonyms|mouthpiece	keep	
+specious|0|near_synonyms|invalid	keep	
+spectacle|1|near_synonyms|ass	remove	wrong meaning; crude
+specter|0|synonyms|spook	keep	
+speed|1|synonyms|zip	keep	
+spell|2|near_synonyms|piece	keep	
+spent|0|synonyms|beat	keep	
+spice|0|near_synonyms|zip	keep	
+spill|2|near_synonyms|rat	keep	
+spill|2|synonyms|tattle	keep	
+spineless|0|near_synonyms|chicken	keep	
+spirit|2|synonyms|spook	keep	
+spirit|3|near_synonyms|bent	keep	
+splendid|0|synonyms|smashing	keep	
+split up|0|synonyms|bust up	keep	
+spoiler|1|synonyms|killjoy	keep	
+spoilsport|0|near_synonyms|bluenose	keep	
+spoilsport|0|synonyms|wet blanket	keep	
+spoils|0|synonyms|booty	keep	
+spoils|0|synonyms|swag	keep	
+spokesman|0|synonyms|mouthpiece	keep	
+spokeswoman|0|synonyms|mouthpiece	keep	
+sponge up|0|synonyms|suck up	keep	
+sponger|0|near_synonyms|bum	keep	
+sponger|0|near_synonyms|deadbeat	keep	
+sponger|0|synonyms|moocher	keep	
+sponge|1|synonyms|bum	keep	
+sponge|1|synonyms|freeload	keep	
+sporty|0|near_synonyms|gay	remove	modern meaning differs
+spot|2|near_synonyms|black eye	keep	
+spot|6|near_synonyms|smear	keep	
+spree|0|near_synonyms|drunk	keep	
+spree|0|synonyms|bender	keep	
+sprite|0|synonyms|fairy	keep	
+spur|1|near_synonyms|nag	keep	
+spur|1|near_synonyms|prick	keep	
+spur|1|synonyms|egg	keep	
+squabble|0|synonyms|scrap	keep	
+squabble|1|synonyms|scrap	keep	
+squall|2|near_synonyms|blubber	keep	
+squarely|0|synonyms|square	keep	
+squash|0|near_synonyms|blob	keep	
+squash|1|synonyms|squish	keep	
+squeamish|0|near_synonyms|prissy	keep	
+squeeze|2|near_synonyms|nip	keep	
+squire|1|synonyms|escort	keep	
+squire|2|synonyms|escort	keep	
+squirm|0|near_synonyms|jerk	keep	
+stab|0|synonyms|gash	keep	
+stab|0|synonyms|prick	keep	
+stab|1|near_synonyms|prick	keep	
+stab|2|synonyms|crack	keep	
+stab|3|near_synonyms|prick	keep	
+stain|1|near_synonyms|fault	remove	audit: fault is not a mark on a reputation
+stale|0|near_synonyms|crumbling	remove	audit: crumbling is not stale
+stalker|0|synonyms|creeper	keep	
+stamp|2|synonyms|tramp	keep	
+stamp|5|synonyms|tag	keep	
+stand apart|0|synonyms|shine	keep	
+stand out|0|synonyms|shine	keep	
+stand up|2|synonyms|ditch	keep	
+standard operating procedure|0|synonyms|drill	keep	
+starch|1|synonyms|zip	keep	
+stare|1|synonyms|gawk	keep	
+start|0|synonyms|jerk	keep	
+start|2|synonyms|jerk	keep	
+statue|0|near_synonyms|bust	keep	
+stealthy|0|near_synonyms|sneak	keep	
+steamy|1|synonyms|sexy	keep	
+stellar|1|synonyms|top	keep	
+stem|2|near_synonyms|buck	keep	
+step in|0|synonyms|butt in	keep	
+step out|1|synonyms|party	keep	
+step up|0|near_synonyms|up	keep	
+step|5|near_synonyms|tramp	keep	
+stern|0|synonyms|tough	keep	
+stick up|1|synonyms|mug	keep	
+stick-in-the-mud|0|synonyms|killjoy	keep	
+stick-in-the-mud|0|synonyms|square	keep	
+stick-in-the-mud|0|synonyms|wet blanket	keep	
+sticky|1|near_synonyms|sweaty	keep	
+stick|2|synonyms|prick	keep	
+stick|4|near_synonyms|stuff	keep	
+stiff|2|synonyms|tough	keep	
+stingy|0|synonyms|tight	keep	
+sting|1|near_synonyms|nip	keep	
+sting|2|synonyms|prick	keep	
+sting|3|near_synonyms|prick	keep	
+stomach|1|near_synonyms|swallow	keep	
+stone|1|near_synonyms|rock	keep	
+stooge|0|synonyms|flunky	keep	
+stool pigeon|0|synonyms|rat	keep	
+stout|0|near_synonyms|tubby	rude	body-shaming
+straighten out|0|synonyms|square	keep	
+straight|4|synonyms|square	keep	
+strange|0|near_synonyms|funny	keep	
+strange|0|synonyms|queer	remove	reads as a slur
+strange|1|near_synonyms|outlandish	keep	
+strangle|1|near_synonyms|squash	keep	
+straw man|0|synonyms|red herring	keep	
+stray|0|near_synonyms|gad	keep	
+street arab|0|synonyms|guttersnipe	rude	contemptuous word for a street child
+street walker|0|synonyms|hooker	keep	
+street walker|0|synonyms|strumpet	rude	sexist slur for a woman
+strength|2|near_synonyms|bite	keep	
+stretch|1|near_synonyms|piece	keep	
+stricken|0|near_synonyms|crippled	keep	
+stride|1|near_synonyms|tramp	keep	
+strike out|0|synonyms|bomb	keep	
+strike|2|near_synonyms|bang	keep	
+strike|2|near_synonyms|bat	keep	
+stripe|0|near_synonyms|gash	remove	wrong meaning
+strip|2|near_synonyms|milk	keep	
+stroke|0|near_synonyms|bang	keep	
+stroll|0|near_synonyms|tramp	keep	
+stroll|0|near_synonyms|turn	keep	
+strong|5|near_synonyms|unusual	remove	audit: unusual does not mean excessive
+struggle|2|synonyms|scrap	keep	
+stubborn|0|synonyms|pigheaded	keep	
+stubby|1|near_synonyms|tubby	rude	body-shaming
+stub|0|near_synonyms|roach	remove	out of context (drug slang for a joint butt)
+stub|0|synonyms|butt	keep	
+stuck on|0|synonyms|hung up on	keep	
+studious|0|near_synonyms|highbrow	keep	
+stud|1|synonyms|knob	keep	
+stud|2|synonyms|romeo	keep	
+stuffed shirt|0|synonyms|blowhard	keep	
+stuffed shirt|0|synonyms|pompous ass	rude	crude
+stuffed shirt|0|synonyms|windbag	keep	
+stuffy|0|near_synonyms|sweaty	remove	wrong meaning
+stuff|1|near_synonyms|nub	keep	
+stuff|2|near_synonyms|trumpery	keep	
+stuff|2|synonyms|tripe	keep	
+stumble|1|near_synonyms|muff	keep	
+stump|0|synonyms|butt	keep	
+stunted|0|near_synonyms|pygmy	keep	
+stunted|0|synonyms|dwarf	keep	
+stunt|1|near_synonyms|nip	keep	
+stunt|1|synonyms|dwarf	keep	
+stun|0|near_synonyms|dope	remove	wrong meaning (to drug, not to stun by a blow)
+stupidity|0|synonyms|dumbness	keep	
+stupid|0|near_synonyms|subnormal	remove	offensive about disability
+stupid|0|synonyms|dumb	keep	
+stupid|0|synonyms|empty-headed	keep	
+stylish|0|near_synonyms|chichi	keep	
+subject|2|near_synonyms|occupant	remove	audit: occupant is not a subject of a ruler
+subject|3|synonyms|guinea pig	keep	
+submission|0|near_synonyms|bondage	keep	
+subsidy|0|synonyms|handout	keep	
+substance|0|synonyms|stuff	keep	
+substance|1|synonyms|meat	keep	
+substance|1|synonyms|nub	keep	
+substandard|0|near_synonyms|subnormal	keep	
+suck up|0|synonyms|bootlick	keep	
+suck up|0|synonyms|toady	keep	
+sucker|0|synonyms|chump	keep	
+sugary|0|near_synonyms|goody-goody	remove	wrong meaning
+suite|0|near_synonyms|escort	keep	
+suitor|0|near_synonyms|fellow	keep	
+sulk|0|near_synonyms|crab	keep	
+sultry|1|synonyms|sexy	keep	
+sum and substance|0|synonyms|nub	keep	
+summon up|0|synonyms|screw up	keep	
+sumptuous|0|synonyms|posh	keep	
+sum|2|synonyms|nub	keep	
+sunless|0|near_synonyms|black	keep	
+superior|0|near_synonyms|crack	keep	
+superstition|0|near_synonyms|black magic	keep	
+superstition|0|near_synonyms|hocus-pocus	keep	
+surfeit|2|near_synonyms|stuff	keep	
+surpass|0|synonyms|top	keep	
+survival|1|synonyms|throwback	keep	
+suspended|2|synonyms|expelled	remove	audit: expelled is permanent, not temporary suspension
+sustain|0|near_synonyms|persist	remove	audit: persist is intransitive and cannot replace sustain
+swag|1|synonyms|booty	keep	
+swallow whole|1|synonyms|gobble	keep	
+swamp|2|near_synonyms|stuff	keep	
+swart|0|synonyms|swarthy	keep	
+swat|0|near_synonyms|bang	keep	
+sweat|1|near_synonyms|flap	keep	
+swell|2|near_synonyms|hump	keep	
+swell|2|near_synonyms|knob	keep	
+swell|3|near_synonyms|dude	keep	
+swell|3|synonyms|fop	keep	
+swill|0|near_synonyms|muck	keep	
+swill|2|near_synonyms|nip	remove	wrong meaning
+swill|2|near_synonyms|suck	keep	
+swindler|0|near_synonyms|shark	keep	
+swine|0|near_synonyms|piggy	keep	
+swine|0|synonyms|porker	keep	
+swine|1|synonyms|rat	keep	
+swine|1|synonyms|skunk	keep	
+sycophant|0|near_synonyms|flunky	keep	
+sycophant|0|near_synonyms|jackal	keep	
+sycophant|0|synonyms|bootlicker	keep	
+syndicate|0|synonyms|ring	keep	
+synthetic|0|near_synonyms|pseudo	keep	
+tabloid|0|synonyms|gutter press	keep	
+tabloid|0|synonyms|rag	keep	
+tabloid|0|synonyms|yellow press	keep	
+tacky|0|synonyms|gooey	keep	
+tail|1|near_synonyms|back	remove	audit: back is not the tail or rear
+tail|1|synonyms|butt	keep	
+tail|2|synonyms|tag	keep	
+take a break|0|synonyms|knock off	keep	
+take in tow|0|synonyms|escort	keep	
+take off|1|near_synonyms|zip	keep	
+take out|1|synonyms|escort	keep	
+take|0|near_synonyms|swag	keep	
+take|2|near_synonyms|bag	keep	
+take|4|synonyms|swallow	keep	
+talent|0|synonyms|bent	keep	
+tale|1|synonyms|fib	keep	
+talk big|0|synonyms|crow	keep	
+talkative|0|near_synonyms|mouthy	keep	
+talk|4|synonyms|blather	keep	
+talk|7|synonyms|rat	keep	
+tall story|0|synonyms|fib	keep	
+tame|3|near_synonyms|bust	keep	
+tamper|0|near_synonyms|butt in	keep	
+tamper|0|near_synonyms|fool	keep	
+tamper|0|synonyms|monkey	keep	
+tamper|0|synonyms|tinker	keep	
+tangy|0|synonyms|tart	keep	
+tang|0|near_synonyms|nip	keep	
+tang|0|near_synonyms|zip	keep	
+tantrum|0|near_synonyms|flap	keep	
+tantrum|0|synonyms|snit	keep	
+tap|0|near_synonyms|bunghole	remove	wrong meaning; crude reading
+tap|0|synonyms|cock	keep	
+tap|1|near_synonyms|bang	keep	
+tap|2|near_synonyms|milk	keep	
+target|1|near_synonyms|fall guy	keep	
+target|1|near_synonyms|patsy	keep	
+target|1|synonyms|butt	keep	
+taste|2|near_synonyms|bent	keep	
+tattle|0|near_synonyms|twaddle	remove	audit: twaddle means nonsense, not gossip
+tattle|0|synonyms|blather	keep	
+tattle|1|near_synonyms|blather	keep	
+taunt|1|synonyms|rag	keep	
+tax|3|near_synonyms|impose	remove	audit: impose needs on and does not mean strain
+tear apart|1|synonyms|savage	keep	
+tear apart|1|synonyms|slate	keep	
+tear|1|synonyms|gash	keep	
+tease|0|synonyms|rag	keep	
+teat|0|synonyms|pap	keep	
+teat|0|synonyms|tit	rude	crude
+technicality|0|near_synonyms|red tape	keep	
+teddy boy|0|synonyms|greaser	remove	wrong; ethnic slur
+teddy boy|0|synonyms|tough	keep	
+teenager|0|synonyms|teen	keep	
+tell on|0|synonyms|tattle	keep	
+tell|1|near_synonyms|tattle	keep	
+temper|0|synonyms|snit	keep	
+tendency|0|synonyms|bent	keep	
+termagant|0|near_synonyms|witch	rude	sexist insult for a woman
+termagant|0|synonyms|fishwife	rude	sexist insult for a woman
+term|3|near_synonyms|tag	keep	
+terrace|0|near_synonyms|slope	keep	
+terror|1|synonyms|brat	keep	
+testing|0|synonyms|tough	keep	
+the country|0|synonyms|the sticks	keep	
+the occult|0|synonyms|black magic	keep	
+the occult|0|synonyms|the black arts	keep	
+therapist|0|synonyms|shrink	keep	
+thick|3|synonyms|dumb	keep	
+thieve|0|near_synonyms|finger	keep	
+thing|2|near_synonyms|performance	remove	audit: performance is not a generic happening
+thinker|0|synonyms|brain	keep	
+thin|4|near_synonyms|lame	keep	
+thin|5|near_synonyms|lessen	remove	audit: lessen does not mean make less dense
+thralldom|0|synonyms|bondage	keep	
+throw away|0|synonyms|dump	keep	
+throw away|0|synonyms|scrap	keep	
+throw over|0|synonyms|ditch	keep	
+throw over|0|synonyms|dump	keep	
+throw up|0|synonyms|puke	keep	
+thumb|1|synonyms|flip	keep	
+thump|0|synonyms|bang	keep	
+thump|1|synonyms|bang	keep	
+thwack|1|near_synonyms|whale	keep	
+tiff|0|near_synonyms|scrap	keep	
+tighten|0|synonyms|screw	keep	
+tightfisted|0|synonyms|cheap	keep	
+till|2|synonyms|hoe	keep	
+tilt|0|synonyms|slant	keep	
+tilt|0|synonyms|slope	keep	
+tilt|1|synonyms|slant	keep	
+tilt|1|synonyms|slope	keep	
+tinker with|0|synonyms|monkey with	keep	
+tinsel|1|near_synonyms|plastic	keep	
+tinted|0|synonyms|colored	keep	
+tipoff|0|synonyms|tip	keep	
+tipple|0|near_synonyms|nip	keep	
+tip|2|near_synonyms|dope	keep	
+tip|6|synonyms|slant	keep	
+tip|6|synonyms|slope	keep	
+tissue|0|near_synonyms|stuff	keep	
+toady|0|near_synonyms|tool	keep	
+toady|0|synonyms|bootlicker	keep	
+toady|0|synonyms|flunky	keep	
+toady|1|synonyms|bootlick	keep	
+toad|0|synonyms|swine	keep	
+toddler|0|synonyms|tyke	keep	
+toe|0|synonyms|boot	keep	
+tolerate|1|near_synonyms|swallow	keep	
+tom thumb|0|synonyms|dwarf	keep	
+tom thumb|0|synonyms|pygmy	remove	ethnic term as insult
+tom thumb|0|synonyms|shrimp	keep	
+tone|1|near_synonyms|bent	keep	
+ton|0|synonyms|load	keep	
+torn|0|synonyms|slit	keep	
+torpedo|0|near_synonyms|queer	remove	reads as a slur
+torpedo|0|near_synonyms|screw up	keep	
+torture|1|near_synonyms|savage	keep	
+toss away|0|synonyms|ditch	keep	
+toss away|0|synonyms|dump	keep	
+toss|1|near_synonyms|dump	keep	
+toss|1|near_synonyms|fork	remove	wrong meaning
+touch|5|near_synonyms|grope	remove	sexual connotation
+tough nut|0|synonyms|hard case	keep	
+tough nut|0|synonyms|hard nut to crack	keep	
+tough nut|0|synonyms|poser	keep	
+tough|1|near_synonyms|invincible	remove	audit: invincible means unbeatable, not hardy
+tough|6|synonyms|bruiser	keep	
+tout|1|synonyms|puff	keep	
+towel|0|synonyms|rag	keep	
+tower above|0|synonyms|dwarf	keep	
+tower above|1|synonyms|dwarf	keep	
+tower over|0|synonyms|dwarf	keep	
+trace|3|synonyms|dog	keep	
+trade on|0|synonyms|milk	keep	
+trafficking|0|synonyms|black marketeering	keep	
+traffic|1|synonyms|intercourse	keep	
+train|5|near_synonyms|slant	keep	
+traipse|0|near_synonyms|tramp	keep	
+traipse|0|synonyms|gad	keep	
+traitor|0|synonyms|rat	keep	
+traitor|0|synonyms|snake in the grass	keep	
+trample|0|synonyms|tramp	keep	
+tramp|0|synonyms|bum	keep	
+tramp|0|synonyms|hobo	keep	
+tramp|3|near_synonyms|gad	keep	
+trance|0|near_synonyms|brown study	keep	
+transcend|1|synonyms|beat	keep	
+trap|3|synonyms|bag	keep	
+trashy|0|synonyms|junky	keep	
+trash|1|synonyms|tripe	keep	
+travail|1|near_synonyms|bondage	keep	
+travel|1|near_synonyms|itinerary	remove	audit: itinerary is a plan of a route, not a journey
+travesty|1|near_synonyms|ape	keep	
+tread|0|synonyms|tramp	keep	
+treasure|1|near_synonyms|precious	keep	
+trek|1|synonyms|tramp	keep	
+triangle|1|synonyms|threesome	remove	sexual meaning
+trick out|0|synonyms|tart up	keep	
+trick|1|near_synonyms|monkey business	keep	
+trigger-happy|0|synonyms|gun-happy	keep	
+trilogy|0|synonyms|threesome	remove	sexual meaning
+trim|0|near_synonyms|fit	remove	audit: fit means healthy, not neat and groomed
+trio|0|synonyms|threesome	keep	
+tripe|0|synonyms|trash	keep	
+trip|2|synonyms|boner	remove	sexual reading
+trip|5|near_synonyms|muff	keep	
+triumph|0|near_synonyms|smash	keep	
+triumph|3|synonyms|crow	keep	
+trollop|1|synonyms|slattern	rude	sexist slur for a woman
+troop|1|near_synonyms|tramp	keep	
+troublesome|1|synonyms|tough	keep	
+trouble|2|synonyms|hole	keep	
+trounce|1|near_synonyms|trim	keep	
+trounce|1|synonyms|lick	keep	
+truckle|0|synonyms|bootlick	keep	
+truck|0|near_synonyms|doings	keep	
+truculent|0|synonyms|savage	keep	
+trudge|0|synonyms|tramp	keep	
+trudge|1|synonyms|tramp	keep	
+tryout|0|near_synonyms|crack	keep	
+tub|0|near_synonyms|tun	keep	
+tug|0|synonyms|jerk	keep	
+tug|0|synonyms|yank	keep	
+tug|1|synonyms|jerk	keep	
+tug|1|synonyms|yank	keep	
+tumult|1|near_synonyms|flap	keep	
+turd|1|synonyms|creep	keep	
+turd|1|synonyms|git	keep	
+turd|1|synonyms|jerk	keep	
+turd|1|synonyms|swine	keep	
+turf|0|synonyms|sod	keep	
+turn inside out|0|synonyms|flip	keep	
+turn of mind|0|synonyms|bent	keep	
+turncoat|0|near_synonyms|rat	keep	
+turned on|1|synonyms|horny	rude	crude sexual slang
+turnout|0|near_synonyms|crew	remove	wrong meaning
+turnpike|0|synonyms|pike	keep	
+turn|0|near_synonyms|flip	keep	
+turn|3|synonyms|bent	keep	
+turn|6|near_synonyms|flip	keep	
+tussle|0|synonyms|scrap	keep	
+tussle|2|synonyms|scrap	keep	
+tutor|0|near_synonyms|guru	keep	
+twaddle|0|synonyms|tripe	keep	
+tweak|0|near_synonyms|jerk	keep	
+tweak|0|near_synonyms|yank	keep	
+tweak|0|synonyms|nip	keep	
+twiddle|0|synonyms|monkey with	keep	
+twisted|0|synonyms|bent	keep	
+twisted|1|synonyms|perverted	keep	
+twist|1|synonyms|bent	keep	
+twist|6|near_synonyms|screw	keep	
+twitch|0|synonyms|jerk	keep	
+twitch|1|synonyms|jerk	keep	
+tyke|0|synonyms|brat	keep	
+tyrannical|0|near_synonyms|bloody	keep	
+tyro|0|synonyms|greenhorn	keep	
+unavailable|1|synonyms|tied up	keep	
+unbalanced|0|synonyms|nutty	rude	derogatory about mental illness
+unbeliever|0|synonyms|infidel	rude	pejorative religious term
+uncivilized|0|synonyms|savage	keep	
+uncommon|0|near_synonyms|queer	remove	reads as a slur
+unconstitutional|0|synonyms|invalid	keep	
+uncovered|1|synonyms|dug up	keep	
+undercover agent|0|synonyms|mole	keep	
+underling|0|synonyms|flunky	keep	
+undermine|0|near_synonyms|cripple	keep	
+unfortunate|2|near_synonyms|bum	remove	wrong and disparaging
+unfortunate|2|near_synonyms|loser	rude	derogatory about someone suffering hardship
+unhealthy|0|near_synonyms|invalid	keep	
+unkempt|0|synonyms|sloppy	keep	
+unload|0|synonyms|dump	keep	
+unload|1|synonyms|dump	keep	
+unmarried|0|synonyms|spinster	remove	sexist and derogatory; a noun, not an adjective
+unnatural|0|near_synonyms|savage	keep	
+unreasonable|0|near_synonyms|silly	keep	
+unsound|1|near_synonyms|invalid	keep	
+unsound|2|synonyms|invalid	keep	
+untidy|0|synonyms|sloppy	keep	
+untrue|0|near_synonyms|invalid	keep	
+unwell|0|near_synonyms|invalid	keep	
+unwise|0|near_synonyms|dumb	keep	
+unwise|0|near_synonyms|silly	keep	
+upper-class|0|synonyms|posh	keep	
+up|1|synonyms|jack	keep	
+urchin|0|synonyms|brat	keep	
+urchin|1|synonyms|guttersnipe	keep	
+usable|0|synonyms|handy	keep	
+user|1|synonyms|druggie	keep	
+user|1|synonyms|junkie	keep	
+use|6|synonyms|milk	keep	
+usher|0|near_synonyms|guard	remove	audit: guard does not escort people to seats
+usher|0|synonyms|escort	keep	
+usher|1|synonyms|escort	keep	
+utilitarian|0|near_synonyms|handy	keep	
+vacant|1|near_synonyms|rentable	remove	audit: rentable does not mean unoccupied
+vacant|2|synonyms|empty-headed	keep	
+vacuity|2|near_synonyms|trash	keep	
+vacuous|0|near_synonyms|dumb	keep	
+vacuous|0|synonyms|empty-headed	keep	
+vagrant|1|synonyms|bum	keep	
+vagrant|1|synonyms|hobo	keep	
+vagrant|1|synonyms|tramp	keep	
+valet|0|near_synonyms|flunky	keep	
+valet|0|near_synonyms|man friday	keep	
+valor|0|synonyms|spunk	keep	
+vampire|1|synonyms|bloodsucker	keep	
+vandal|0|near_synonyms|hun	remove	ethnic slur
+vandal|0|near_synonyms|savage	keep	
+vanquish|0|synonyms|lick	keep	
+vapid|1|synonyms|blah	keep	
+vassal|0|near_synonyms|flunkey	keep	
+vat|0|synonyms|tun	keep	
+vaunt|0|synonyms|crow	keep	
+vegetable|1|near_synonyms|blob	remove	wrong meaning, dehumanising
+vegetable|1|near_synonyms|cretin	remove	wrong meaning and ableist
+vegetable|1|near_synonyms|idiot	remove	wrong meaning and ableist
+vegetable|1|near_synonyms|imbecile	remove	wrong meaning and ableist
+vegetable|1|near_synonyms|moron	remove	wrong meaning and ableist
+vegetable|1|near_synonyms|zombie	rude	dehumanising about a disabled person
+veneer|1|synonyms|whitewash	keep	
+vengeful|0|near_synonyms|savage	keep	
+venomous|1|near_synonyms|savage	keep	
+vent|1|near_synonyms|escape hatch	remove	audit: escape hatch is for people, not an air vent
+vent|1|near_synonyms|slit	keep	
+venus|0|near_synonyms|beauty queen	keep	
+verbiage|0|near_synonyms|blather	keep	
+vermin|1|near_synonyms|rat	keep	
+vermin|1|near_synonyms|trash	keep	
+vermin|1|synonyms|riffraff	keep	
+vermin|1|synonyms|scum	keep	
+versatile|0|near_synonyms|handy	keep	
+versatile|1|near_synonyms|handy	keep	
+victim|1|near_synonyms|butt	keep	
+victim|1|synonyms|fall guy	keep	
+victim|1|synonyms|patsy	keep	
+victim|1|synonyms|sucker	keep	
+victuals|0|near_synonyms|meat	keep	
+vigor|0|near_synonyms|zip	keep	
+vilification|0|synonyms|smear	keep	
+vindicate|0|near_synonyms|whitewash	keep	
+violate|0|near_synonyms|oppose	remove	audit: oppose is not breaking a law
+violate|0|near_synonyms|resist	remove	audit: resist is not breaking a law
+violate|3|synonyms|rape	keep	
+violent|0|synonyms|savage	keep	
+viper|0|near_synonyms|swine	keep	
+viper|0|synonyms|rat	keep	
+virtuoso|0|near_synonyms|magician	keep	
+virulent|2|near_synonyms|savage	keep	
+vixen|0|near_synonyms|witch	rude	sexist insult for a woman
+vixen|0|synonyms|fishwife	rude	sexist insult for a woman
+vociferous|0|synonyms|loudmouthed	keep	
+void|1|synonyms|invalid	keep	
+voluptuous|0|near_synonyms|sexy	keep	
+vomit|0|synonyms|barf	keep	
+vomit|0|synonyms|puke	keep	
+voodoo|0|synonyms|black magic	keep	
+voracious|2|near_synonyms|gross	remove	audit: gross does not mean voracious
+votary|0|near_synonyms|freak	keep	
+votary|0|near_synonyms|nut	keep	
+vulgarity|1|synonyms|smut	keep	
+vulgar|0|near_synonyms|loudmouthed	keep	
+vulture|0|synonyms|bloodsucker	keep	
+vulture|0|synonyms|shark	keep	
+wacky|0|near_synonyms|kinky	remove	sexual connotation
+wacky|0|synonyms|nutty	keep	
+wacky|0|synonyms|screwball	keep	
+wafer|0|synonyms|cracker	keep	
+waffle|0|synonyms|flip-flop	keep	
+waffle|1|synonyms|blather	keep	
+wage slave|0|synonyms|hireling	keep	
+waif|0|near_synonyms|tramp	keep	
+waif|0|synonyms|guttersnipe	rude	contemptuous word for a street child
+walk|2|near_synonyms|tramp	keep	
+wallop|0|near_synonyms|lick	keep	
+wallop|1|near_synonyms|lick	keep	
+wander|0|near_synonyms|gad	keep	
+wane|2|near_synonyms|age	remove	audit: age does not mean draw to an end
+wangle|0|near_synonyms|wheel and deal	keep	
+wanton|0|near_synonyms|fast	keep	
+wanton|3|near_synonyms|jade	rude	sexist slur for a woman
+wanton|3|near_synonyms|tart	rude	crude
+wanton|3|synonyms|hussy	rude	sexist slur for a woman
+wan|0|synonyms|pasty	keep	
+ward|1|near_synonyms|ghetto	remove	wrong and loaded
+warm|1|near_synonyms|amorous	remove	audit: amorous means sexually loving, not hearty
+warped|0|synonyms|bent	keep	
+warped|1|synonyms|perverted	keep	
+wash out|1|synonyms|bomb	keep	
+washed up|0|synonyms|has-been	keep	
+washed-out|1|synonyms|beat	keep	
+wash|1|near_synonyms|tub	keep	
+wasp|0|synonyms|yellow jacket	keep	
+waste yard|0|synonyms|tip	keep	
+waylay|0|near_synonyms|buttonhole	keep	
+weak sister|0|synonyms|milquetoast	keep	
+weak sister|0|synonyms|wimp	keep	
+weaken|0|near_synonyms|cripple	keep	
+weakling|0|synonyms|milksop	keep	
+weakling|0|synonyms|milquetoast	keep	
+weakling|0|synonyms|sissy	keep	
+weakling|0|synonyms|weak sister	keep	
+weakness|2|near_synonyms|bent	keep	
+weak|2|near_synonyms|lame	keep	
+wealth|0|near_synonyms|pelf	keep	
+weary|0|synonyms|beat	keep	
+weasel out|0|synonyms|welsh	remove	ethnic slur
+weasel|0|synonyms|rat	keep	
+weasel|0|synonyms|sneak	keep	
+weed|0|synonyms|hoe	keep	
+weep|0|synonyms|blubber	keep	
+weep|0|synonyms|snivel	keep	
+weird|0|synonyms|queer	remove	old meaning reads as sexuality today
+welch|0|synonyms|welsh	keep	
+welcome|0|near_synonyms|amiable	remove	audit: amiable means friendly, not welcome
+welcome|1|synonyms|red carpet	keep	
+well-appointed|0|near_synonyms|posh	keep	
+well-endowed|1|synonyms|busty	rude	sexualises the body
+well-padded|1|synonyms|tubby	keep	
+wench|0|near_synonyms|hussy	rude	sexist slur for a woman
+wench|0|near_synonyms|minx	rude	sexist slang for a woman
+wench|1|near_synonyms|hooker	rude	crude slang
+wench|1|near_synonyms|tart	rude	crude
+wench|1|near_synonyms|tramp	rude	crude
+wench|1|synonyms|strumpet	rude	sexist slur for a woman
+wench|1|synonyms|trollop	rude	sexist slur for a woman
+what for|0|synonyms|hell	keep	
+what-you-call-it|0|synonyms|contraption	keep	
+whatnot|0|synonyms|stuff	keep	
+wheel|2|near_synonyms|deflect	remove	audit: deflect is transitive and means turn something aside
+wheel|2|near_synonyms|digress	remove	audit: digress is to stray in speech, not turn
+whine|1|synonyms|snivel	keep	
+whip|2|near_synonyms|jerk	keep	
+whip|2|near_synonyms|yank	keep	
+whip|3|synonyms|lick	keep	
+white lie|0|synonyms|fib	keep	
+whiz|1|near_synonyms|brain	keep	
+whore|0|near_synonyms|tramp	keep	
+whore|0|near_synonyms|wench	rude	sexist slur for a woman
+whore|0|synonyms|hooker	keep	
+whore|0|synonyms|strumpet	rude	sexist slur for a woman
+whore|0|synonyms|trollop	rude	sexist slur for a woman
+wiggle|1|near_synonyms|jerk	keep	
+wild|1|synonyms|savage	keep	
+wild|3|near_synonyms|fast	keep	
+willful|1|synonyms|pigheaded	keep	
+wind|3|synonyms|gasconade	keep	
+wind|5|near_synonyms|screw	keep	
+wine|0|synonyms|plonk	keep	
+wink|0|near_synonyms|bat	keep	
+wink|1|synonyms|bat	keep	
+wipe out|0|near_synonyms|waste	keep	
+wiped out|0|synonyms|beat	keep	
+wiped out|0|synonyms|knackered	keep	
+wipe|0|near_synonyms|lick	keep	
+wise guy|0|synonyms|know-it-all	keep	
+wise|3|synonyms|flip	keep	
+witchcraft|0|synonyms|black art	keep	
+witchcraft|0|synonyms|black magic	keep	
+wither|0|near_synonyms|brown	keep	
+witless|0|synonyms|dumb	keep	
+wizardry|0|synonyms|black art	keep	
+wolfish|0|synonyms|savage	keep	
+wolf|0|near_synonyms|shark	keep	
+wolf|0|synonyms|savage	keep	
+woman|0|synonyms|broad	rude	manual: sexist slang for a woman
+woman|0|synonyms|dame	rude	sexist slang for a woman
+woman|0|synonyms|girl	rude	patronising for an adult woman
+woman|0|synonyms|madam	remove	wrong meaning
+woods|0|synonyms|bush	keep	
+woolgathering|0|synonyms|brown study	keep	
+work at|0|synonyms|beaver away at	keep	
+work|10|synonyms|crack	keep	
+worldly goods|0|synonyms|stuff	keep	
+world|4|synonyms|heap	keep	
+worm|1|synonyms|sneak	keep	
+worn out|0|synonyms|knackered	keep	
+worsening|1|synonyms|slide	keep	
+would be|0|synonyms|wannabe	keep	
+wound|0|synonyms|gash	keep	
+wound|2|near_synonyms|gash	keep	
+wraith|0|near_synonyms|spook	keep	
+wrangle|0|near_synonyms|scrap	keep	
+wrangle|1|near_synonyms|scrap	keep	
+wreck|2|synonyms|basket case	keep	
+wrench|0|synonyms|jerk	keep	
+wrench|2|synonyms|jerk	keep	
+wretched|3|synonyms|scurvy	keep	
+wretch|0|near_synonyms|pig	keep	
+wretch|0|near_synonyms|sneak	keep	
+wretch|0|synonyms|rat	keep	
+wretch|0|synonyms|swine	keep	
+wriggle|1|near_synonyms|jerk	keep	
+wriggle|2|near_synonyms|sneak	keep	
+writer|0|near_synonyms|hack	rude	derogatory about the writer
+wrongheaded|0|synonyms|pigheaded	keep	
+wry|0|near_synonyms|bent	keep	
+yahoo|0|synonyms|yokel	keep	
+yak|1|synonyms|yuck	keep	
+yak|2|synonyms|yap	keep	
+yammer|0|near_synonyms|bleat	keep	
+yammer|0|near_synonyms|blubber	keep	
+yammer|0|synonyms|snivel	keep	
+yank|0|synonyms|jerk	keep	
+yank|1|synonyms|jerk	keep	
+yellow|0|near_synonyms|cheap	keep	
+yellow|1|synonyms|chicken	keep	
+yelp|0|synonyms|yap	keep	
+yelp|1|synonyms|yap	keep	
+yes man|0|synonyms|bootlicker	keep	
+yes man|0|synonyms|flunky	keep	
+yes-man|0|near_synonyms|flunky	keep	
+yes-man|0|near_synonyms|tool	keep	
+yes-man|0|synonyms|bootlicker	keep	
+yes-man|0|synonyms|toady	keep	
+yokel|0|near_synonyms|oaf	keep	
+yokel|0|synonyms|clodhopper	keep	
+yokel|0|synonyms|hick	keep	
+yokel|0|synonyms|rube	keep	
+yokel|0|synonyms|yahoo	keep	
+yoke|1|synonyms|bondage	keep	
+young man|0|synonyms|fellow	keep	
+zany|0|synonyms|loony	keep	
+zany|0|synonyms|nutty	keep	
+zany|1|synonyms|screwball	keep	
+zealot|0|near_synonyms|eager beaver	keep	
+zealot|0|near_synonyms|freak	keep	
+zing|0|synonyms|zip	keep	
+zoom|0|synonyms|whiz	keep	

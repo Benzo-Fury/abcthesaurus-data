@@ -1,0 +1,85 @@
+{
+  "mum": [
+    {
+      "pos": "noun",
+      "gloss": "one's mother (British)",
+      "synonyms": [
+        {
+          "word": "mother",
+          "register": "neutral",
+          "intensity": 0
+        },
+        {
+          "word": "mam",
+          "register": "informal",
+          "intensity": 0
+        },
+        {
+          "word": "mummy",
+          "register": "informal",
+          "intensity": 0
+        },
+        {
+          "word": "ma",
+          "register": "informal",
+          "intensity": 0
+        },
+        {
+          "word": "mom",
+          "register": "informal",
+          "intensity": 0
+        }
+      ],
+      "near_synonyms": [
+        {
+          "word": "parent",
+          "register": "neutral",
+          "intensity": 0
+        }
+      ],
+      "antonyms": []
+    }
+  ],
+  "gay": [
+    {
+      "pos": "adj",
+      "gloss": "attracted to people of the same sex",
+      "synonyms": [
+        {
+          "word": "homosexual",
+          "register": "neutral",
+          "intensity": 0
+        },
+        {
+          "word": "queer",
+          "register": "informal",
+          "intensity": 0
+        }
+      ],
+      "near_synonyms": [
+        {
+          "word": "lesbian",
+          "register": "neutral",
+          "intensity": 0
+        },
+        {
+          "word": "LGBTQ",
+          "register": "neutral",
+          "intensity": 0
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "straight",
+          "register": "informal",
+          "intensity": 0
+        },
+        {
+          "word": "heterosexual",
+          "register": "neutral",
+          "intensity": 0
+        }
+      ]
+    }
+  ]
+}
