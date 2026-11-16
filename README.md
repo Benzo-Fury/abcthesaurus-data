@@ -1,130 +1,43 @@
-# ABC Thesaurus — open English synonym graph
+# Cilica thesaurus data
 
-> **This fork adds a cleaned copy for writing tools:** [`dist/abcthesaurus-en.clean.jsonl.gz`](dist/abcthesaurus-en.clean.jsonl.gz),
-> with slurs removed, rude words marked, out-of-context relations removed and a test suite that checks it.
-> The upstream files below are unchanged. See [Cleaned data](#cleaned-data-this-fork) and [CHANGES.md](CHANGES.md).
+A cleaned English synonym graph for writing tools. It was made for [Cilica](https://github.com/Benzo-Fury/cilica), a private notes app, where a synonym is offered in one click without the writer seeing the sentence it came from. In that setting a wrong or offensive suggestion is worse than none.
 
-Sense-level English thesaurus data: **23,184 headwords, 32,878 senses, 340,992 verified relations** — every synonym/antonym attached to a specific meaning and labeled with **register** and **relative intensity**.
+**23,184 headwords, 32,878 senses, 340,992 relations.** Every synonym and antonym is attached to one meaning and labelled with its register (formal, slang and so on) and a relative intensity.
 
-Maintained by [abcthesaurus.com](https://abcthesaurus.com/); this repo hosts documentation and loading examples. Data downloads live at **https://abcthesaurus.com/data/**.
+## Where this comes from
 
-## What's in the data
+The data is the [ABC Thesaurus](https://abcthesaurus.com/). This repository is a fork of [warshipss/abcthesaurus-data](https://github.com/warshipss/abcthesaurus-data), which publishes that data. We did not collect or write the thesaurus. The original is the work of abcthesaurus.com and we are grateful for it.
 
-| Field | Values |
-|---|---|
-| `pos` | noun, verb, adj, adv, prep, pron, conj, other |
-| `register` | neutral, formal, informal, slang, dated, literary, technical |
-| `intensity` | integer −2…+2, relative to the headword (good → superb = +1) |
-| relations | `synonyms`, `near_synonyms`, `antonyms` — all sense-level |
+We forked it because the raw data is good but was not safe to show to people unchecked. This repository adds one file, [`dist/abcthesaurus-en.clean.jsonl.gz`](dist/abcthesaurus-en.clean.jsonl.gz), and the pipeline and tests that produce it. The original files are still here, unchanged, so you can compare the two. [CHANGES.md](CHANGES.md) is the short version of this page.
 
-Example record (JSONL, one object per headword):
+## What we changed, and why
 
-```json
-{"word": "sterling",
- "senses": [{"pos": "adj", "gloss": "of the finest quality",
-   "synonyms": [{"word": "excellent",   "register": "neutral",  "intensity": 0},
-                {"word": "first rate",  "register": "informal", "intensity": 0},
-                {"word": "meritorious", "register": "formal",   "intensity": 0}],
-   "near_synonyms": [{"word": "exquisite", "register": "formal", "intensity": 1}],
-   "antonyms": [{"word": "second-rate", "register": "neutral", "intensity": 0}]}],
- "examples": ["Tom is doing sterling work."]}
-```
+| Change | Why | How much |
+| --- | --- | --- |
+| **Slurs removed.** Ethnic, homophobic, ableist and similar slurs are never offered, in any meaning or relation. | A one-click replacement must never hand someone a slur. The raw data had slur meanings attached to ordinary words ("chink" as a synonym of "crack"). | 18 words classed as slurs. Their relations are removed. |
+| **Rude words marked** with `"rude": true`. A headword that is itself rude is marked too. | Swearing and crude words are fine when the writer chose a rude word and wrong when they did not. Offer a rude word only for a rude headword ("arse" gives "ass"), never for a plain one ("breast" never gives "tit"). | 25 words classed as rude, 14 rude headwords, 326 relations marked. |
+| **Out-of-context relations removed**, for example "aggression" to rape, "trilogy" to threesome, "rub" to fingering. | A word list cannot see that a relation is right for one meaning of a word and wrong for another. These were decided one relation at a time. | 419 relations removed. |
+| **Contradictions removed.** A word listed as both a synonym and an antonym of one meaning. | The data cannot be right both ways. | 5 removed. |
+| **Everyday meanings added first**: "mum" (mother) and "gay" (attracted to the same sex). | The raw entries did not open with the meaning people mean most often. | 2 senses added. |
 
-## Files
+Together that is 0.12% of relations removed and 0.10% marked rude. Every headword is kept and the file has the same shape as the original, so it can replace it directly.
 
-| File | Contents |
-|---|---|
-| [`abcthesaurus-en.jsonl.gz`](https://abcthesaurus.com/data/abcthesaurus-en.jsonl.gz) | Full graph, one JSON object per headword (2.9 MB) |
-| [`abcthesaurus-en-edges.csv.gz`](https://abcthesaurus.com/data/abcthesaurus-en-edges.csv.gz) | Flat table of all 340,992 relations (2.8 MB) |
-| [`abcthesaurus-vs-notes.csv.gz`](https://abcthesaurus.com/data/abcthesaurus-vs-notes.csv.gz) | ~4.5k editorial "what's the difference" notes for confusable pairs |
+## How it is made
 
-## JSON API
+Nothing in the output is edited by hand. Every decision is a line in a file you can read, and `clean/build.py` applies them to the original data.
 
-Every word is also served as JSON, no key required:
+1. **Flag.** `clean/flag.py` lists every relation touching a word on Wiktionary's slur, offensive, vulgar, swear-word or derogatory lists, or on [LDNOOBW](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words). Those six lists in `clean/sources/` hold 15,304 entries between them (they overlap).
+2. **Classify words.** Each of the 1,159 flagged words that appear in the thesaurus was classified once in `clean/review/words.tsv`:
 
-```
-GET https://abcthesaurus.com/api/<word-slug>.json
-```
+   | Class | Words | Meaning |
+   | --- | ---: | --- |
+   | slur | 18 | Never offered. |
+   | rude | 25 | Offered only for a rude headword. |
+   | context | 119 | Depends on the meaning, so decided per relation. |
+   | fine | 997 | The lists were over-cautious ("abc", "accident"). |
 
-Try it: [`/api/sterling.json`](https://abcthesaurus.com/api/sterling.json). For bulk work please use the dump, not the API.
-
-## Quick start
-
-```python
-import gzip, json, urllib.request
-
-url = "https://abcthesaurus.com/data/abcthesaurus-en.jsonl.gz"
-urllib.request.urlretrieve(url, "thesaurus.jsonl.gz")
-
-with gzip.open("thesaurus.jsonl.gz", "rt", encoding="utf-8") as f:
-    thesaurus = {o["word"]: o for o in map(json.loads, f)}
-
-# all informal synonyms of "drink" (verb senses)
-for sense in thesaurus["drink"]["senses"]:
-    if sense["pos"] == "verb":
-        print(sense["gloss"], "->",
-              [s["word"] for s in sense["synonyms"] if s["register"] == "informal"])
-```
-
-Pandas, straight from the flat CSV:
-
-```python
-import pandas as pd
-df = pd.read_csv("https://abcthesaurus.com/data/abcthesaurus-en-edges.csv.gz")
-df[(df.relation == "synonym") & (df.register == "slang")].head()
-```
-
-## Use cases
-
-- **Formality rewriting / style transfer** — pick a synonym by `register`
-- **Paraphrase strength control** — walk edges by `intensity`
-- **WSD evaluation** — antonyms are disambiguated per sense
-- **Writing tools** — suggestions that won't propose *quaff* in a business email
-
-## License
-
-Data: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — attribution with a link to [abcthesaurus.com](https://abcthesaurus.com/) required.
-Usage examples inside the data are from [Tatoeba](https://tatoeba.org) (CC BY 2.0 FR).
-Code in this repo: MIT.
-
-A line like *"Thesaurus data © [ABC Thesaurus](https://abcthesaurus.com/), CC BY-SA 4.0"* is perfect.
-
-## Cleaned data (this fork)
-
-`dist/abcthesaurus-en.clean.jsonl.gz` has the same shape as `abcthesaurus-en.jsonl.gz`, plus `"rude": true` on rude relations and on headwords that are themselves rude. Offer a rude word only for a rude headword. [CHANGES.md](CHANGES.md) says what was changed and why.
-
-### How it's made
-
-Nothing in the output is edited by hand:
-
-1. **Flag.** `clean/flag.py` lists every relation touching a word on Wiktionary's slur, offensive, vulgar, swear-word or derogatory categories, or the LDNOOBW list (`clean/sources/`).
-2. **Classify words.** Each of the 1,159 flagged words was classified once in `clean/review/words.tsv`:
-   - **slur:** never offered
-   - **rude:** only for rude headwords
-   - **context:** depends on meaning, so decided per relation
-   - **fine:** the lists were over-cautious
-3. **Decide relations.** `clean/review/relations.tsv` decides one relation at a time (keep, rude or remove). It covers every relation of a "context" word, every slang or dated use of a listed word, the errors the quality audit found, and a few hand decisions marked `manual`.
-4. **Build.** `clean/build.py` applies those decisions to the upstream file. It also drops any word listed as both a synonym and an antonym of one meaning, and adds the missing everyday meanings in `clean/additions.json`.
-
-### Tests
-
-`clean/tests/test_clean.py` loads the result once and checks:
-
-- **Slurs:** no slur is ever offered, including a canary check against hashed versions of the worst English slurs that doesn't depend on the review files. The slur meanings of ordinary words are gone ("crack" never offers "chink").
-- **Rude words:**
-  - Every rude word is marked.
-  - Plain words never offer rude ones ("breast" never gives "tit", "detective" never gives "dick", "woman" never gives "broad").
-  - Rude headwords still get their rude synonyms ("arse" gives "ass").
-- **Out of context:**
-  - Known bad relations stay gone ("aggression" → rape, "trilogy" → threesome, "rub" → fingering).
-  - Innocent meanings survive ("accompany" → escort, "grab" → snatch).
-- **Contradictions:** nothing is both a synonym and an antonym of one meaning, and no word is its own synonym.
-- **Meanings:** everyday meanings come first ("mum" → mother, "gay" → homosexual), and common words get good answers.
-- **Integrity:**
-  - Every headword is kept, and the clean-up removes less than 1% of relations.
-  - Every flagged word was reviewed, and every decision is applied.
-  - Strings are plain text, and every record carries the licence and attribution.
-- **Speed:** the whole suite runs in seconds.
+3. **Decide relations.** `clean/review/relations.tsv` holds 3,542 decisions, one relation each (3,094 keep, 313 remove, 135 rude). It covers every relation of a "context" word, every slang or dated use of a listed word, the errors the quality audit found, and a few hand decisions marked `manual` for words no list knows.
+4. **Build.** `clean/build.py` applies the decisions, drops contradictions and adds the missing meanings from `clean/additions.json`. It writes `dist/abcthesaurus-en.clean.jsonl.gz` and the counts in `dist/report.json`.
 
 ```bash
 python3 clean/flag.py          # list relations to review
@@ -132,10 +45,32 @@ python3 clean/build.py         # write dist/
 python3 clean/readme.py        # run the tests and refresh the results below (fails if any test fails)
 ```
 
+## Benchmarks
+
+There are two kinds of check: a test suite that guards the cleaned file, and a quality audit that measures how good the original suggestions were. The tables further down are rewritten by `clean/readme.py` each time the tests run.
+
+### Tests
+
+`clean/tests/test_clean.py` loads the result once and fails if any of these slip:
+
+- **Slurs.** None is ever offered, including a canary check against hashed versions of the worst English slurs that does not depend on our review files. The slur meanings of ordinary words are gone.
+- **Rude words.** Every rude word is marked. Plain words never offer them ("breast" never gives "tit", "detective" never gives "dick", "woman" never gives "broad"). Rude headwords still get their rude synonyms.
+- **Out of context.** Known bad relations stay gone ("aggression" to rape, "trilogy" to threesome, "rub" to fingering). Innocent meanings survive ("accompany" to escort, "grab" to snatch).
+- **Contradictions.** Nothing is both a synonym and an antonym of one meaning, and no word is its own synonym.
+- **Meanings.** Everyday meanings come first, and common words get good answers.
+- **Integrity.** Every headword is kept and the clean-up removes less than 1% of relations. Every flagged word was reviewed and every decision is applied. Strings are plain text and every record carries the licence and credit.
+- **Speed.** The whole suite runs in a few seconds.
+
+### Quality audit
+
+We judged a random sample of 900 suggestions, taken from words with three or more meanings, as "ok" or "wrong" in context (`clean/review/audit.tsv`). The wrong ones were removed.
+
+The result shaped how Cilica uses the data. Close synonyms were wrong 1.3% of the time and near synonyms 28.0%, because near synonyms often come from a different meaning of either word. A tool that replaces a word in one click should offer `synonyms` only, or show `near_synonyms` apart as looser ideas.
+
 ### Latest results
 
 <!-- clean:start -->
-**20 of 20 checks pass** (1.2 s, run 2026-11-16).
+**20 of 20 checks pass** (2.7 s, run 2026-11-16).
 
 | Group | Check | Result |
 | --- | --- | --- |
@@ -186,6 +121,79 @@ What the clean-up changed (`dist/report.json`):
 | synonyms:rude | 120 |
 <!-- clean:end -->
 
-### Using the near synonyms
+### What these numbers do not tell you
 
-The audit above finds that `near_synonyms` are wrong far more often than `synonyms`: they often come from a different meaning of either word. A tool that replaces words in one click should offer `synonyms` only, or show near synonyms apart as looser ideas.
+- The audit sample is 900 suggestions judged by one reviewer, not an independent panel. Treat 1.3% and 28.0% as estimates.
+- It covers words with three or more meanings, where mix-ups are most likely. Words with one or two meanings were not sampled.
+- The sample is what we fixed, so the error rate after the clean-up has not been measured. We know the 130 errors it found are gone, not that no others remain.
+- The slur and rude checks are only as good as the word lists and our review. A word on no list, used in a way we did not think of, can still get through. Tell us if you find one.
+
+## Using it
+
+Each record has the same shape as the original, plus `"rude": true` on rude relations and on headwords that are themselves rude.
+
+```json
+{"word": "sterling",
+ "senses": [{"pos": "adj", "gloss": "of the finest quality",
+   "synonyms": [{"word": "excellent",   "register": "neutral",  "intensity": 0},
+                {"word": "first rate",  "register": "informal", "intensity": 0},
+                {"word": "meritorious", "register": "formal",   "intensity": 0}],
+   "near_synonyms": [{"word": "exquisite", "register": "formal", "intensity": 1}],
+   "antonyms": [{"word": "second-rate", "register": "neutral", "intensity": 0}]}],
+ "examples": ["Tom is doing sterling work."],
+ "license": "CC BY-SA 4.0. Data from ABC Thesaurus (https://abcthesaurus.com), cleaned in https://github.com/Benzo-Fury/abcthesaurus-data (see CHANGES.md)"}
+```
+
+| Field | Values |
+| --- | --- |
+| `pos` | noun, verb, adj, adv, prep, pron, conj, other |
+| `register` | neutral, formal, informal, slang, dated, literary, technical |
+| `intensity` | integer from -2 to +2, relative to the headword (good to superb is +1) |
+| `rude` | `true` on a rude relation or a rude headword, otherwise absent |
+
+Offer a rude word only for a rude headword:
+
+```python
+import gzip, json
+
+with gzip.open("dist/abcthesaurus-en.clean.jsonl.gz", "rt", encoding="utf-8") as f:
+    thesaurus = {o["word"]: o for o in map(json.loads, f)}
+
+def synonyms(word):
+    entry = thesaurus[word]
+    rude_ok = entry.get("rude", False)
+    for sense in entry["senses"]:
+        yield sense["gloss"], [s["word"] for s in sense["synonyms"] if rude_ok or not s.get("rude")]
+
+for gloss, words in synonyms("breast"):
+    print(gloss, "->", words)
+```
+
+### In Cilica
+
+Cilica's [`cilica-thesaurus`](https://github.com/Benzo-Fury/cilica/tree/main/crates/thesaurus) crate builds its bundled file from this one with `tools/build-thesaurus.py`. It keeps close synonyms only, drops near synonyms and antonyms, and keeps rude words only for rude headwords. That takes the bundle to about 1.2 MB, read in about 0.2 s in a debug build, with no network use.
+
+## Files
+
+| File | Contents |
+| --- | --- |
+| [`dist/abcthesaurus-en.clean.jsonl.gz`](dist/abcthesaurus-en.clean.jsonl.gz) | The cleaned graph, one JSON object per headword (3.0 MB). Use this. |
+| [`dist/report.json`](dist/report.json) | Counts of everything the clean-up changed. |
+| [`clean/`](clean) | The pipeline, the word lists, our review decisions and the tests. |
+| `abcthesaurus-en.jsonl.gz` | The original graph, unchanged (3.0 MB). |
+| `abcthesaurus-en-edges.csv.gz` | The original as a flat table of all 340,992 relations. Not cleaned. |
+| `abcthesaurus-vs-notes.csv.gz` | About 4.5k editorial "what's the difference" notes for confusable pairs, from the original. Not cleaned. |
+
+The original data and its JSON API are published at [abcthesaurus.com/data](https://abcthesaurus.com/data/). For the unmodified data, get it from there.
+
+## Licence and credit
+
+- **Data:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The cleaned file is an adaptation of the ABC Thesaurus, so it is shared under the same licence. If you share it or something built from it, keep the credit, link the licence, say it was changed, and use the same licence. Use this line:
+
+  > Thesaurus data © [ABC Thesaurus](https://abcthesaurus.com/), CC BY-SA 4.0, cleaned in [github.com/Benzo-Fury/abcthesaurus-data](https://github.com/Benzo-Fury/abcthesaurus-data).
+
+- **Examples** inside the data come from [Tatoeba](https://tatoeba.org) (CC BY 2.0 FR).
+- **Word lists** in `clean/sources/` are Wiktionary category listings (CC BY-SA 4.0) and LDNOOBW (CC BY 4.0).
+- **Code** in `clean/`: MIT.
+
+This project is not endorsed by abcthesaurus.com.
