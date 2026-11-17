@@ -10,12 +10,12 @@ github.com/Benzo-Fury/abcthesaurus-data".
 ## What changed
 
 - **Slurs are removed.** Ethnic, homophobic, ableist and similar slurs are never offered as a synonym,
-  near synonym or antonym, in any meaning ("chink" is no longer a synonym of "crack").
+  near synonym or antonym, in any meaning, including slur meanings that were attached to ordinary words.
 - **Rude words are marked.** Swearing and crude sexual or bodily words carry `"rude": true`, and a
   headword that is itself rude carries `"rude": true` too. Tools should offer a rude word only for a
-  rude headword ("arse" → ass), never for a plain one ("breast" → tit).
-- **Out-of-context relations are removed**, for example "aggression" → rape, "trilogy" → threesome,
-  "rub" → fingering.
+  rude headword ("arse" → ass), never for a plain one.
+- **Out-of-context relations are removed**, where an ordinary word pointed at a violent or sexual
+  meaning it only shares in another sense.
 - **Contradictions are removed**: a word listed as both a synonym and an antonym of one meaning.
 - **Missing everyday meanings are added first**: "mum" (mother), "gay" (attracted to the same sex).
 

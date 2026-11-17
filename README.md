@@ -14,9 +14,9 @@ We forked it because the raw data is good but was not safe to show to people unc
 
 | Change | Why | How much |
 | --- | --- | --- |
-| **Slurs removed.** Ethnic, homophobic, ableist and similar slurs are never offered, in any meaning or relation. | A one-click replacement must never hand someone a slur. The raw data had slur meanings attached to ordinary words ("chink" as a synonym of "crack"). | 18 words classed as slurs. Their relations are removed. |
-| **Rude words marked** with `"rude": true`. A headword that is itself rude is marked too. | Swearing and crude words are fine when the writer chose a rude word and wrong when they did not. Offer a rude word only for a rude headword ("arse" gives "ass"), never for a plain one ("breast" never gives "tit"). | 25 words classed as rude, 14 rude headwords, 326 relations marked. |
-| **Out-of-context relations removed**, for example "aggression" to rape, "trilogy" to threesome, "rub" to fingering. | A word list cannot see that a relation is right for one meaning of a word and wrong for another. These were decided one relation at a time. | 419 relations removed. |
+| **Slurs removed.** Ethnic, homophobic, ableist and similar slurs are never offered, in any meaning or relation. | A one-click replacement must never hand someone a slur. The raw data attached slur meanings to some ordinary words, so a plain word could offer a slur. | 18 words classed as slurs. Their relations are removed. |
+| **Rude words marked** with `"rude": true`. A headword that is itself rude is marked too. | Swearing and crude words are fine when the writer chose a rude word and wrong when they did not. Offer a rude word only for a rude headword ("arse" gives "ass"), never for a plain one (a body part never offers its crude name). | 25 words classed as rude, 14 rude headwords, 326 relations marked. |
+| **Out-of-context relations removed**, where an ordinary word pointed at a violent or sexual meaning it only shares in another sense. | A word list cannot see that a relation is right for one meaning of a word and wrong for another. These were decided one relation at a time. | 419 relations removed. |
 | **Contradictions removed.** A word listed as both a synonym and an antonym of one meaning. | The data cannot be right both ways. | 5 removed. |
 | **Everyday meanings added first**: "mum" (mother) and "gay" (attracted to the same sex). | The raw entries did not open with the meaning people mean most often. | 2 senses added. |
 
@@ -54,8 +54,8 @@ There are two kinds of check: a test suite that guards the cleaned file, and a q
 `clean/tests/test_clean.py` loads the result once and fails if any of these slip:
 
 - **Slurs.** None is ever offered, including a canary check against hashed versions of the worst English slurs that does not depend on our review files. The slur meanings of ordinary words are gone.
-- **Rude words.** Every rude word is marked. Plain words never offer them ("breast" never gives "tit", "detective" never gives "dick", "woman" never gives "broad"). Rude headwords still get their rude synonyms.
-- **Out of context.** Known bad relations stay gone ("aggression" to rape, "trilogy" to threesome, "rub" to fingering). Innocent meanings survive ("accompany" to escort, "grab" to snatch).
+- **Rude words.** Every rude word is marked. Plain words never offer them (an everyday word never gets its crude or demeaning slang). Rude headwords still get their rude synonyms.
+- **Out of context.** Known bad relations stay gone (ordinary words never offer violent or sexual out-of-context meanings). Innocent meanings survive ("accompany" to escort, "grab" to snatch).
 - **Contradictions.** Nothing is both a synonym and an antonym of one meaning, and no word is its own synonym.
 - **Meanings.** Everyday meanings come first, and common words get good answers.
 - **Integrity.** Every headword is kept and the clean-up removes less than 1% of relations. Every flagged word was reviewed and every decision is applied. Strings are plain text and every record carries the licence and credit.
